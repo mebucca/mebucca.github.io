@@ -1,34 +1,31 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"robles":
+  - firstname: ["Adriana Robles"]
+    url: https://en.wikipedia.org/wiki/Adriana_Robles
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"molina":
+  - firstname: ["Mario D. Molina", "Mario Molina"]
+    url: https://en.wikipedia.org/wiki/Mario_D._Molina
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"urbina":
+  - firstname: ["Daniela R. Urbina", "Daniela Urbina"]
+    url: https://en.wikipedia.org/wiki/Daniela_R._Urbina
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"drouhot":
+  - firstname: ["Lucas G. Drouhot", "Lucas Drouhot"]
+    url: https://en.wikipedia.org/wiki/Lucas_G._Drouhot
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"weeden":
+  - firstname: ["Kim A. Weeden", "Kim Weeden"]
+    url: https://en.wikipedia.org/wiki/Kim_A._Weeden
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"cha":
+  - firstname: ["Youngjoo Cha"]
+    url: https://en.wikipedia.org/wiki/Youngjoo_Cha
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"bailey":
+  - firstname: ["T. Bailey"]
+    url: https://en.wikipedia.org/wiki/T._Bailey
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"diprete":
+  - firstname: ["M. DiPrete", "M. DiPrete"]
+    url: https://en.wikipedia.org/wiki/M._DiPrete

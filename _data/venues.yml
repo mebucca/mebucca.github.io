@@ -1,9 +1,19 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"socius":
+  url: https://journals.sagepub.com/home/soc
+  color: "#7e6c47"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"rsf":
+  url: https://www.rsfjournal.org/
+  color: "#3366cc"
 
-"Vision":
-  color: "#009f36"
+"sociological-science":
+  url: https://www.sociologicalscience.com/
+  color: "#5e88a3"
+
+"science-advances":
+  url: https://www.science.org/journal/sciadv
+  color: "#1a7f89"
+  
+"sociological-methods-research":
+  url: https://journals.sagepub.com/home/smr
+  color: "#ef6a2d"
