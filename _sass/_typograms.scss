@@ -25,10 +25,8 @@
   .diagram text,
   .glyph,
   .debug text {
-    /** font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; **/
     font-family:
-      Iosevka Fixed,
-      monospace;
+      "Bodoni Moda", "Didot", serif;
     font-size: 3em;
     text-anchor: middle;
     alignment-baseline: central;
@@ -59,16 +57,15 @@
   }
 
   .debug[debug="true"] polygon.inner {
-    fill: var(--global-text-color);
-    stroke: var(--global-text-color);
+    fill: var(--global-highlight-color);
+    stroke: var(--global-highlight-color);
     opacity: 5%;
   }
 
   polygon {
-    stroke: var(--global-text-color);
-    /** stroke-width: 0.2; **/
+    stroke: var(--global-theme-color);
     stroke-linecap: butt;
-    fill: var(--global-text-color);
+    fill: var(--global-hover-color);
   }
 
   .debug[debug="true"] polygon,
@@ -83,24 +80,18 @@
   }
 
   .debug[debug="true"] polygon {
-    fill: red;
-    stroke: red;
+    fill: #d62828;
+    stroke: #d62828;
   }
-
-  /**
-  circle {
-    fill: var(--global-text-color);
-  }
-  **/
 
   .debug[debug="true"] circle,
   .debug[debug="true"] path {
     opacity: 50%;
-    fill: red;
+    fill: #d62828;
   }
 
   .debug[debug="true"] circle {
-    stroke: red;
+    stroke: #d62828;
   }
 
   .debug[debug="true"] .inner {
@@ -110,12 +101,12 @@
   line.part {
     stroke-width: 6;
     stroke-linecap: butt;
-    stroke: var(--global-text-color);
+    stroke: var(--global-theme-color);
   }
 
   .debug[debug="true"] line.part {
     opacity: 50%;
-    stroke: red;
+    stroke: #d62828;
   }
 
   .debug[debug="true"] line.center {
