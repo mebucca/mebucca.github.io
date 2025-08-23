@@ -13,7 +13,7 @@ theme = "hugo-theme-console"
 # LEFT → RIGHT order (your requirement)
 [[params.navlinks]]
   name = "About"
-  url  = "/about/"
+  url  = "/"
 
 [[params.navlinks]]
   name = "Publications"
