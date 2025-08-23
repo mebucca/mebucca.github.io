@@ -1,0 +1,28 @@
+baseURL = "https://mebucca.github.io/"
+languageCode = "en-us"
+title = "Mauricio Bucca"
+theme = "hugo-theme-console"
+
+[markup.goldmark.renderer]
+  unsafe = true  # allow raw HTML blocks (for the photo block, etc.)
+
+[params]
+  description = "Inequality · Social Mobility · Computational Social Science"
+  footer = "© 2025 Mauricio Bucca · Pontificia Universidad Católica de Chile"
+
+# LEFT → RIGHT order (your requirement)
+[[params.navlinks]]
+  name = "About"
+  url  = "/"
+
+[[params.navlinks]]
+  name = "Publications"
+  url  = "/publications/"
+
+[[params.navlinks]]
+  name = "Ongoing Work"
+  url  = "/ongoing-work/"
+
+[[params.navlinks]]
+  name = "Teaching"
+  url  = "/teaching/"
