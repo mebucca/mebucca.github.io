@@ -2,21 +2,41 @@
 title: "About"
 ---
 
-# Mauricio Bucca
-Assistant Professor of Sociology, Pontificia Universidad Católica de Chile
+<br>
 
-_Inequality · Social Mobility · Computational Social Science_
+Bio
+======
+<br>
 
-<p align="center">
-  <img src="/images/me.jpg" alt="Mauricio Bucca (replace with your photo)" style="width: 260px; border-radius: 50%;"/>
-</p>
+<figure style="float: left; margin: 0 25px 15px 0; max-width: 220px; text-align: center;">
+  <img src="/images/me.jpg" alt="Mauricio Bucca" style="width: 100%; border-radius: 50%; border: 2px solid #ddd; box-shadow: 0 2px 6px rgba(0,0,0,0.15);" />
+</figure>
 
-## Bio
-I’m an Assistant Professor in Sociology at the Pontificia Universidad Católica de Chile. Previously, I was a Max Weber Postdoctoral Fellow at the European University Institute and earned a Ph.D. in Sociology at Cornell University.
+<br>
 
-I study labor market inequalities, intergenerational mobility, and beliefs about inequality using statistical modeling, causal inference, experiments, and computational methods.
+I’m an Assistant Professor in Sociology at the Universidad Católica de Chile. Previously, I was a Max Weber Postdoctoral Fellow at the European University Institute and earned a Ph.D. in Sociology at Cornell University. 
+I study labor market inequalities, intergenerational mobility and beliefs about inequality using a combination of statistical modeling, empirical strategies for causal inference, experimental and computational methods.
 
-## Research & Methods (at a glance)
-- Structural inequality: intergenerational mobility, labor-market gaps, educational assortative mating  
-- Cultural facets: beliefs about inequality and fairness  
-- Methods: Bayesian models (structured dispersion), log-linear models with Lasso, Monte Carlo simulation, large-scale online experiments
+<br>
+<br>
+<br>
+
+Research
+======
+My scholarly agenda is articulated around two core, complementary research streams. One series of projects examines key structural aspects of social inequality - intergenerational income mobility, gender- and race-based gaps in the labor market and educational assortative mating. Another line of research focuses on the cultural facets of social stratification as they crystallize in specific belief systems about inequalities and fairness. 
+
+My work has been published in academic journals such as *Science Advances*, *Sociological Science*, *Sociological Methods and Research*, *RSF: The Russell Sage Foundation Journal of the Social Sciences*, *Socius*, and *Research in Social Stratification and Mobility*, and covered by popular media outlets such and the *New York Times*, *Washington Post*, *New Scientist*, *Science Daily*, among others.
+
+I am currently the principal investigator for the Fondecyt Iniciación project, *'Inequality of Outcomes and Opportunity and Its Effects on the Legitimacy of Inequality and Social Cohesion,'* as well as for the [Millennium Nucleus for the Study of Labor Market Mismatch, Causes, and Consequences](https://www.lm2c2.cl/en/). In collaboration with my colleagues [Andrea Canales](https://scholar.google.com/citations?user=XDUh9coAAAAJ&hl=en) and [Tania Hutt](https://www.taniahutt.com/), I co-organize the ongoing [Workshop on Inequality and Stratification Research](https://github.com/mebucca/workshop_ineq) and the [Quantitative and Computational Social Science Research Group](https://github.com/mebucca/qCs2).
+
+
+Methods
+======
+In tandem with my substantive research agenda, I have implemented novel statistical tools such as Bayesian models with structured dispersion for the study of sibling correlations, Lasso regularization for selection of log-linear models, micro-simulations for the study of educational assortative mating, and online large-scale experiments to study beliefs about inequality. 
+
+
+News
+======
+- 📢 **Upcoming Presentation**: *“People Reject Unfairness but Normalize Inequality: Evidence from a Large-Scale Online Experiment”* — to be presented at the **ECSR 2025 Conference**, University of Cologne, September 3–5, 2025.  
+  [Slides coming soon](/slides/ecsr2025.pdf)  
+- (More updates to follow)
