@@ -2,7 +2,7 @@
 title: "Publications"
 ---
 
-Below is a selection of published and forthcoming work. Replace the placeholders with final PDFs/DOIs.
+Below is a selection of published and forthcoming work. 
 
 
 - **Colorism Revisited: The Effects of Skin Color on Educational and Labor Market Outcomes in the United States** (2024), *Sociological Science*

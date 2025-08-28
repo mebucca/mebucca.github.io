@@ -37,6 +37,15 @@ In tandem with my substantive research agenda, I have implemented novel statisti
 
 News
 ======
-- 📢 **Upcoming Presentation**: *“People Reject Unfairness but Normalize Inequality: Evidence from a Large-Scale Online Experiment”* — to be presented at the **ECSR 2025 Conference**, University of Cologne, September 3–5, 2025.  
+- 🗞️ **My latest op-ed**: *“Qué desigualdades debería aceptar o rechazar Chile en este año electorial”* at **Diario El País**. [here](https://elpais.com/chile/2025-08-23/que-desigualdades-deberia-aceptar-o-rechazar-chile-en-este-ano-electoral.html)  
+- 📢 **Upcoming Presentation**: I will be presenting my article *“People Reject Unfairness but Normalize Inequality”* (with Mario D. Molina) at the **ECSR 2025 Conference**, University of Cologne, September 3–5, 2025.  
   [Slides coming soon](/slides/ecsr2025.pdf)  
-- (More updates to follow)
+
+
+Contact
+======
+
+Department of Sociology, Universidad Católica de Chile<br>
+Avenida Vicuña Mackenna 4860, Casilla 306, Correo 22, Macul, Santiago<br>
+Postal code: 7820436
+Email: mebucca [@] uc [dot] cl
