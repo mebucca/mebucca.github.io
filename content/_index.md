@@ -39,8 +39,7 @@ News
 ======
 - 🗞️ **My latest op-ed**: *“Qué desigualdades debería aceptar o rechazar Chile en este año electorial”* at **Diario El País**. [here](https://elpais.com/chile/2025-08-23/que-desigualdades-deberia-aceptar-o-rechazar-chile-en-este-ano-electoral.html)  
 - 📢 **Upcoming Presentation**: I will be presenting my article *“People Reject Unfairness but Normalize Inequality”* (with Mario D. Molina) at the **ECSR 2025 Conference**, University of Cologne, September 3–5, 2025.  
-  [Slides coming soon](/slides/ecsr2025.pdf)  
-
+  [Slides coming soon](https://mebucca.github.io/static/presentations/unfairness_inequality.html#1)  
 
 Contact
 ======
