@@ -1,0 +1,370 @@
+:root {
+  /* ---- Core neutrals ---- */
+  --bg:            #161717;   /* preserved */
+  --ink:           #161717;   /* softer white, higher readability */
+  --muted:         #7a7c7f;   /* refined neutral mid-gray */
+
+  /* ---- Accent hierarchy (academic, data-visual, research tone) ---- */
+  --accent:        #3a6ea5;   /* cooler spectral blue – analytical, legible */
+  --accent-ink:    #c2573d;   /* terracotta red – now less saturated, more mature */
+  --secondary:     #d9b96e;   /* adaptive pollen–ochre, warmer but restrained */
+  --highlight:     #5d9d8a;   /* sage green – calmer, cleaner annotation color */
+  --accent-soft:   #e3e0da;   /* refined parchment, more neutral and usable */
+
+  --line:          #d1d0cb;   /* refined divider gray */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg:            #f4f4f4;
+    --ink:           #1c1d1e;
+    --muted:         #707275;
+
+    --accent:        #5d9d8a;   /* flips to sage as primary signal */
+    --accent-ink:    #d9b96e;   /* ochre red takes signaling role */
+    --secondary:     #c2573d;   /* terracotta shifts to heat marker */
+    --highlight:     #3a6ea5;   /* spectral blue becomes structural cue */
+    --accent-soft:   #2b2c2d;   /* deep graphite */
+
+    --line:          #4c4c4d;
+  }
+}
+
+/* ---- Base ---- */
+.reveal {
+  color:var(--ink);
+  background:var(--paper);
+  font:25px/1.75 "Helvetica Neue","Arial",sans-serif;
+}
+.reveal section {
+  padding:50px 78px;
+  max-width:960px;
+  margin:0 auto;
+}
+.reveal .slides { text-align:left; }
+
+/* ---- Headings ---- */
+.reveal h1, .reveal h2, .reveal h3 {
+  font-family:"Merriweather","Georgia",serif;
+  font-weight:600;
+  text-transform:none;
+}
+.reveal h1 {
+  font-size:2.6em;
+  margin:0 0 .3em;
+  color:var(--accent);
+  letter-spacing:0.01em;
+}
+.reveal h2 {
+  margin:1em 0 .5em;
+  font-size:1.6em;
+  color:var(--accent-ink);
+  letter-spacing:0.005em;
+}
+.reveal h3 {
+  margin:.7em 0 .4em;
+  font-size:1.15em;
+  color:var(--muted);
+  font-weight:500;
+  font-style:italic;
+}
+
+/* ---- Text ---- */
+.reveal p, .reveal li {
+  font-size:.93em;
+  line-height:1.7;
+  margin:0 0 1em;
+}
+.reveal strong { color:var(--accent-ink); font-weight:600; }
+.reveal em { color:var(--highlight); font-style:italic; }
+.reveal ul { list-style:disc; margin-left:1.2em; }
+.reveal li { margin:.3em 0; }
+
+
+/* ---- Links ---- */
+.reveal a {
+  color:var(--accent);
+  text-decoration:underline;
+  text-underline-offset:3px;
+}
+.reveal a:hover { color:var(--highlight); }
+
+/* ---- Section slides ---- */
+.title-slide, .section-divider {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  padding:64px 72px;
+  min-height:100%;
+}
+.section-divider h1 {
+  padding:14px 24px;
+  color:var(--accent);
+  border:1px solid var(--accent);
+  font-weight:500;
+}
+
+/* ---- Figures ---- */
+.reveal img {
+  display:block;
+  max-width:65%;
+  margin:16px auto;
+  border:none;
+  border-radius:0;
+  box-shadow:none;
+}
+.reveal figcaption {
+  color:var(--muted);
+  font-size:.78em;
+  margin-top:4px;
+  text-align:center;
+  font-style:italic;
+  line-height:1.4;
+}
+
+/* ---- Tables ---- */
+.reveal table {
+  width:80%;
+  margin:22px auto;
+  border-collapse:collapse;
+  font-size:.9em;
+}
+.reveal th, .reveal td {
+  padding:10px 12px;
+  border-bottom:1px solid var(--line);
+  text-align:left;
+}
+.reveal th {
+  color:var(--accent-ink);
+  font-weight:600;
+  font-size:.85em;
+  text-transform:none;
+}
+.reveal tr:last-child td { border-bottom:none; }
+
+/* ---- Code & Math ---- */
+.reveal pre code {
+  font-size:.85em;
+  background:var(--accent-soft);
+  border:1px solid var(--line);
+  padding:12px 14px;
+  display:block;
+  overflow-x:auto;
+}
+.reveal :not(pre)>code {
+  background:var(--accent-soft);
+  border:1px solid var(--line);
+  padding:2px 5px;
+  font-size:.9em;
+  color:var(--accent-ink);
+}
+.reveal .katex {
+  font-size:1.05em;
+  color:var(--accent-ink);
+}
+
+/* ---- Blockquotes ---- */
+.reveal blockquote {
+  border-left:2px solid var(--accent);
+  padding:12px 16px;
+  margin:1em 0;
+  font-style:italic;
+  color:var(--ink);
+  background:none;
+}
+
+/* ---- Progress & Numbers ---- */
+.reveal .progress { height:2px; background:var(--line); }
+.reveal .progress span { background:var(--accent-ink); }
+.reveal .slide-number {
+  font-size:.7em;
+  color:var(--muted);
+  padding:2px 5px;
+}
+
+/* =====================================================================
+   Inverted full-screen slides
+===================================================================== */
+
+/* full-screen YAML cover slide */
+.reveal .slides > section:first-child {
+  background: var(--accent-ink) !important;
+  color: #fff !important;
+
+  /* 🔥 Force full viewport coverage */
+  position: absolute !important;
+  top: 0; left: 0;
+  width: 100vw !important;
+  height: 100vh !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width: none !important;
+  box-sizing: border-box;
+
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.reveal .slides > section:first-child h1 {
+  color: #fff !important;
+}
+.reveal .slides > section:first-child .subtitle,
+.reveal .slides > section:first-child .authors,
+.reveal .slides > section:first-child .date,
+.reveal .slides > section:first-child footer {
+  color: rgba(255,255,255,0.8) !important;
+  border: none !important;
+}
+
+/* full-screen thank-you slide */
+.reveal section.center-slide {
+  background: var(--accent-ink) !important;
+  color: #fff !important;
+
+  /* 🔥 Force full viewport coverage */
+  position: absolute !important;
+  top: 0; left: 0;
+  width: 100vw !important;
+  height: 100vh !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width: none !important;
+  box-sizing: border-box;
+
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.reveal section.center-slide h1 {
+  color: #fff !important;
+}
+.reveal section.center-slide p,
+.reveal section.center-slide a,
+.reveal section.center-slide footer {
+  color: rgba(255,255,255,0.8) !important;
+  border: none !important;
+}
+
+/* Hide bottom-left controls/menu */
+.reveal .controls,
+.reveal .slide-menu-button {
+  display: none !important;
+}
+
+/* =====================================================================
+   full-bleed inverted slides (cover + thank you)
+===================================================================== */
+
+/* first slide (YAML title) */
+.reveal .slides > section:first-of-type {
+  background: var(--accent-ink) !important;
+  color: #fff !important;
+
+  /* force full viewport coverage */
+  position: absolute !important;
+  inset: 0; /* shorthand for top/right/bottom/left:0 */
+  width: 100vw !important;
+  height: 100vh !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width: none !important;
+  max-height: none !important;
+  box-sizing: border-box;
+
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.reveal .slides > section:first-of-type h1 {
+  color: #fff !important;
+}
+.reveal .slides > section:first-of-type .subtitle,
+.reveal .slides > section:first-of-type .authors,
+.reveal .slides > section:first-of-type .date,
+.reveal .slides > section:first-of-type footer {
+  color: rgba(255,255,255,0.8) !important;
+  border: none !important;
+}
+
+/* last thank-you slide */
+.reveal .slides > section.center-slide {
+  background: var(--accent-ink) !important;
+  color: #fff !important;
+
+  position: absolute !important;
+  inset: 0;
+  width: 100vw !important;
+  height: 100vh !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width: none !important;
+  max-height: none !important;
+  box-sizing: border-box;
+
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.reveal .slides > section.center-slide h1 {
+  color: #fff !important;
+}
+.reveal .slides > section.center-slide p,
+.reveal .slides > section.center-slide a,
+.reveal .slides > section.center-slide footer {
+  color: rgba(255,255,255,0.8) !important;
+  border: none !important;
+}
+
+/* hide bottom-left controls/menu */
+.reveal .controls,
+.reveal .slide-menu-button {
+  display: none !important;
+}
+
+/* ---- Title slide layout refinements ---- */
+.reveal .title-slide h1 {
+  margin-bottom: 0.65em;   /* more space below the title */
+}
+
+.reveal .title-slide .authors {
+  margin-top: 2.2em ;      /* space above authors */
+  margin-bottom: 2.2em;   /* optional: space below authors */
+  font-size: 0.9em;      /* keep authors a bit smaller */
+  line-height: 1.4;
+}
+
+
+.reveal .slides > section:first-of-type .subtitle {
+  font-size: 1.6em !important;   /* bigger, closer to h2 */
+  font-weight: 400;
+  margin-top: 0.1em;
+  line-height: 1.3;
+  color: rgba(255,255,255,0.85) !important; /* softer white */
+}
+
+/* style the date on the YAML title slide */
+.reveal .slides > section:first-of-type .date {
+  margin-top: 2.5em !important;   /* push date down */
+  font-size: 1.0em !important;    /* slightly larger */
+  color: rgba(255,255,255,0.7) !important; /* softer white */
+  display: block;                 /* ensures margin applies */
+  text-align: center;
+}
+
+.big-fig img {
+  width: 100% !important;
+  height: auto !important;
+  max-height: 45vh !important;
+  object-fit: contain;
+}
