@@ -39,7 +39,7 @@ News
 ======
 - 🗞️ **My latest op-ed**: *“Qué desigualdades debería aceptar o rechazar Chile en este año electorial”* at **Diario El País**. [here](https://elpais.com/chile/2025-08-23/que-desigualdades-deberia-aceptar-o-rechazar-chile-en-este-ano-electoral.html)  
 - 📢 **Upcoming Presentations**: 
-  - I will be presenting my article *“Why Do Some Groups Experiencie Greater Mobility than Others?”* at the **LM2C2 Workshop**,December 2–3, 2025.   [Slides](https://mebucca.github.io/presentations/mobility/mobility.html#0) 
+  - I will be presenting my article *“Why Do Some Groups Experiencie Greater Mobility than Others?”* at the **LM2C2 Workshop**,December 2–3, 2025.   [Slides](https://mebucca.github.io/presentations/mobility/mobility_short.html#0) 
   - I will be presenting my article *“People Reject Unfairness but Normalize Inequality”* (with Mario D. Molina) at the **Future of Social Mobility Conference**, COES, December 3–4, 2025.  
   [Slides](https://mebucca.github.io/presentations/experiment/unfairness_inequality.html#0)  
 
