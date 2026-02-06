@@ -14,8 +14,8 @@ Bio
 
 <br>
 
-I’m an Assistant Professor in Sociology at the Universidad Católica de Chile. Previously, I was a Max Weber Postdoctoral Fellow at the European University Institute and earned a Ph.D. in Sociology at Cornell University. 
-I study labor market inequalities, intergenerational mobility and beliefs about inequality using a combination of statistical modeling, empirical strategies for causal inference, experimental and computational methods.
+I am an Assistant Professor of Sociology at the [Institute of Sociology, Pontificia Universidad Católica de Chile](https://sociologia.uc.cl/). I previously held a [Max Weber Postdoctoral Fellowship](https://www.eui.eu/en/academic-units/max-weber-programme) at the [European University Institute](https://www.eui.eu/) and earned my Ph.D. in Sociology from the [Department of Sociology, Cornell University](https://sociology.cornell.edu/). My research examines labor market inequality, intergenerational mobility, and beliefs about inequality using a combination of statistical modeling, causal inference strategies, and experimental and computational methods. Since January 2026, I have also served as an Associate Editor of *[Research in Social Stratification and Mobility](https://www.sciencedirect.com/journal/research-in-social-stratification-and-mobility)*, the official journal of ISA RC28 on Social Stratification and Mobility.
+
 
 <br>
 <br>
@@ -27,18 +27,13 @@ My scholarly agenda is articulated around two core, complementary research strea
 
 My work has been published in academic journals such as *Science Advances*, *Sociological Science*, *Sociological Methods and Research*, *RSF: The Russell Sage Foundation Journal of the Social Sciences*, *Socius*, and *Research in Social Stratification and Mobility*, and covered by popular media outlets such and the *New York Times*, *Washington Post*, *New Scientist*, *Science Daily*, among others.
 
-I am currently the principal investigator for the Fondecyt Iniciación project, *'Inequality of Outcomes and Opportunity and Its Effects on the Legitimacy of Inequality and Social Cohesion,'* as well as for the [Millennium Nucleus for the Study of Labor Market Mismatch, Causes, and Consequences](https://www.lm2c2.cl/en/). In collaboration with my colleagues [Andrea Canales](https://scholar.google.com/citations?user=XDUh9coAAAAJ&hl=en) and [Tania Hutt](https://www.taniahutt.com/), I co-organize the ongoing [Workshop on Inequality and Stratification Research](https://github.com/mebucca/workshop_ineq) and the [Quantitative and Computational Social Science Research Group](https://github.com/mebucca/qCs2).
-
-
-Methods
-======
-In tandem with my substantive research agenda, I have implemented novel statistical tools such as Bayesian models with structured dispersion for the study of sibling correlations, Lasso regularization for selection of log-linear models, micro-simulations for the study of educational assortative mating, and online large-scale experiments to study beliefs about inequality. 
+I am currently the principal investigator of the Fondecyt Regular project *“New Approaches to the Study of Social Mobility: Expanding Theory, Data, and Methods.”* I previously served as principal investigator of the Fondecyt Iniciación project *“Inequality of Outcomes and Opportunity and Its Effects on the Legitimacy of Inequality and Social Cohesion,”* as well as of the [Millennium Nucleus for the Study of Labor Market Mismatch: Causes and Consequences](https://www.lm2c2.cl/en/). In collaboration with my colleagues [Andrea Canales](https://scholar.google.com/citations?user=XDUh9coAAAAJ&hl=en) and [Tania Hutt](https://www.taniahutt.com/), I co-organize the ongoing [Workshop on Inequality and Stratification Research](https://github.com/mebucca/workshop_ineq) and the [Quantitative and Computational Social Science Research Group](https://github.com/mebucca/qCs2).
 
 
 News
 ======
 - 🗞️ **My latest op-ed**: *“Qué desigualdades debería aceptar o rechazar Chile en este año electorial”* at **Diario El País**. [here](https://elpais.com/chile/2025-08-23/que-desigualdades-deberia-aceptar-o-rechazar-chile-en-este-ano-electoral.html)  
-- 📢 **Upcoming Presentations**: 
+- 📢 **Recent Presentations**: 
   - I will be presenting my article *“Why Do Some Groups Experiencie Greater Mobility than Others?”* at the **LM2C2 Workshop**,December 2–3, 2025.   [Slides](https://mebucca.github.io/presentations/mobility/mobility_short.html#0) 
   - I will be presenting my article *“People Reject Unfairness but Normalize Inequality”* (with Mario D. Molina) at the **Future of Social Mobility Conference**, COES, December 3–4, 2025.  
   [Slides](https://mebucca.github.io/presentations/experiment/unfairness_inequality.html#0)  
