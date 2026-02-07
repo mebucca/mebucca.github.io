@@ -14,7 +14,7 @@ Bio
 
 <br>
 
-I am an Assistant Professor of Sociology at the [Institute of Sociology, Pontificia Universidad Católica de Chile](https://sociologia.uc.cl/). I previously held a [Max Weber Postdoctoral Fellowship](https://www.eui.eu/en/academic-units/max-weber-programme) at the [European University Institute](https://www.eui.eu/) and earned my Ph.D. in Sociology from the [Department of Sociology, Cornell University](https://sociology.cornell.edu/). My research examines labor market inequality, intergenerational mobility, and beliefs about inequality using a combination of statistical modeling, causal inference strategies, and experimental and computational methods. Since January 2026, I have also served as an Associate Editor of *[Research in Social Stratification and Mobility](https://www.sciencedirect.com/journal/research-in-social-stratification-and-mobility)*, the official journal of ISA RC28 on Social Stratification and Mobility.
+I am an Assistant Professor of Sociology at the [Pontificia Universidad Católica de Chile](https://sociologia.uc.cl/). I previously held a [Max Weber Postdoctoral Fellowship](https://www.eui.eu/en/academic-units/max-weber-programme) at the [European University Institute](https://www.eui.eu/) and earned a Ph.D. in Sociology at [Cornell University](https://sociology.cornell.edu/). My research examines labor market inequality, intergenerational mobility, and beliefs about inequality using a combination of statistical modeling, causal inference strategies, and experimental and computational methods. Since January 2026, I also serve as an Associate Editor of *[Research in Social Stratification and Mobility](https://www.sciencedirect.com/journal/research-in-social-stratification-and-mobility)*, the official journal of ISA RC28 on Social Stratification and Mobility.
 
 
 <br>
@@ -32,7 +32,7 @@ I am currently the principal investigator of the Fondecyt Regular project *“Ne
 
 News
 ======
-- 🗞️ **My latest op-ed**: *“Qué desigualdades debería aceptar o rechazar Chile en este año electorial”* at **Diario El País**. [here](https://elpais.com/chile/2025-08-23/que-desigualdades-deberia-aceptar-o-rechazar-chile-en-este-ano-electoral.html)  
+- 🗞️ **My latest op-ed**: *“Reenfocando el problema de la movilidad social. Cómo reducir el peso de la cuna”* at **Tercera Dosis**. [here](https://terceradosis.cl/2025/12/14/reenfocando-el-problema-de-la-movilidad-social-como-reducir-el-peso-de-la-cuna/)  
 - 📢 **Recent Presentations**: 
   - I will be presenting my article *“Why Do Some Groups Experiencie Greater Mobility than Others?”* at the **LM2C2 Workshop**,December 2–3, 2025.   [Slides](https://mebucca.github.io/presentations/mobility/mobility_short.html#0) 
   - I will be presenting my article *“People Reject Unfairness but Normalize Inequality”* (with Mario D. Molina) at the **Future of Social Mobility Conference**, COES, December 3–4, 2025.  
