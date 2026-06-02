@@ -31,7 +31,7 @@
 }
 
 :root {
-    --global-font-size: 16px;
+    --global-font-size: 14px;
     --global-font-color: #444;
     --mono-font-stack: Roboto Mono, Menlo, Monaco, Lucida Console,
         Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono,
@@ -40,14 +40,13 @@
         DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace,
         serif;
     --global-line-height: 1.6em;
-    --page-width: 70em;
+    --page-width: 60em;
     --display-h1-decoration: 1;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background-color: #111216;
-    --page-width: 60em;
     --font-color: #f2f3f7;
     --invert-font-color: #0e0e11;
     --primary-color: #2ecc71;       /* muted emerald green */
@@ -79,7 +78,7 @@
         --global-font-size: 14px;
         --global-font-color: #444;
         --global-line-height: 1.6em;
-        --page-width: 70em;
+        --page-width: 60em;
     }
 }
 
