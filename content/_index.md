@@ -25,23 +25,26 @@ Research
 ======
 My scholarly agenda is articulated around two core, complementary research streams. One series of projects examines key structural aspects of social inequality - intergenerational income mobility, gender- and race-based gaps in the labor market and educational assortative mating. Another line of research focuses on the cultural facets of social stratification as they crystallize in specific belief systems about inequalities and fairness. 
 
-My work has been published in academic journals such as *Science Advances*, *Sociological Science*, *Sociological Methods and Research*, *RSF: The Russell Sage Foundation Journal of the Social Sciences*, *Socius*, and *Research in Social Stratification and Mobility*, and covered by popular media outlets such and the *New York Times*, *Washington Post*, *New Scientist*, *Science Daily*, among others.
+My work has been published in academic journals such as *Science Advances*, *Sociological Science*, *Sociological Methods and Research*, *RSF: The Russell Sage Foundation Journal of the Social Sciences*, *Socius*, and *Research in Social Stratification and Mobility*, and covered by popular media outlets including the *New York Times*, *Washington Post*, *Diario El País*, *New Scientist*, and *Science Daily*, among others.
 
 I am currently the principal investigator of the Fondecyt Regular project *“New Approaches to the Study of Social Mobility: Expanding Theory, Data, and Methods.”* I previously served as principal investigator of the Fondecyt Iniciación project *“Inequality of Outcomes and Opportunity and Its Effects on the Legitimacy of Inequality and Social Cohesion,”* as well as of the [Millennium Nucleus for the Study of Labor Market Mismatch: Causes and Consequences](https://www.lm2c2.cl/en/). In collaboration with my colleagues [Andrea Canales](https://scholar.google.com/citations?user=XDUh9coAAAAJ&hl=en) and [Tania Hutt](https://www.taniahutt.com/), I co-organize the ongoing [Workshop on Inequality and Stratification Research](https://github.com/mebucca/workshop_ineq) and the [Quantitative and Computational Social Science Research Group](https://github.com/mebucca/qCs2).
 
 
 News
 ======
-- 🗞️ **My latest op-ed**: *“Reenfocando el problema de la movilidad social. Cómo reducir el peso de la cuna”* at **Tercera Dosis**. [here](https://terceradosis.cl/2025/12/14/reenfocando-el-problema-de-la-movilidad-social-como-reducir-el-peso-de-la-cuna/)  
-- 📢 **Recent Presentations**: 
-  - I will be presenting my article *“Why Do Some Groups Experiencie Greater Mobility than Others?”* at the **LM2C2 Workshop**,December 2–3, 2025.   [Slides](https://mebucca.github.io/presentations/mobility/mobility_short.html#0) 
-  - I will be presenting my article *“People Reject Unfairness but Normalize Inequality”* (with Mario D. Molina) at the **Future of Social Mobility Conference**, COES, December 3–4, 2025.  
-  [Slides](https://mebucca.github.io/presentations/experiment/unfairness_inequality.html#0)  
+- 🏆 **New grant**: Awarded the **Fondecyt Regular 2026** for the project *”New Approaches to the Study of Social Mobility: Expanding Theory, Data, and Methods.”*
+- 📝 **Under review at *Nature***: *”People Reject Unfairness but Normalize Inequality”* (with Mario D. Molina). Covered by *Diario El País*.
+- 🗞️ **Op-ed**: *”Reenfocando el problema de la movilidad social. Cómo reducir el peso de la cuna”* at **Tercera Dosis**. [here](https://terceradosis.cl/2025/12/14/reenfocando-el-problema-de-la-movilidad-social-como-reducir-el-peso-de-la-cuna/)
+- 📢 **Recent presentations** (2025):
+  - *”People Reject Unfairness but Normalize Inequality”* — **ECSR Annual Conference**, University of Cologne.
+  - *”Why Do Some Groups Experience More Mobility than Others?”* — **Future of Social Mobility Conference**, COES, Santiago. [Slides](https://mebucca.github.io/presentations/mobility/mobility_short.html#0)
+  - *”People Reject Unfairness but Normalize Inequality”* — **Future of Social Mobility Conference**, COES, Santiago. [Slides](https://mebucca.github.io/presentations/experiment/unfairness_inequality.html#0)
 
 Contact
 ======
 
 Department of Sociology, Universidad Católica de Chile<br>
 Avenida Vicuña Mackenna 4860, Casilla 306, Correo 22, Macul, Santiago<br>
-Postal code: 7820436
-Email: mebucca [@] uc [dot] cl
+Postal code: 7820436<br>
+Email: mebucca [@] uc [dot] cl<br>
+[Google Scholar](https://scholar.google.com/citations?user=nD0LNU4AAAAJ&hl=en) · [GitHub](https://github.com/mebucca)

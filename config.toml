@@ -8,7 +8,7 @@ theme = "hugo-theme-console"
 
 [params]
   description = "Inequality · Social Mobility · Computational Social Science"
-  footer = "© 2025 Mauricio Bucca · Pontificia Universidad Católica de Chile"
+  footer = "© 2026 Mauricio Bucca · Pontificia Universidad Católica de Chile"
 
 # LEFT → RIGHT order (your requirement)
 [[params.navlinks]]
