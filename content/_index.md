@@ -33,12 +33,11 @@ I am currently the principal investigator of the Fondecyt Regular project *“Ne
 News
 ======
 - 🏆 **New grant**: Awarded the **Fondecyt Regular 2026** for the project *”New Approaches to the Study of Social Mobility: Expanding Theory, Data, and Methods.”*
-- 📝 **Under review at *Nature***: *”People Reject Unfairness but Normalize Inequality”* (with Mario D. Molina). Covered by *Diario El País*.
-- 🗞️ **Op-ed**: *”Reenfocando el problema de la movilidad social. Cómo reducir el peso de la cuna”* at **Tercera Dosis**. [here](https://terceradosis.cl/2025/12/14/reenfocando-el-problema-de-la-movilidad-social-como-reducir-el-peso-de-la-cuna/)
+- 🗞️ Last **op-ed**: *”Reproducibilidad fiscal”* at **La Tercera**. [here](https://www.latercera.com/opinion/noticia/reproducibilidad-fiscal/?mode=reader)
 - 📢 **Recent presentations** (2025):
-  - *”People Reject Unfairness but Normalize Inequality”* — **ECSR Annual Conference**, University of Cologne.
+  - *”People Reject Unfairness but Normalize Inequality”* — **ECSR Annual Conference**, University of Cologne. [Slides](https://mebucca.github.io/presentations/experiment/unfairness_inequality.html#0)
   - *”Why Do Some Groups Experience More Mobility than Others?”* — **Future of Social Mobility Conference**, COES, Santiago. [Slides](https://mebucca.github.io/presentations/mobility/mobility_short.html#0)
-  - *”People Reject Unfairness but Normalize Inequality”* — **Future of Social Mobility Conference**, COES, Santiago. [Slides](https://mebucca.github.io/presentations/experiment/unfairness_inequality.html#0)
+
 
 Contact
 ======
@@ -47,4 +46,4 @@ Department of Sociology, Universidad Católica de Chile<br>
 Avenida Vicuña Mackenna 4860, Casilla 306, Correo 22, Macul, Santiago<br>
 Postal code: 7820436<br>
 Email: mebucca [@] uc [dot] cl<br>
-[Google Scholar](https://scholar.google.com/citations?user=nD0LNU4AAAAJ&hl=en) · [GitHub](https://github.com/mebucca)
+[Google Scholar](https://scholar.google.com/citations?user=nD0LNU4AAAAJ&hl=en) · [GitHub](https://github.com/mebucca) · [CV](/cv/)
