@@ -1,13 +1,14 @@
-/* Fira Code: https://github.com/tonsky/FiraCode */
-@import url('https://cdn.staticdelivr.com/gfonts/css2?family=Fira+Code:wght@300..700&display=swap');
+/* DOS / Doogie Howser Theme */
 
 :root {
-  --background: #fcfbf7;   /* typing paper */
-  --foreground: #202020;   /* ribbon ink */
-  --accent:     #C8102E;   /* typewriter correction/editorial red */
+  --background: #0000AA;   /* IBM VGA blue */
+  --foreground: #FFFFFF;   /* white */
+  --accent: #FFFF55;       /* bright yellow */
+  --link: #55FFFF;         /* VGA cyan */
+
   --radius: 0;
-  --font-size: 1rem;
-  --line-height: 1.6em;
+  --font-size: 16px;
+  --line-height: 1.2;
 }
 
 html {
@@ -22,79 +23,119 @@ html {
   padding: 0;
 }
 
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+  background: var(--background);
+}
+
 body {
   font-family:
-    "Fira Code",
-    "JetBrains Mono",
-    Monaco,
-    Consolas,
-     "Ubuntu Mono",
+    "Perfect DOS VGA 437",
+    "PxPlus IBM VGA8",
+    "IBM VGA 8x16",
     monospace;
+
   font-size: var(--font-size);
-  font-weight: 400;
+  font-weight: normal;
   line-height: var(--line-height);
-  background-color: var(--background);
+
+  background: var(--background);
   color: var(--foreground);
-  text-rendering: optimizeLegibility;
-  font-variant-ligatures: contextual;
+
+  text-rendering: optimizeSpeed;
+  font-variant-ligatures: none;
+  font-feature-settings: "liga" 0;
+
+  -webkit-font-smoothing: none;
+  -moz-osx-font-smoothing: auto;
+  font-smooth: never;
+
   -webkit-overflow-scrolling: touch;
   -webkit-text-size-adjust: 100%;
+
   margin: 0;
-  padding: 0;
+  padding: 1rem;
 }
 
 h1 {
-  font-size: calc(var(--font-size) * 1.45);
-  letter-spacing: 0;
+  font-size: calc(var(--font-size) * 1.25);
 }
 
 h2 {
-  font-size: calc(var(--font-size) * 1.35);
-  letter-spacing: 0;
+  font-size: calc(var(--font-size) * 1.15);
 }
 
 h3 {
-  font-size: calc(var(--font-size) * 1.15);
-  letter-spacing: 0;
+  font-size: calc(var(--font-size) * 1);
 }
 
 h4,
 h5,
 h6 {
-  font-size: calc(var(--font-size) * 1);
+  font-size: var(--font-size);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--accent);
+  font-weight: normal;
   letter-spacing: 0;
 }
 
-h1, h2, h3, h4, h5, h6,
-p, ul, ol,
-img, figure, video,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+img,
+figure,
+video,
 table {
-  margin: 25px 0;
+  margin: 17px 0;
+}
+
+h1::after {
+  content: "\A=========";
+  display: block;
+  color: var(----accent);
+
 }
 
 a {
+  color: var(--link);
+  text-decoration: none;
+}
+
+a:hover {
   color: var(--accent);
 }
 
 button {
   position: relative;
   font: inherit;
-  font-weight: bold;
-  text-decoration: none;
   text-align: center;
-  background: transparent;
-  color: var(--accent);
+  background: var(--background);
+  color: var(--foreground);
   padding: 5px 18px;
-  border: 4px solid var(--accent);
-  border-radius: var(--radius);
-  transition: background 0.15s linear;
-  appearance: none;
+  border: 2px solid var(--foreground);
+  border-radius: 0;
   cursor: pointer;
   outline: none;
 }
 
 button:hover {
-  background: color-mix(in srgb, var(--accent) 15%, transparent);
+  background: var(--foreground);
+  color: var(--background);
 }
 
 button:focus-visible,
@@ -106,7 +147,6 @@ a:focus-visible {
 fieldset {
   display: inline-block;
   border: 2px solid var(--foreground);
-  border-radius: calc(var(--radius) * 1.6);
   padding: 10px;
 }
 
@@ -134,10 +174,10 @@ label input {
 input,
 textarea,
 select {
-  background: transparent;
+  background: var(--background);
   color: var(--foreground);
   border: 1px solid var(--foreground);
-  border-radius: var(--radius);
+  border-radius: 0;
   padding: 10px;
   font: inherit;
   appearance: none;
@@ -148,33 +188,18 @@ input[type="checkbox"] {
 }
 
 input:focus-visible,
-input:active,
 textarea:focus-visible,
-textarea:active,
-select:focus-visible,
-select:active {
+select:focus-visible {
   border-color: var(--accent);
   outline: 1px solid var(--accent);
-  outline-offset: 2px;
-}
-
-input:active,
-textarea:active,
-select:active {
-  box-shadow: none;
 }
 
 select {
-  background-image: linear-gradient(
-      45deg,
-      transparent 50%,
-      var(--foreground) 50%
-    ),
+  background-image:
+    linear-gradient(45deg, transparent 50%, var(--foreground) 50%),
     linear-gradient(135deg, var(--foreground) 50%, transparent 50%);
   background-position: calc(100% - 20px), calc(100% - 15px);
-  background-size:
-    5px 5px,
-    5px 5px;
+  background-size: 5px 5px;
   background-repeat: no-repeat;
   padding-right: 40px;
 }
@@ -186,15 +211,13 @@ select option {
 input[type="checkbox"],
 input[type="radio"] {
   vertical-align: middle;
-  padding: 10px;
   box-shadow: inset 0 0 0 3px var(--background);
 }
 
 input[type="radio"] {
-  display: inline-block;
   width: 10px !important;
   height: 10px !important;
-  border-radius: 20px;
+  border-radius: 50%;
 }
 
 input[type="checkbox"]:checked,
@@ -205,10 +228,8 @@ input[type="radio"]:checked {
 img {
   display: block;
   max-width: 100%;
-  border: 8px solid var(--accent);
-  border-radius: var(--radius);
-  padding: 8px;
-  overflow: hidden;
+  border: 2px solid var(--foreground);
+  padding: 0;
 }
 
 figure img,
@@ -217,100 +238,58 @@ figure video {
 }
 
 figure figcaption {
-  background: var(--accent);
+  background: var(--foreground);
   color: var(--background);
   text-align: center;
-  font-size: 1em;
-  font-weight: normal;
-  margin-top: -8px;
-  border-radius: 0 0 var(--radius) var(--radius);
+  margin-top: -2px;
 }
 
 ul,
 ol {
   margin-left: 4ch;
-  padding: 0;
-}
-
-ul ul,
-ul ol,
-ol ul,
-ol ol {
-  margin-top: 0;
 }
 
 li::marker {
   color: var(--accent);
 }
 
-ul li,
-ol li {
-  position: relative;
+code,
+kbd,
+pre {
+  font-family: inherit;
+  font-feature-settings: normal;
 }
 
 code,
 kbd {
-  font-family:
-    "Fira Code",
-    "JetBrains Mono",
-    Monaco,
-    Consolas,
-    Ubuntu Mono,
-    monospace !important;
-  font-feature-settings: normal;
-  background: color-mix(in srgb, var(--foreground) 5%, transparent);
-  color: color-mix(in srgb, var(--foreground) 5%, var(--accent));
+  background: #000080;
+  color: var(--foreground);
+  border: 1px solid var(--foreground);
   padding: 0 6px;
-  margin: 0 2px;
-  font-size: 0.95em;
-}
-
-code {
-  border: 1px solid color-mix(in srgb, var(--foreground) 25%, transparent);
 }
 
 kbd {
-  border-top: 1px solid color-mix(in srgb, var(--accent) 25%, transparent);
-  border-left: 1px solid var(--accent);
-  border-right: 1px solid var(--accent);
-  border-bottom: 4px solid var(--accent);
-  border-radius: 4px;
-}
-
-code code {
-  background: transparent;
-  padding: 0;
-  margin: 0;
+  border-radius: 0;
 }
 
 pre {
   tab-size: 4;
-  background: color-mix(in srgb, var(--foreground) 5%, transparent) !important;
-  color: color-mix(in srgb, var(--foreground) 5%, var(--accent));
-  padding: 20px 10px;
-  font-size: 0.95em !important;
+  background: #000080 !important;
+  color: var(--foreground);
+  border: 2px solid var(--foreground);
+  border-radius: 0;
+  padding: 16px;
   overflow: auto;
-  border-radius: var(--radius);
-  border: 1px solid color-mix(in srgb, var(--foreground) 25%, transparent);
 }
 
 pre code {
-  background: none !important;
-  margin: 0;
-  padding: 0;
-  font-size: inherit;
+  background: none;
   border: none;
+  padding: 0;
 }
 
 sup {
   line-height: 0;
-}
-
-abbr {
-  position: relative;
-  text-decoration-style: wavy;
-  text-decoration-color: var(--accent);
-  cursor: help;
 }
 
 sub {
@@ -321,37 +300,23 @@ sup {
   top: -0.25em;
 }
 
+abbr {
+  text-decoration-style: dotted;
+  text-decoration-color: var(--accent);
+}
+
 mark {
-  background: color-mix(in srgb, var(--accent) 45%, transparent);
-  color: var(--foreground);
+  background: var(--accent);
+  color: var(--background);
 }
 
 blockquote {
-  position: relative;
-  border-top: 1px solid var(--accent);
-  border-bottom: 1px solid var(--accent);
-  margin: 0;
-  padding: 25px;
-}
-
-blockquote:before {
-  content: ">";
-  display: block;
-  position: absolute;
-  left: 0;
-  color: var(--accent);
-}
-
-blockquote p:first-child {
-  margin-top: 0;
-}
-
-blockquote p:last-child {
-  margin-bottom: 0;
+  border-left: 2px solid var(--accent);
+  padding-left: 1ch;
+  margin: 1em 0;
 }
 
 table {
-  table-layout: auto;
   border-collapse: collapse;
 }
 
@@ -363,27 +328,21 @@ td {
 }
 
 th {
-  border-style: solid;
-  color: var(--foreground);
+  background: var(--foreground);
+  color: var(--background);
   text-align: left;
   text-transform: uppercase;
-  letter-spacing: 0.04em;
 }
 
 hr {
-  width: 100%;
   border: none;
-  background: var(--accent);
   height: 2px;
+  background: var(--foreground);
 }
 
-/* Bold elements */
-
-h1, h2, h3, h4, h5, h6,
-b, strong,
-th,
-button {
-  font-weight: 600;
+::selection {
+  background: var(--foreground);
+  color: var(--background);
 }
 
 .container {
