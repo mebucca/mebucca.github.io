@@ -1,32 +1,55 @@
 baseURL = "https://mebucca.github.io/"
 languageCode = "en-us"
+DefaultContentLanguage = "en"
 title = "Mauricio Bucca"
-theme = "hugo-theme-console"
+theme = "hugo.386"
 
 [markup.goldmark.renderer]
   unsafe = true  # allow raw HTML blocks (for the photo block, etc.)
 
 [params]
   description = "Inequality · Social Mobility · Computational Social Science"
-  footer = "© 2026 Mauricio Bucca · Pontificia Universidad Católica de Chile"
+  mainpagetitle = "Mauricio Bucca"
+  mainpagesubtitle = "Inequality · Social Mobility · Computational Social Science"
+  mainpagedesc = "Assistant Professor of Sociology at Pontificia Universidad Católica de Chile."
+  showhugo = false
+  github = "https://github.com/mebucca"
+  loadfastload = false
+  loadspeedfactor = 1.0
+  loadonepass = false
 
-# LEFT → RIGHT order (your requirement)
-[[params.navlinks]]
+[params.copyright]
+  name = "Mauricio Bucca"
+  url = "https://mebucca.github.io/"
+  suffix = "Pontificia Universidad Católica de Chile"
+
+# Left-to-right navbar order.
+[[menu.main]]
+  identifier = "about"
   name = "About"
-  url  = "/"
+  url = "/"
+  weight = 10
 
-[[params.navlinks]]
+[[menu.main]]
+  identifier = "publications"
   name = "Publications"
-  url  = "/publications/"
+  url = "/publications/"
+  weight = 20
 
-[[params.navlinks]]
+[[menu.main]]
+  identifier = "ongoing-work"
   name = "Ongoing Work"
-  url  = "/ongoing-work/"
+  url = "/ongoing-work/"
+  weight = 30
 
-[[params.navlinks]]
+[[menu.main]]
+  identifier = "teaching"
   name = "Teaching"
-  url  = "/teaching/"
+  url = "/teaching/"
+  weight = 40
 
-[[params.navlinks]]
+[[menu.main]]
+  identifier = "consulting"
   name = "Consulting"
-  url  = "/consulting/"
+  url = "/consulting/"
+  weight = 50
