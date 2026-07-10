@@ -9,9 +9,9 @@ title: "Ongoing Work"
 - **People Reject Unfairness but Normalize Inequality** (with Mario D. Molina)  
   *Status:* Under Review · **Media coverage:** · [Diario El País](https://elpais.com/chile/2025-08-23/que-desigualdades-deberia-aceptar-o-rechazar-chile-en-este-ano-electoral.html)
 
-- **A Matthew Effect in Occupational Skill Content: Divergent Skill Diffusion Reinforces Occupational Stratification**  
+- **A Matthew Effect in Occupational Skill Content: Divergent Diffusion of Cognitive and Physical Skills Reinforces Inequality**  
   (with Roberto Cantillán)  
-  *Status:* Working paper
+  *Status:* Under Review
 
 - **High Migration yet Low Intermarriage: Tracing Demographic Profiles of Latin America's Cross-Border Unions**  
   (with Adriana Robles, Luca M. Pesando, Alejandra Abufhele, Daniela R. Urbina)  
