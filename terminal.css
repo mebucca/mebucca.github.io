@@ -3,3 +3,7 @@
   --foreground: #eceae5;
   --accent: #eec35e;
 }
+
+.container {
+  max-width: 1120px;
+}
