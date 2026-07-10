@@ -2,26 +2,39 @@ baseURL = "https://mebucca.github.io/"
 languageCode = "en-us"
 DefaultContentLanguage = "en"
 title = "Mauricio Bucca"
-theme = "hugo.386"
+theme = "terminal"
+copyright = "© 2026 Mauricio Bucca · Pontificia Universidad Católica de Chile"
+pagination.pagerSize = 5
 
 [markup.goldmark.renderer]
   unsafe = true  # allow raw HTML blocks (for the photo block, etc.)
 
+[markup.highlight]
+  noClasses = false
+
 [params]
   description = "Inequality · Social Mobility · Computational Social Science"
-  mainpagetitle = "Mauricio Bucca"
-  mainpagesubtitle = "Inequality · Social Mobility · Computational Social Science"
-  mainpagedesc = "Assistant Professor of Sociology at Pontificia Universidad Católica de Chile."
-  showhugo = false
-  github = "https://github.com/mebucca"
-  loadfastload = false
-  loadspeedfactor = 1.0
-  loadonepass = false
+  subtitle = "Inequality · Social Mobility · Computational Social Science"
+  keywords = "inequality, social mobility, computational social science"
+  contentTypeName = "posts"
+  showMenuItems = 5
+  showLanguageSelector = false
+  fullWidthTheme = false
+  centerTheme = false
+  autoCover = false
+  menuMore = "Show more"
+  readMore = "Read more"
+  readOtherPosts = "Read other posts"
+  newerPosts = "Newer posts"
+  olderPosts = "Older posts"
+  missingContentMessage = "Page not found..."
+  missingBackButtonLabel = "Back to home page"
+  minuteReadingTime = "min read"
+  words = "words"
 
-[params.copyright]
-  name = "Mauricio Bucca"
-  url = "https://mebucca.github.io/"
-  suffix = "Pontificia Universidad Católica de Chile"
+[params.logo]
+  logoText = "Mauricio Bucca"
+  logoHomeLink = "/"
 
 # Left-to-right navbar order.
 [[menu.main]]
