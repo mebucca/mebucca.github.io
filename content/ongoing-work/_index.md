@@ -4,7 +4,7 @@ title: "Ongoing Work"
 
 
 - **Linking Absolute and Relative Mobility: A Tractable Framework, a Decomposition Method, and an Application to Black–White Mobility Differences**  
-  *Status:* Under Review · **Media coverage:** [Tercera Dosis](https://terceradosis.cl/2025/12/14/reenfocando-el-problema-de-la-movilidad-social-como-reducir-el-peso-de-la-cuna/)
+  *Status:* R&R at *Sociological Methods and Research* · **Media coverage:** [Tercera Dosis](https://terceradosis.cl/2025/12/14/reenfocando-el-problema-de-la-movilidad-social-como-reducir-el-peso-de-la-cuna/)
 
 - **People Reject Unfairness but Normalize Inequality** (with Mario D. Molina)  
   *Status:* Under Review · **Media coverage:** · [Diario El País](https://elpais.com/chile/2025-08-23/que-desigualdades-deberia-aceptar-o-rechazar-chile-en-este-ano-electoral.html)

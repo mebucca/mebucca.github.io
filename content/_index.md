@@ -2,24 +2,11 @@
 title: "About"
 ---
 
-<br>
-
 Bio
 ======
-<br>
-
-<figure style="float: left; margin: 0 25px 15px 0; max-width: 220px; text-align: center;">
-  <img src="/images/me.jpg" alt="Mauricio Bucca" style="width: 100%; border-radius: 50%; border: 2px solid #ddd; box-shadow: 0 2px 6px rgba(0,0,0,0.15);" />
-</figure>
-
-<br>
 
 I am an Assistant Professor of Sociology at the [Pontificia Universidad Católica de Chile](https://sociologia.uc.cl/). I previously held a [Max Weber Postdoctoral Fellowship](https://www.eui.eu/en/academic-units/max-weber-programme) at the [European University Institute](https://www.eui.eu/) and earned a Ph.D. in Sociology at [Cornell University](https://sociology.cornell.edu/). My research examines labor market inequality, intergenerational mobility, and beliefs about inequality using a combination of statistical modeling, causal inference strategies, and experimental and computational methods. Since January 2026, I also serve as an Associate Editor of *[Research in Social Stratification and Mobility](https://www.sciencedirect.com/journal/research-in-social-stratification-and-mobility)*, the official journal of ISA RC28 on Social Stratification and Mobility.
 
-
-<br>
-<br>
-<br>
 
 Research
 ======
