@@ -1,0 +1,2287 @@
+{
+  ".claude/settings.local.json": {
+    "mtime": 1783786026.9603965,
+    "ast_hash": "8fea303aabaf5ed2293c66f984901cf1",
+    "semantic_hash": "8fea303aabaf5ed2293c66f984901cf1"
+  },
+  ".vscode/settings.json": {
+    "mtime": 1783652853.7332263,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "public/bundle.min.js": {
+    "mtime": 1783728313.1799328,
+    "ast_hash": "484851c1d2dd835a06418f9422461084",
+    "semantic_hash": "484851c1d2dd835a06418f9422461084"
+  },
+  "public/presentations/experiment/unfairness_inequality_files/libs/bootstrap/bootstrap.min.js": {
+    "mtime": 1783648081.8109715,
+    "ast_hash": "e2b09c06f0e714b6144a6788a28e3950",
+    "semantic_hash": "e2b09c06f0e714b6144a6788a28e3950"
+  },
+  "public/presentations/experiment/unfairness_inequality_files/libs/clipboard/clipboard.min.js": {
+    "mtime": 1783648081.8110898,
+    "ast_hash": "15f52a1ee547f2bdd46e56747332ca2d",
+    "semantic_hash": "15f52a1ee547f2bdd46e56747332ca2d"
+  },
+  "public/presentations/experiment/unfairness_inequality_files/libs/quarto-html/anchor.min.js": {
+    "mtime": 1783648081.8112357,
+    "ast_hash": "91bcf6cd1fd88fec3f109811e5fc3546",
+    "semantic_hash": "91bcf6cd1fd88fec3f109811e5fc3546"
+  },
+  "public/presentations/experiment/unfairness_inequality_files/libs/quarto-html/popper.min.js": {
+    "mtime": 1783648081.8114116,
+    "ast_hash": "3a4a291ccf3f1ea0f82b641542fd3827",
+    "semantic_hash": "3a4a291ccf3f1ea0f82b641542fd3827"
+  },
+  "public/presentations/experiment/unfairness_inequality_files/libs/quarto-html/quarto.js": {
+    "mtime": 1783648081.811571,
+    "ast_hash": "6f4245742deb3cc92337dbe2701ccfe1",
+    "semantic_hash": "6f4245742deb3cc92337dbe2701ccfe1"
+  },
+  "public/presentations/experiment/unfairness_inequality_files/libs/quarto-html/tabby.min.js": {
+    "mtime": 1783648081.811657,
+    "ast_hash": "c4219bb6375131a945d7e4bfc49c5f35",
+    "semantic_hash": "c4219bb6375131a945d7e4bfc49c5f35"
+  },
+  "public/presentations/experiment/unfairness_inequality_files/libs/quarto-html/tabsets/tabsets.js": {
+    "mtime": 1783648081.8117778,
+    "ast_hash": "e8d6a8862b33ccc461f8fd532e05b365",
+    "semantic_hash": "e8d6a8862b33ccc461f8fd532e05b365"
+  },
+  "public/presentations/experiment/unfairness_inequality_files/libs/quarto-html/tippy.umd.min.js": {
+    "mtime": 1783648081.8119733,
+    "ast_hash": "d828775275749701b48bd9d958814111",
+    "semantic_hash": "d828775275749701b48bd9d958814111"
+  },
+  "public/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/highlight/highlight.esm.js": {
+    "mtime": 1783648081.8185174,
+    "ast_hash": "19a0f6f1a902d2ef9aaefa1e046b3b2e",
+    "semantic_hash": "19a0f6f1a902d2ef9aaefa1e046b3b2e"
+  },
+  "public/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/highlight/highlight.js": {
+    "mtime": 1783648081.8198397,
+    "ast_hash": "bebce5c694268a3f8dff84a58b270ba3",
+    "semantic_hash": "bebce5c694268a3f8dff84a58b270ba3"
+  },
+  "public/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/highlight/plugin.js": {
+    "mtime": 1783648081.8200397,
+    "ast_hash": "df2b6cec81d1c3d9730ef2b9421f62a1",
+    "semantic_hash": "df2b6cec81d1c3d9730ef2b9421f62a1"
+  },
+  "public/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/markdown/markdown.esm.js": {
+    "mtime": 1783648081.8202114,
+    "ast_hash": "51cf543919182a054e69a3d632356296",
+    "semantic_hash": "51cf543919182a054e69a3d632356296"
+  },
+  "public/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/markdown/markdown.js": {
+    "mtime": 1783648081.8203099,
+    "ast_hash": "e19760d2cc93d38d5df00081a1893828",
+    "semantic_hash": "e19760d2cc93d38d5df00081a1893828"
+  },
+  "public/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/markdown/plugin.js": {
+    "mtime": 1783648081.82043,
+    "ast_hash": "a1da0411f474b5bc82d1cc79faf4d0c1",
+    "semantic_hash": "a1da0411f474b5bc82d1cc79faf4d0c1"
+  },
+  "public/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/math/katex.js": {
+    "mtime": 1783648081.820545,
+    "ast_hash": "2a22abd1eb5a1c923f2d41178427715a",
+    "semantic_hash": "2a22abd1eb5a1c923f2d41178427715a"
+  },
+  "public/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/math/math.esm.js": {
+    "mtime": 1783648081.820621,
+    "ast_hash": "51b0b5e4a4dd80029ab90fb9ded6b67c",
+    "semantic_hash": "51b0b5e4a4dd80029ab90fb9ded6b67c"
+  },
+  "public/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/math/math.js": {
+    "mtime": 1783648081.8206813,
+    "ast_hash": "744ade9a5dacddb69f35ee96cfd6f74a",
+    "semantic_hash": "744ade9a5dacddb69f35ee96cfd6f74a"
+  },
+  "public/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/math/mathjax2.js": {
+    "mtime": 1783648081.82074,
+    "ast_hash": "c1ea64afa05c3677d2c404755193b2be",
+    "semantic_hash": "c1ea64afa05c3677d2c404755193b2be"
+  },
+  "public/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/math/mathjax3.js": {
+    "mtime": 1783648081.820815,
+    "ast_hash": "57d54e9c4fb748505b3709484593834a",
+    "semantic_hash": "57d54e9c4fb748505b3709484593834a"
+  },
+  "public/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/math/plugin.js": {
+    "mtime": 1783648081.8208816,
+    "ast_hash": "ec9cb99b85a8026d24b26526f6effe0d",
+    "semantic_hash": "ec9cb99b85a8026d24b26526f6effe0d"
+  },
+  "public/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/notes/notes.esm.js": {
+    "mtime": 1783648081.8210096,
+    "ast_hash": "e1d960e6895a06986c9509c30ba784b2",
+    "semantic_hash": "e1d960e6895a06986c9509c30ba784b2"
+  },
+  "public/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/notes/notes.js": {
+    "mtime": 1783648081.82112,
+    "ast_hash": "db8fab48fe15b175ca69e99f8af2fdfc",
+    "semantic_hash": "db8fab48fe15b175ca69e99f8af2fdfc"
+  },
+  "public/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/notes/plugin.js": {
+    "mtime": 1783648081.8212366,
+    "ast_hash": "9e52c9625a2f659373cc6e4c5ccf5b80",
+    "semantic_hash": "9e52c9625a2f659373cc6e4c5ccf5b80"
+  },
+  "public/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/pdf-export/pdfexport.js": {
+    "mtime": 1783648081.8214743,
+    "ast_hash": "d851935da36e7b598d2d57764599f88b",
+    "semantic_hash": "d851935da36e7b598d2d57764599f88b"
+  },
+  "public/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js": {
+    "mtime": 1783648081.8217578,
+    "ast_hash": "51cc37b684f5af8171d58269f6c18f07",
+    "semantic_hash": "51cc37b684f5af8171d58269f6c18f07"
+  },
+  "public/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/quarto-support/support.js": {
+    "mtime": 1783648081.8221474,
+    "ast_hash": "4403872730e278a9f00b5d3022de4369",
+    "semantic_hash": "4403872730e278a9f00b5d3022de4369"
+  },
+  "public/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/reveal-menu/menu.js": {
+    "mtime": 1783648081.822434,
+    "ast_hash": "8db4f7eb4ad5670e6be4bdf83c389ca2",
+    "semantic_hash": "8db4f7eb4ad5670e6be4bdf83c389ca2"
+  },
+  "public/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js": {
+    "mtime": 1783648081.8226542,
+    "ast_hash": "d7e0fadc3011a74b823d1bb5006ffa9b",
+    "semantic_hash": "d7e0fadc3011a74b823d1bb5006ffa9b"
+  },
+  "public/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/search/plugin.js": {
+    "mtime": 1783648081.822808,
+    "ast_hash": "e39d5a868aff604a4bec144ae7a43c5b",
+    "semantic_hash": "e39d5a868aff604a4bec144ae7a43c5b"
+  },
+  "public/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/search/search.esm.js": {
+    "mtime": 1783648081.8228848,
+    "ast_hash": "1ff0e5fd23d9e0790498078f4acd37e8",
+    "semantic_hash": "1ff0e5fd23d9e0790498078f4acd37e8"
+  },
+  "public/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/search/search.js": {
+    "mtime": 1783648081.8229666,
+    "ast_hash": "e265925ae6ee6ec778ed10ecba3c3da0",
+    "semantic_hash": "e265925ae6ee6ec778ed10ecba3c3da0"
+  },
+  "public/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/zoom/plugin.js": {
+    "mtime": 1783648081.8231134,
+    "ast_hash": "75d50a8cac0d19f0824a1c5876d36673",
+    "semantic_hash": "75d50a8cac0d19f0824a1c5876d36673"
+  },
+  "public/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/zoom/zoom.esm.js": {
+    "mtime": 1783648081.8232012,
+    "ast_hash": "c0a980f05da4f0bdd2ef6c8227fce9d3",
+    "semantic_hash": "c0a980f05da4f0bdd2ef6c8227fce9d3"
+  },
+  "public/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/zoom/zoom.js": {
+    "mtime": 1783648081.8232636,
+    "ast_hash": "9c28a4d1f1502771665328f6abb091c0",
+    "semantic_hash": "9c28a4d1f1502771665328f6abb091c0"
+  },
+  "public/presentations/mobility/mobility_files/libs/clipboard/clipboard.min.js": {
+    "mtime": 1783648081.8409023,
+    "ast_hash": "15f52a1ee547f2bdd46e56747332ca2d",
+    "semantic_hash": "15f52a1ee547f2bdd46e56747332ca2d"
+  },
+  "public/presentations/mobility/mobility_files/libs/quarto-html/popper.min.js": {
+    "mtime": 1783648081.8410902,
+    "ast_hash": "3a4a291ccf3f1ea0f82b641542fd3827",
+    "semantic_hash": "3a4a291ccf3f1ea0f82b641542fd3827"
+  },
+  "public/presentations/mobility/mobility_files/libs/quarto-html/tabby.min.js": {
+    "mtime": 1783648081.8412368,
+    "ast_hash": "c4219bb6375131a945d7e4bfc49c5f35",
+    "semantic_hash": "c4219bb6375131a945d7e4bfc49c5f35"
+  },
+  "public/presentations/mobility/mobility_files/libs/quarto-html/tippy.umd.min.js": {
+    "mtime": 1783648081.8413763,
+    "ast_hash": "d828775275749701b48bd9d958814111",
+    "semantic_hash": "d828775275749701b48bd9d958814111"
+  },
+  "public/presentations/mobility/mobility_files/libs/revealjs/plugin/highlight/highlight.esm.js": {
+    "mtime": 1783648081.8481445,
+    "ast_hash": "19a0f6f1a902d2ef9aaefa1e046b3b2e",
+    "semantic_hash": "19a0f6f1a902d2ef9aaefa1e046b3b2e"
+  },
+  "public/presentations/mobility/mobility_files/libs/revealjs/plugin/highlight/highlight.js": {
+    "mtime": 1783648081.8493311,
+    "ast_hash": "bebce5c694268a3f8dff84a58b270ba3",
+    "semantic_hash": "bebce5c694268a3f8dff84a58b270ba3"
+  },
+  "public/presentations/mobility/mobility_files/libs/revealjs/plugin/highlight/plugin.js": {
+    "mtime": 1783648081.849505,
+    "ast_hash": "df2b6cec81d1c3d9730ef2b9421f62a1",
+    "semantic_hash": "df2b6cec81d1c3d9730ef2b9421f62a1"
+  },
+  "public/presentations/mobility/mobility_files/libs/revealjs/plugin/markdown/markdown.esm.js": {
+    "mtime": 1783648081.849667,
+    "ast_hash": "51cf543919182a054e69a3d632356296",
+    "semantic_hash": "51cf543919182a054e69a3d632356296"
+  },
+  "public/presentations/mobility/mobility_files/libs/revealjs/plugin/markdown/markdown.js": {
+    "mtime": 1783648081.8497446,
+    "ast_hash": "e19760d2cc93d38d5df00081a1893828",
+    "semantic_hash": "e19760d2cc93d38d5df00081a1893828"
+  },
+  "public/presentations/mobility/mobility_files/libs/revealjs/plugin/markdown/plugin.js": {
+    "mtime": 1783648081.8498552,
+    "ast_hash": "a1da0411f474b5bc82d1cc79faf4d0c1",
+    "semantic_hash": "a1da0411f474b5bc82d1cc79faf4d0c1"
+  },
+  "public/presentations/mobility/mobility_files/libs/revealjs/plugin/math/katex.js": {
+    "mtime": 1783648081.8499494,
+    "ast_hash": "2a22abd1eb5a1c923f2d41178427715a",
+    "semantic_hash": "2a22abd1eb5a1c923f2d41178427715a"
+  },
+  "public/presentations/mobility/mobility_files/libs/revealjs/plugin/math/math.esm.js": {
+    "mtime": 1783648081.849999,
+    "ast_hash": "51b0b5e4a4dd80029ab90fb9ded6b67c",
+    "semantic_hash": "51b0b5e4a4dd80029ab90fb9ded6b67c"
+  },
+  "public/presentations/mobility/mobility_files/libs/revealjs/plugin/math/math.js": {
+    "mtime": 1783648081.850045,
+    "ast_hash": "744ade9a5dacddb69f35ee96cfd6f74a",
+    "semantic_hash": "744ade9a5dacddb69f35ee96cfd6f74a"
+  },
+  "public/presentations/mobility/mobility_files/libs/revealjs/plugin/math/mathjax2.js": {
+    "mtime": 1783648081.8501043,
+    "ast_hash": "c1ea64afa05c3677d2c404755193b2be",
+    "semantic_hash": "c1ea64afa05c3677d2c404755193b2be"
+  },
+  "public/presentations/mobility/mobility_files/libs/revealjs/plugin/math/mathjax3.js": {
+    "mtime": 1783648081.850156,
+    "ast_hash": "57d54e9c4fb748505b3709484593834a",
+    "semantic_hash": "57d54e9c4fb748505b3709484593834a"
+  },
+  "public/presentations/mobility/mobility_files/libs/revealjs/plugin/math/plugin.js": {
+    "mtime": 1783648081.8502023,
+    "ast_hash": "ec9cb99b85a8026d24b26526f6effe0d",
+    "semantic_hash": "ec9cb99b85a8026d24b26526f6effe0d"
+  },
+  "public/presentations/mobility/mobility_files/libs/revealjs/plugin/notes/notes.esm.js": {
+    "mtime": 1783648081.8502986,
+    "ast_hash": "e1d960e6895a06986c9509c30ba784b2",
+    "semantic_hash": "e1d960e6895a06986c9509c30ba784b2"
+  },
+  "public/presentations/mobility/mobility_files/libs/revealjs/plugin/notes/notes.js": {
+    "mtime": 1783648081.8503757,
+    "ast_hash": "db8fab48fe15b175ca69e99f8af2fdfc",
+    "semantic_hash": "db8fab48fe15b175ca69e99f8af2fdfc"
+  },
+  "public/presentations/mobility/mobility_files/libs/revealjs/plugin/notes/plugin.js": {
+    "mtime": 1783648081.8504646,
+    "ast_hash": "9e52c9625a2f659373cc6e4c5ccf5b80",
+    "semantic_hash": "9e52c9625a2f659373cc6e4c5ccf5b80"
+  },
+  "public/presentations/mobility/mobility_files/libs/revealjs/plugin/pdf-export/pdfexport.js": {
+    "mtime": 1783648081.850622,
+    "ast_hash": "d851935da36e7b598d2d57764599f88b",
+    "semantic_hash": "d851935da36e7b598d2d57764599f88b"
+  },
+  "public/presentations/mobility/mobility_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js": {
+    "mtime": 1783648081.8508196,
+    "ast_hash": "51cc37b684f5af8171d58269f6c18f07",
+    "semantic_hash": "51cc37b684f5af8171d58269f6c18f07"
+  },
+  "public/presentations/mobility/mobility_files/libs/revealjs/plugin/quarto-support/support.js": {
+    "mtime": 1783648081.851075,
+    "ast_hash": "4403872730e278a9f00b5d3022de4369",
+    "semantic_hash": "4403872730e278a9f00b5d3022de4369"
+  },
+  "public/presentations/mobility/mobility_files/libs/revealjs/plugin/reveal-menu/menu.js": {
+    "mtime": 1783648081.8512778,
+    "ast_hash": "8db4f7eb4ad5670e6be4bdf83c389ca2",
+    "semantic_hash": "8db4f7eb4ad5670e6be4bdf83c389ca2"
+  },
+  "public/presentations/mobility/mobility_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js": {
+    "mtime": 1783648081.8514166,
+    "ast_hash": "d7e0fadc3011a74b823d1bb5006ffa9b",
+    "semantic_hash": "d7e0fadc3011a74b823d1bb5006ffa9b"
+  },
+  "public/presentations/mobility/mobility_files/libs/revealjs/plugin/search/plugin.js": {
+    "mtime": 1783648081.8515353,
+    "ast_hash": "e39d5a868aff604a4bec144ae7a43c5b",
+    "semantic_hash": "e39d5a868aff604a4bec144ae7a43c5b"
+  },
+  "public/presentations/mobility/mobility_files/libs/revealjs/plugin/search/search.esm.js": {
+    "mtime": 1783648081.8515904,
+    "ast_hash": "1ff0e5fd23d9e0790498078f4acd37e8",
+    "semantic_hash": "1ff0e5fd23d9e0790498078f4acd37e8"
+  },
+  "public/presentations/mobility/mobility_files/libs/revealjs/plugin/search/search.js": {
+    "mtime": 1783648081.851647,
+    "ast_hash": "e265925ae6ee6ec778ed10ecba3c3da0",
+    "semantic_hash": "e265925ae6ee6ec778ed10ecba3c3da0"
+  },
+  "public/presentations/mobility/mobility_files/libs/revealjs/plugin/zoom/plugin.js": {
+    "mtime": 1783648081.8517559,
+    "ast_hash": "75d50a8cac0d19f0824a1c5876d36673",
+    "semantic_hash": "75d50a8cac0d19f0824a1c5876d36673"
+  },
+  "public/presentations/mobility/mobility_files/libs/revealjs/plugin/zoom/zoom.esm.js": {
+    "mtime": 1783648081.8518074,
+    "ast_hash": "c0a980f05da4f0bdd2ef6c8227fce9d3",
+    "semantic_hash": "c0a980f05da4f0bdd2ef6c8227fce9d3"
+  },
+  "public/presentations/mobility/mobility_files/libs/revealjs/plugin/zoom/zoom.js": {
+    "mtime": 1783648081.8518536,
+    "ast_hash": "9c28a4d1f1502771665328f6abb091c0",
+    "semantic_hash": "9c28a4d1f1502771665328f6abb091c0"
+  },
+  "public/presentations/mobility/mobility_short_files/libs/clipboard/clipboard.min.js": {
+    "mtime": 1783648081.8522148,
+    "ast_hash": "15f52a1ee547f2bdd46e56747332ca2d",
+    "semantic_hash": "15f52a1ee547f2bdd46e56747332ca2d"
+  },
+  "public/presentations/mobility/mobility_short_files/libs/quarto-html/popper.min.js": {
+    "mtime": 1783648081.8523784,
+    "ast_hash": "3a4a291ccf3f1ea0f82b641542fd3827",
+    "semantic_hash": "3a4a291ccf3f1ea0f82b641542fd3827"
+  },
+  "public/presentations/mobility/mobility_short_files/libs/quarto-html/tabby.min.js": {
+    "mtime": 1783648081.8525476,
+    "ast_hash": "c4219bb6375131a945d7e4bfc49c5f35",
+    "semantic_hash": "c4219bb6375131a945d7e4bfc49c5f35"
+  },
+  "public/presentations/mobility/mobility_short_files/libs/quarto-html/tippy.umd.min.js": {
+    "mtime": 1783648081.8527045,
+    "ast_hash": "d828775275749701b48bd9d958814111",
+    "semantic_hash": "d828775275749701b48bd9d958814111"
+  },
+  "public/presentations/mobility/mobility_short_files/libs/revealjs/plugin/highlight/highlight.esm.js": {
+    "mtime": 1783648081.858365,
+    "ast_hash": "19a0f6f1a902d2ef9aaefa1e046b3b2e",
+    "semantic_hash": "19a0f6f1a902d2ef9aaefa1e046b3b2e"
+  },
+  "public/presentations/mobility/mobility_short_files/libs/revealjs/plugin/highlight/highlight.js": {
+    "mtime": 1783648081.859536,
+    "ast_hash": "bebce5c694268a3f8dff84a58b270ba3",
+    "semantic_hash": "bebce5c694268a3f8dff84a58b270ba3"
+  },
+  "public/presentations/mobility/mobility_short_files/libs/revealjs/plugin/highlight/plugin.js": {
+    "mtime": 1783648081.8597076,
+    "ast_hash": "df2b6cec81d1c3d9730ef2b9421f62a1",
+    "semantic_hash": "df2b6cec81d1c3d9730ef2b9421f62a1"
+  },
+  "public/presentations/mobility/mobility_short_files/libs/revealjs/plugin/markdown/markdown.esm.js": {
+    "mtime": 1783648081.8598628,
+    "ast_hash": "51cf543919182a054e69a3d632356296",
+    "semantic_hash": "51cf543919182a054e69a3d632356296"
+  },
+  "public/presentations/mobility/mobility_short_files/libs/revealjs/plugin/markdown/markdown.js": {
+    "mtime": 1783648081.8599343,
+    "ast_hash": "e19760d2cc93d38d5df00081a1893828",
+    "semantic_hash": "e19760d2cc93d38d5df00081a1893828"
+  },
+  "public/presentations/mobility/mobility_short_files/libs/revealjs/plugin/markdown/plugin.js": {
+    "mtime": 1783648081.860032,
+    "ast_hash": "a1da0411f474b5bc82d1cc79faf4d0c1",
+    "semantic_hash": "a1da0411f474b5bc82d1cc79faf4d0c1"
+  },
+  "public/presentations/mobility/mobility_short_files/libs/revealjs/plugin/math/katex.js": {
+    "mtime": 1783648081.8601246,
+    "ast_hash": "2a22abd1eb5a1c923f2d41178427715a",
+    "semantic_hash": "2a22abd1eb5a1c923f2d41178427715a"
+  },
+  "public/presentations/mobility/mobility_short_files/libs/revealjs/plugin/math/math.esm.js": {
+    "mtime": 1783648081.860182,
+    "ast_hash": "51b0b5e4a4dd80029ab90fb9ded6b67c",
+    "semantic_hash": "51b0b5e4a4dd80029ab90fb9ded6b67c"
+  },
+  "public/presentations/mobility/mobility_short_files/libs/revealjs/plugin/math/math.js": {
+    "mtime": 1783648081.8602307,
+    "ast_hash": "744ade9a5dacddb69f35ee96cfd6f74a",
+    "semantic_hash": "744ade9a5dacddb69f35ee96cfd6f74a"
+  },
+  "public/presentations/mobility/mobility_short_files/libs/revealjs/plugin/math/mathjax2.js": {
+    "mtime": 1783648081.8602886,
+    "ast_hash": "c1ea64afa05c3677d2c404755193b2be",
+    "semantic_hash": "c1ea64afa05c3677d2c404755193b2be"
+  },
+  "public/presentations/mobility/mobility_short_files/libs/revealjs/plugin/math/mathjax3.js": {
+    "mtime": 1783648081.8603497,
+    "ast_hash": "57d54e9c4fb748505b3709484593834a",
+    "semantic_hash": "57d54e9c4fb748505b3709484593834a"
+  },
+  "public/presentations/mobility/mobility_short_files/libs/revealjs/plugin/math/plugin.js": {
+    "mtime": 1783648081.8603976,
+    "ast_hash": "ec9cb99b85a8026d24b26526f6effe0d",
+    "semantic_hash": "ec9cb99b85a8026d24b26526f6effe0d"
+  },
+  "public/presentations/mobility/mobility_short_files/libs/revealjs/plugin/notes/notes.esm.js": {
+    "mtime": 1783648081.8604944,
+    "ast_hash": "e1d960e6895a06986c9509c30ba784b2",
+    "semantic_hash": "e1d960e6895a06986c9509c30ba784b2"
+  },
+  "public/presentations/mobility/mobility_short_files/libs/revealjs/plugin/notes/notes.js": {
+    "mtime": 1783648081.8605816,
+    "ast_hash": "db8fab48fe15b175ca69e99f8af2fdfc",
+    "semantic_hash": "db8fab48fe15b175ca69e99f8af2fdfc"
+  },
+  "public/presentations/mobility/mobility_short_files/libs/revealjs/plugin/notes/plugin.js": {
+    "mtime": 1783648081.8606791,
+    "ast_hash": "9e52c9625a2f659373cc6e4c5ccf5b80",
+    "semantic_hash": "9e52c9625a2f659373cc6e4c5ccf5b80"
+  },
+  "public/presentations/mobility/mobility_short_files/libs/revealjs/plugin/pdf-export/pdfexport.js": {
+    "mtime": 1783648081.8608494,
+    "ast_hash": "d851935da36e7b598d2d57764599f88b",
+    "semantic_hash": "d851935da36e7b598d2d57764599f88b"
+  },
+  "public/presentations/mobility/mobility_short_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js": {
+    "mtime": 1783648081.8610454,
+    "ast_hash": "51cc37b684f5af8171d58269f6c18f07",
+    "semantic_hash": "51cc37b684f5af8171d58269f6c18f07"
+  },
+  "public/presentations/mobility/mobility_short_files/libs/revealjs/plugin/quarto-support/support.js": {
+    "mtime": 1783648081.8613074,
+    "ast_hash": "4403872730e278a9f00b5d3022de4369",
+    "semantic_hash": "4403872730e278a9f00b5d3022de4369"
+  },
+  "public/presentations/mobility/mobility_short_files/libs/revealjs/plugin/reveal-menu/menu.js": {
+    "mtime": 1783648081.8615425,
+    "ast_hash": "8db4f7eb4ad5670e6be4bdf83c389ca2",
+    "semantic_hash": "8db4f7eb4ad5670e6be4bdf83c389ca2"
+  },
+  "public/presentations/mobility/mobility_short_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js": {
+    "mtime": 1783648081.8617127,
+    "ast_hash": "d7e0fadc3011a74b823d1bb5006ffa9b",
+    "semantic_hash": "d7e0fadc3011a74b823d1bb5006ffa9b"
+  },
+  "public/presentations/mobility/mobility_short_files/libs/revealjs/plugin/search/plugin.js": {
+    "mtime": 1783648081.8618221,
+    "ast_hash": "e39d5a868aff604a4bec144ae7a43c5b",
+    "semantic_hash": "e39d5a868aff604a4bec144ae7a43c5b"
+  },
+  "public/presentations/mobility/mobility_short_files/libs/revealjs/plugin/search/search.esm.js": {
+    "mtime": 1783648081.8618727,
+    "ast_hash": "1ff0e5fd23d9e0790498078f4acd37e8",
+    "semantic_hash": "1ff0e5fd23d9e0790498078f4acd37e8"
+  },
+  "public/presentations/mobility/mobility_short_files/libs/revealjs/plugin/search/search.js": {
+    "mtime": 1783648081.86192,
+    "ast_hash": "e265925ae6ee6ec778ed10ecba3c3da0",
+    "semantic_hash": "e265925ae6ee6ec778ed10ecba3c3da0"
+  },
+  "public/presentations/mobility/mobility_short_files/libs/revealjs/plugin/zoom/plugin.js": {
+    "mtime": 1783648081.8620389,
+    "ast_hash": "75d50a8cac0d19f0824a1c5876d36673",
+    "semantic_hash": "75d50a8cac0d19f0824a1c5876d36673"
+  },
+  "public/presentations/mobility/mobility_short_files/libs/revealjs/plugin/zoom/zoom.esm.js": {
+    "mtime": 1783648081.862093,
+    "ast_hash": "c0a980f05da4f0bdd2ef6c8227fce9d3",
+    "semantic_hash": "c0a980f05da4f0bdd2ef6c8227fce9d3"
+  },
+  "public/presentations/mobility/mobility_short_files/libs/revealjs/plugin/zoom/zoom.js": {
+    "mtime": 1783648081.8621361,
+    "ast_hash": "9c28a4d1f1502771665328f6abb091c0",
+    "semantic_hash": "9c28a4d1f1502771665328f6abb091c0"
+  },
+  "static/presentations/experiment/unfairness_inequality_files/libs/bootstrap/bootstrap.min.js": {
+    "mtime": 1783648081.8109715,
+    "ast_hash": "e2b09c06f0e714b6144a6788a28e3950",
+    "semantic_hash": "e2b09c06f0e714b6144a6788a28e3950"
+  },
+  "static/presentations/experiment/unfairness_inequality_files/libs/clipboard/clipboard.min.js": {
+    "mtime": 1783648081.8110898,
+    "ast_hash": "15f52a1ee547f2bdd46e56747332ca2d",
+    "semantic_hash": "15f52a1ee547f2bdd46e56747332ca2d"
+  },
+  "static/presentations/experiment/unfairness_inequality_files/libs/quarto-html/anchor.min.js": {
+    "mtime": 1783648081.8112357,
+    "ast_hash": "91bcf6cd1fd88fec3f109811e5fc3546",
+    "semantic_hash": "91bcf6cd1fd88fec3f109811e5fc3546"
+  },
+  "static/presentations/experiment/unfairness_inequality_files/libs/quarto-html/popper.min.js": {
+    "mtime": 1783648081.8114116,
+    "ast_hash": "3a4a291ccf3f1ea0f82b641542fd3827",
+    "semantic_hash": "3a4a291ccf3f1ea0f82b641542fd3827"
+  },
+  "static/presentations/experiment/unfairness_inequality_files/libs/quarto-html/quarto.js": {
+    "mtime": 1783648081.811571,
+    "ast_hash": "6f4245742deb3cc92337dbe2701ccfe1",
+    "semantic_hash": "6f4245742deb3cc92337dbe2701ccfe1"
+  },
+  "static/presentations/experiment/unfairness_inequality_files/libs/quarto-html/tabby.min.js": {
+    "mtime": 1783648081.811657,
+    "ast_hash": "c4219bb6375131a945d7e4bfc49c5f35",
+    "semantic_hash": "c4219bb6375131a945d7e4bfc49c5f35"
+  },
+  "static/presentations/experiment/unfairness_inequality_files/libs/quarto-html/tabsets/tabsets.js": {
+    "mtime": 1783648081.8117778,
+    "ast_hash": "e8d6a8862b33ccc461f8fd532e05b365",
+    "semantic_hash": "e8d6a8862b33ccc461f8fd532e05b365"
+  },
+  "static/presentations/experiment/unfairness_inequality_files/libs/quarto-html/tippy.umd.min.js": {
+    "mtime": 1783648081.8119733,
+    "ast_hash": "d828775275749701b48bd9d958814111",
+    "semantic_hash": "d828775275749701b48bd9d958814111"
+  },
+  "static/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/highlight/highlight.esm.js": {
+    "mtime": 1783648081.8185174,
+    "ast_hash": "19a0f6f1a902d2ef9aaefa1e046b3b2e",
+    "semantic_hash": "19a0f6f1a902d2ef9aaefa1e046b3b2e"
+  },
+  "static/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/highlight/highlight.js": {
+    "mtime": 1783648081.8198397,
+    "ast_hash": "bebce5c694268a3f8dff84a58b270ba3",
+    "semantic_hash": "bebce5c694268a3f8dff84a58b270ba3"
+  },
+  "static/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/highlight/plugin.js": {
+    "mtime": 1783648081.8200397,
+    "ast_hash": "df2b6cec81d1c3d9730ef2b9421f62a1",
+    "semantic_hash": "df2b6cec81d1c3d9730ef2b9421f62a1"
+  },
+  "static/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/markdown/markdown.esm.js": {
+    "mtime": 1783648081.8202114,
+    "ast_hash": "51cf543919182a054e69a3d632356296",
+    "semantic_hash": "51cf543919182a054e69a3d632356296"
+  },
+  "static/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/markdown/markdown.js": {
+    "mtime": 1783648081.8203099,
+    "ast_hash": "e19760d2cc93d38d5df00081a1893828",
+    "semantic_hash": "e19760d2cc93d38d5df00081a1893828"
+  },
+  "static/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/markdown/plugin.js": {
+    "mtime": 1783648081.82043,
+    "ast_hash": "a1da0411f474b5bc82d1cc79faf4d0c1",
+    "semantic_hash": "a1da0411f474b5bc82d1cc79faf4d0c1"
+  },
+  "static/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/math/katex.js": {
+    "mtime": 1783648081.820545,
+    "ast_hash": "2a22abd1eb5a1c923f2d41178427715a",
+    "semantic_hash": "2a22abd1eb5a1c923f2d41178427715a"
+  },
+  "static/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/math/math.esm.js": {
+    "mtime": 1783648081.820621,
+    "ast_hash": "51b0b5e4a4dd80029ab90fb9ded6b67c",
+    "semantic_hash": "51b0b5e4a4dd80029ab90fb9ded6b67c"
+  },
+  "static/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/math/math.js": {
+    "mtime": 1783648081.8206813,
+    "ast_hash": "744ade9a5dacddb69f35ee96cfd6f74a",
+    "semantic_hash": "744ade9a5dacddb69f35ee96cfd6f74a"
+  },
+  "static/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/math/mathjax2.js": {
+    "mtime": 1783648081.82074,
+    "ast_hash": "c1ea64afa05c3677d2c404755193b2be",
+    "semantic_hash": "c1ea64afa05c3677d2c404755193b2be"
+  },
+  "static/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/math/mathjax3.js": {
+    "mtime": 1783648081.820815,
+    "ast_hash": "57d54e9c4fb748505b3709484593834a",
+    "semantic_hash": "57d54e9c4fb748505b3709484593834a"
+  },
+  "static/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/math/plugin.js": {
+    "mtime": 1783648081.8208816,
+    "ast_hash": "ec9cb99b85a8026d24b26526f6effe0d",
+    "semantic_hash": "ec9cb99b85a8026d24b26526f6effe0d"
+  },
+  "static/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/notes/notes.esm.js": {
+    "mtime": 1783648081.8210096,
+    "ast_hash": "e1d960e6895a06986c9509c30ba784b2",
+    "semantic_hash": "e1d960e6895a06986c9509c30ba784b2"
+  },
+  "static/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/notes/notes.js": {
+    "mtime": 1783648081.82112,
+    "ast_hash": "db8fab48fe15b175ca69e99f8af2fdfc",
+    "semantic_hash": "db8fab48fe15b175ca69e99f8af2fdfc"
+  },
+  "static/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/notes/plugin.js": {
+    "mtime": 1783648081.8212366,
+    "ast_hash": "9e52c9625a2f659373cc6e4c5ccf5b80",
+    "semantic_hash": "9e52c9625a2f659373cc6e4c5ccf5b80"
+  },
+  "static/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/pdf-export/pdfexport.js": {
+    "mtime": 1783648081.8214743,
+    "ast_hash": "d851935da36e7b598d2d57764599f88b",
+    "semantic_hash": "d851935da36e7b598d2d57764599f88b"
+  },
+  "static/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js": {
+    "mtime": 1783648081.8217578,
+    "ast_hash": "51cc37b684f5af8171d58269f6c18f07",
+    "semantic_hash": "51cc37b684f5af8171d58269f6c18f07"
+  },
+  "static/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/quarto-support/support.js": {
+    "mtime": 1783648081.8221474,
+    "ast_hash": "4403872730e278a9f00b5d3022de4369",
+    "semantic_hash": "4403872730e278a9f00b5d3022de4369"
+  },
+  "static/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/reveal-menu/menu.js": {
+    "mtime": 1783648081.822434,
+    "ast_hash": "8db4f7eb4ad5670e6be4bdf83c389ca2",
+    "semantic_hash": "8db4f7eb4ad5670e6be4bdf83c389ca2"
+  },
+  "static/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js": {
+    "mtime": 1783648081.8226542,
+    "ast_hash": "d7e0fadc3011a74b823d1bb5006ffa9b",
+    "semantic_hash": "d7e0fadc3011a74b823d1bb5006ffa9b"
+  },
+  "static/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/search/plugin.js": {
+    "mtime": 1783648081.822808,
+    "ast_hash": "e39d5a868aff604a4bec144ae7a43c5b",
+    "semantic_hash": "e39d5a868aff604a4bec144ae7a43c5b"
+  },
+  "static/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/search/search.esm.js": {
+    "mtime": 1783648081.8228848,
+    "ast_hash": "1ff0e5fd23d9e0790498078f4acd37e8",
+    "semantic_hash": "1ff0e5fd23d9e0790498078f4acd37e8"
+  },
+  "static/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/search/search.js": {
+    "mtime": 1783648081.8229666,
+    "ast_hash": "e265925ae6ee6ec778ed10ecba3c3da0",
+    "semantic_hash": "e265925ae6ee6ec778ed10ecba3c3da0"
+  },
+  "static/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/zoom/plugin.js": {
+    "mtime": 1783648081.8231134,
+    "ast_hash": "75d50a8cac0d19f0824a1c5876d36673",
+    "semantic_hash": "75d50a8cac0d19f0824a1c5876d36673"
+  },
+  "static/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/zoom/zoom.esm.js": {
+    "mtime": 1783648081.8232012,
+    "ast_hash": "c0a980f05da4f0bdd2ef6c8227fce9d3",
+    "semantic_hash": "c0a980f05da4f0bdd2ef6c8227fce9d3"
+  },
+  "static/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/zoom/zoom.js": {
+    "mtime": 1783648081.8232636,
+    "ast_hash": "9c28a4d1f1502771665328f6abb091c0",
+    "semantic_hash": "9c28a4d1f1502771665328f6abb091c0"
+  },
+  "static/presentations/mobility/mobility_files/libs/clipboard/clipboard.min.js": {
+    "mtime": 1783648081.8409023,
+    "ast_hash": "15f52a1ee547f2bdd46e56747332ca2d",
+    "semantic_hash": "15f52a1ee547f2bdd46e56747332ca2d"
+  },
+  "static/presentations/mobility/mobility_files/libs/quarto-html/popper.min.js": {
+    "mtime": 1783648081.8410902,
+    "ast_hash": "3a4a291ccf3f1ea0f82b641542fd3827",
+    "semantic_hash": "3a4a291ccf3f1ea0f82b641542fd3827"
+  },
+  "static/presentations/mobility/mobility_files/libs/quarto-html/tabby.min.js": {
+    "mtime": 1783648081.8412368,
+    "ast_hash": "c4219bb6375131a945d7e4bfc49c5f35",
+    "semantic_hash": "c4219bb6375131a945d7e4bfc49c5f35"
+  },
+  "static/presentations/mobility/mobility_files/libs/quarto-html/tippy.umd.min.js": {
+    "mtime": 1783648081.8413763,
+    "ast_hash": "d828775275749701b48bd9d958814111",
+    "semantic_hash": "d828775275749701b48bd9d958814111"
+  },
+  "static/presentations/mobility/mobility_files/libs/revealjs/plugin/highlight/highlight.esm.js": {
+    "mtime": 1783648081.8481445,
+    "ast_hash": "19a0f6f1a902d2ef9aaefa1e046b3b2e",
+    "semantic_hash": "19a0f6f1a902d2ef9aaefa1e046b3b2e"
+  },
+  "static/presentations/mobility/mobility_files/libs/revealjs/plugin/highlight/highlight.js": {
+    "mtime": 1783648081.8493311,
+    "ast_hash": "bebce5c694268a3f8dff84a58b270ba3",
+    "semantic_hash": "bebce5c694268a3f8dff84a58b270ba3"
+  },
+  "static/presentations/mobility/mobility_files/libs/revealjs/plugin/highlight/plugin.js": {
+    "mtime": 1783648081.849505,
+    "ast_hash": "df2b6cec81d1c3d9730ef2b9421f62a1",
+    "semantic_hash": "df2b6cec81d1c3d9730ef2b9421f62a1"
+  },
+  "static/presentations/mobility/mobility_files/libs/revealjs/plugin/markdown/markdown.esm.js": {
+    "mtime": 1783648081.849667,
+    "ast_hash": "51cf543919182a054e69a3d632356296",
+    "semantic_hash": "51cf543919182a054e69a3d632356296"
+  },
+  "static/presentations/mobility/mobility_files/libs/revealjs/plugin/markdown/markdown.js": {
+    "mtime": 1783648081.8497446,
+    "ast_hash": "e19760d2cc93d38d5df00081a1893828",
+    "semantic_hash": "e19760d2cc93d38d5df00081a1893828"
+  },
+  "static/presentations/mobility/mobility_files/libs/revealjs/plugin/markdown/plugin.js": {
+    "mtime": 1783648081.8498552,
+    "ast_hash": "a1da0411f474b5bc82d1cc79faf4d0c1",
+    "semantic_hash": "a1da0411f474b5bc82d1cc79faf4d0c1"
+  },
+  "static/presentations/mobility/mobility_files/libs/revealjs/plugin/math/katex.js": {
+    "mtime": 1783648081.8499494,
+    "ast_hash": "2a22abd1eb5a1c923f2d41178427715a",
+    "semantic_hash": "2a22abd1eb5a1c923f2d41178427715a"
+  },
+  "static/presentations/mobility/mobility_files/libs/revealjs/plugin/math/math.esm.js": {
+    "mtime": 1783648081.849999,
+    "ast_hash": "51b0b5e4a4dd80029ab90fb9ded6b67c",
+    "semantic_hash": "51b0b5e4a4dd80029ab90fb9ded6b67c"
+  },
+  "static/presentations/mobility/mobility_files/libs/revealjs/plugin/math/math.js": {
+    "mtime": 1783648081.850045,
+    "ast_hash": "744ade9a5dacddb69f35ee96cfd6f74a",
+    "semantic_hash": "744ade9a5dacddb69f35ee96cfd6f74a"
+  },
+  "static/presentations/mobility/mobility_files/libs/revealjs/plugin/math/mathjax2.js": {
+    "mtime": 1783648081.8501043,
+    "ast_hash": "c1ea64afa05c3677d2c404755193b2be",
+    "semantic_hash": "c1ea64afa05c3677d2c404755193b2be"
+  },
+  "static/presentations/mobility/mobility_files/libs/revealjs/plugin/math/mathjax3.js": {
+    "mtime": 1783648081.850156,
+    "ast_hash": "57d54e9c4fb748505b3709484593834a",
+    "semantic_hash": "57d54e9c4fb748505b3709484593834a"
+  },
+  "static/presentations/mobility/mobility_files/libs/revealjs/plugin/math/plugin.js": {
+    "mtime": 1783648081.8502023,
+    "ast_hash": "ec9cb99b85a8026d24b26526f6effe0d",
+    "semantic_hash": "ec9cb99b85a8026d24b26526f6effe0d"
+  },
+  "static/presentations/mobility/mobility_files/libs/revealjs/plugin/notes/notes.esm.js": {
+    "mtime": 1783648081.8502986,
+    "ast_hash": "e1d960e6895a06986c9509c30ba784b2",
+    "semantic_hash": "e1d960e6895a06986c9509c30ba784b2"
+  },
+  "static/presentations/mobility/mobility_files/libs/revealjs/plugin/notes/notes.js": {
+    "mtime": 1783648081.8503757,
+    "ast_hash": "db8fab48fe15b175ca69e99f8af2fdfc",
+    "semantic_hash": "db8fab48fe15b175ca69e99f8af2fdfc"
+  },
+  "static/presentations/mobility/mobility_files/libs/revealjs/plugin/notes/plugin.js": {
+    "mtime": 1783648081.8504646,
+    "ast_hash": "9e52c9625a2f659373cc6e4c5ccf5b80",
+    "semantic_hash": "9e52c9625a2f659373cc6e4c5ccf5b80"
+  },
+  "static/presentations/mobility/mobility_files/libs/revealjs/plugin/pdf-export/pdfexport.js": {
+    "mtime": 1783648081.850622,
+    "ast_hash": "d851935da36e7b598d2d57764599f88b",
+    "semantic_hash": "d851935da36e7b598d2d57764599f88b"
+  },
+  "static/presentations/mobility/mobility_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js": {
+    "mtime": 1783648081.8508196,
+    "ast_hash": "51cc37b684f5af8171d58269f6c18f07",
+    "semantic_hash": "51cc37b684f5af8171d58269f6c18f07"
+  },
+  "static/presentations/mobility/mobility_files/libs/revealjs/plugin/quarto-support/support.js": {
+    "mtime": 1783648081.851075,
+    "ast_hash": "4403872730e278a9f00b5d3022de4369",
+    "semantic_hash": "4403872730e278a9f00b5d3022de4369"
+  },
+  "static/presentations/mobility/mobility_files/libs/revealjs/plugin/reveal-menu/menu.js": {
+    "mtime": 1783648081.8512778,
+    "ast_hash": "8db4f7eb4ad5670e6be4bdf83c389ca2",
+    "semantic_hash": "8db4f7eb4ad5670e6be4bdf83c389ca2"
+  },
+  "static/presentations/mobility/mobility_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js": {
+    "mtime": 1783648081.8514166,
+    "ast_hash": "d7e0fadc3011a74b823d1bb5006ffa9b",
+    "semantic_hash": "d7e0fadc3011a74b823d1bb5006ffa9b"
+  },
+  "static/presentations/mobility/mobility_files/libs/revealjs/plugin/search/plugin.js": {
+    "mtime": 1783648081.8515353,
+    "ast_hash": "e39d5a868aff604a4bec144ae7a43c5b",
+    "semantic_hash": "e39d5a868aff604a4bec144ae7a43c5b"
+  },
+  "static/presentations/mobility/mobility_files/libs/revealjs/plugin/search/search.esm.js": {
+    "mtime": 1783648081.8515904,
+    "ast_hash": "1ff0e5fd23d9e0790498078f4acd37e8",
+    "semantic_hash": "1ff0e5fd23d9e0790498078f4acd37e8"
+  },
+  "static/presentations/mobility/mobility_files/libs/revealjs/plugin/search/search.js": {
+    "mtime": 1783648081.851647,
+    "ast_hash": "e265925ae6ee6ec778ed10ecba3c3da0",
+    "semantic_hash": "e265925ae6ee6ec778ed10ecba3c3da0"
+  },
+  "static/presentations/mobility/mobility_files/libs/revealjs/plugin/zoom/plugin.js": {
+    "mtime": 1783648081.8517559,
+    "ast_hash": "75d50a8cac0d19f0824a1c5876d36673",
+    "semantic_hash": "75d50a8cac0d19f0824a1c5876d36673"
+  },
+  "static/presentations/mobility/mobility_files/libs/revealjs/plugin/zoom/zoom.esm.js": {
+    "mtime": 1783648081.8518074,
+    "ast_hash": "c0a980f05da4f0bdd2ef6c8227fce9d3",
+    "semantic_hash": "c0a980f05da4f0bdd2ef6c8227fce9d3"
+  },
+  "static/presentations/mobility/mobility_files/libs/revealjs/plugin/zoom/zoom.js": {
+    "mtime": 1783648081.8518536,
+    "ast_hash": "9c28a4d1f1502771665328f6abb091c0",
+    "semantic_hash": "9c28a4d1f1502771665328f6abb091c0"
+  },
+  "static/presentations/mobility/mobility_short_files/libs/clipboard/clipboard.min.js": {
+    "mtime": 1783648081.8522148,
+    "ast_hash": "15f52a1ee547f2bdd46e56747332ca2d",
+    "semantic_hash": "15f52a1ee547f2bdd46e56747332ca2d"
+  },
+  "static/presentations/mobility/mobility_short_files/libs/quarto-html/popper.min.js": {
+    "mtime": 1783648081.8523784,
+    "ast_hash": "3a4a291ccf3f1ea0f82b641542fd3827",
+    "semantic_hash": "3a4a291ccf3f1ea0f82b641542fd3827"
+  },
+  "static/presentations/mobility/mobility_short_files/libs/quarto-html/tabby.min.js": {
+    "mtime": 1783648081.8525476,
+    "ast_hash": "c4219bb6375131a945d7e4bfc49c5f35",
+    "semantic_hash": "c4219bb6375131a945d7e4bfc49c5f35"
+  },
+  "static/presentations/mobility/mobility_short_files/libs/quarto-html/tippy.umd.min.js": {
+    "mtime": 1783648081.8527045,
+    "ast_hash": "d828775275749701b48bd9d958814111",
+    "semantic_hash": "d828775275749701b48bd9d958814111"
+  },
+  "static/presentations/mobility/mobility_short_files/libs/revealjs/plugin/highlight/highlight.esm.js": {
+    "mtime": 1783648081.858365,
+    "ast_hash": "19a0f6f1a902d2ef9aaefa1e046b3b2e",
+    "semantic_hash": "19a0f6f1a902d2ef9aaefa1e046b3b2e"
+  },
+  "static/presentations/mobility/mobility_short_files/libs/revealjs/plugin/highlight/highlight.js": {
+    "mtime": 1783648081.859536,
+    "ast_hash": "bebce5c694268a3f8dff84a58b270ba3",
+    "semantic_hash": "bebce5c694268a3f8dff84a58b270ba3"
+  },
+  "static/presentations/mobility/mobility_short_files/libs/revealjs/plugin/highlight/plugin.js": {
+    "mtime": 1783648081.8597076,
+    "ast_hash": "df2b6cec81d1c3d9730ef2b9421f62a1",
+    "semantic_hash": "df2b6cec81d1c3d9730ef2b9421f62a1"
+  },
+  "static/presentations/mobility/mobility_short_files/libs/revealjs/plugin/markdown/markdown.esm.js": {
+    "mtime": 1783648081.8598628,
+    "ast_hash": "51cf543919182a054e69a3d632356296",
+    "semantic_hash": "51cf543919182a054e69a3d632356296"
+  },
+  "static/presentations/mobility/mobility_short_files/libs/revealjs/plugin/markdown/markdown.js": {
+    "mtime": 1783648081.8599343,
+    "ast_hash": "e19760d2cc93d38d5df00081a1893828",
+    "semantic_hash": "e19760d2cc93d38d5df00081a1893828"
+  },
+  "static/presentations/mobility/mobility_short_files/libs/revealjs/plugin/markdown/plugin.js": {
+    "mtime": 1783648081.860032,
+    "ast_hash": "a1da0411f474b5bc82d1cc79faf4d0c1",
+    "semantic_hash": "a1da0411f474b5bc82d1cc79faf4d0c1"
+  },
+  "static/presentations/mobility/mobility_short_files/libs/revealjs/plugin/math/katex.js": {
+    "mtime": 1783648081.8601246,
+    "ast_hash": "2a22abd1eb5a1c923f2d41178427715a",
+    "semantic_hash": "2a22abd1eb5a1c923f2d41178427715a"
+  },
+  "static/presentations/mobility/mobility_short_files/libs/revealjs/plugin/math/math.esm.js": {
+    "mtime": 1783648081.860182,
+    "ast_hash": "51b0b5e4a4dd80029ab90fb9ded6b67c",
+    "semantic_hash": "51b0b5e4a4dd80029ab90fb9ded6b67c"
+  },
+  "static/presentations/mobility/mobility_short_files/libs/revealjs/plugin/math/math.js": {
+    "mtime": 1783648081.8602307,
+    "ast_hash": "744ade9a5dacddb69f35ee96cfd6f74a",
+    "semantic_hash": "744ade9a5dacddb69f35ee96cfd6f74a"
+  },
+  "static/presentations/mobility/mobility_short_files/libs/revealjs/plugin/math/mathjax2.js": {
+    "mtime": 1783648081.8602886,
+    "ast_hash": "c1ea64afa05c3677d2c404755193b2be",
+    "semantic_hash": "c1ea64afa05c3677d2c404755193b2be"
+  },
+  "static/presentations/mobility/mobility_short_files/libs/revealjs/plugin/math/mathjax3.js": {
+    "mtime": 1783648081.8603497,
+    "ast_hash": "57d54e9c4fb748505b3709484593834a",
+    "semantic_hash": "57d54e9c4fb748505b3709484593834a"
+  },
+  "static/presentations/mobility/mobility_short_files/libs/revealjs/plugin/math/plugin.js": {
+    "mtime": 1783648081.8603976,
+    "ast_hash": "ec9cb99b85a8026d24b26526f6effe0d",
+    "semantic_hash": "ec9cb99b85a8026d24b26526f6effe0d"
+  },
+  "static/presentations/mobility/mobility_short_files/libs/revealjs/plugin/notes/notes.esm.js": {
+    "mtime": 1783648081.8604944,
+    "ast_hash": "e1d960e6895a06986c9509c30ba784b2",
+    "semantic_hash": "e1d960e6895a06986c9509c30ba784b2"
+  },
+  "static/presentations/mobility/mobility_short_files/libs/revealjs/plugin/notes/notes.js": {
+    "mtime": 1783648081.8605816,
+    "ast_hash": "db8fab48fe15b175ca69e99f8af2fdfc",
+    "semantic_hash": "db8fab48fe15b175ca69e99f8af2fdfc"
+  },
+  "static/presentations/mobility/mobility_short_files/libs/revealjs/plugin/notes/plugin.js": {
+    "mtime": 1783648081.8606791,
+    "ast_hash": "9e52c9625a2f659373cc6e4c5ccf5b80",
+    "semantic_hash": "9e52c9625a2f659373cc6e4c5ccf5b80"
+  },
+  "static/presentations/mobility/mobility_short_files/libs/revealjs/plugin/pdf-export/pdfexport.js": {
+    "mtime": 1783648081.8608494,
+    "ast_hash": "d851935da36e7b598d2d57764599f88b",
+    "semantic_hash": "d851935da36e7b598d2d57764599f88b"
+  },
+  "static/presentations/mobility/mobility_short_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js": {
+    "mtime": 1783648081.8610454,
+    "ast_hash": "51cc37b684f5af8171d58269f6c18f07",
+    "semantic_hash": "51cc37b684f5af8171d58269f6c18f07"
+  },
+  "static/presentations/mobility/mobility_short_files/libs/revealjs/plugin/quarto-support/support.js": {
+    "mtime": 1783648081.8613074,
+    "ast_hash": "4403872730e278a9f00b5d3022de4369",
+    "semantic_hash": "4403872730e278a9f00b5d3022de4369"
+  },
+  "static/presentations/mobility/mobility_short_files/libs/revealjs/plugin/reveal-menu/menu.js": {
+    "mtime": 1783648081.8615425,
+    "ast_hash": "8db4f7eb4ad5670e6be4bdf83c389ca2",
+    "semantic_hash": "8db4f7eb4ad5670e6be4bdf83c389ca2"
+  },
+  "static/presentations/mobility/mobility_short_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js": {
+    "mtime": 1783648081.8617127,
+    "ast_hash": "d7e0fadc3011a74b823d1bb5006ffa9b",
+    "semantic_hash": "d7e0fadc3011a74b823d1bb5006ffa9b"
+  },
+  "static/presentations/mobility/mobility_short_files/libs/revealjs/plugin/search/plugin.js": {
+    "mtime": 1783648081.8618221,
+    "ast_hash": "e39d5a868aff604a4bec144ae7a43c5b",
+    "semantic_hash": "e39d5a868aff604a4bec144ae7a43c5b"
+  },
+  "static/presentations/mobility/mobility_short_files/libs/revealjs/plugin/search/search.esm.js": {
+    "mtime": 1783648081.8618727,
+    "ast_hash": "1ff0e5fd23d9e0790498078f4acd37e8",
+    "semantic_hash": "1ff0e5fd23d9e0790498078f4acd37e8"
+  },
+  "static/presentations/mobility/mobility_short_files/libs/revealjs/plugin/search/search.js": {
+    "mtime": 1783648081.86192,
+    "ast_hash": "e265925ae6ee6ec778ed10ecba3c3da0",
+    "semantic_hash": "e265925ae6ee6ec778ed10ecba3c3da0"
+  },
+  "static/presentations/mobility/mobility_short_files/libs/revealjs/plugin/zoom/plugin.js": {
+    "mtime": 1783648081.8620389,
+    "ast_hash": "75d50a8cac0d19f0824a1c5876d36673",
+    "semantic_hash": "75d50a8cac0d19f0824a1c5876d36673"
+  },
+  "static/presentations/mobility/mobility_short_files/libs/revealjs/plugin/zoom/zoom.esm.js": {
+    "mtime": 1783648081.862093,
+    "ast_hash": "c0a980f05da4f0bdd2ef6c8227fce9d3",
+    "semantic_hash": "c0a980f05da4f0bdd2ef6c8227fce9d3"
+  },
+  "static/presentations/mobility/mobility_short_files/libs/revealjs/plugin/zoom/zoom.js": {
+    "mtime": 1783648081.8621361,
+    "ast_hash": "9c28a4d1f1502771665328f6abb091c0",
+    "semantic_hash": "9c28a4d1f1502771665328f6abb091c0"
+  },
+  "themes/terminal/.husky/pre-push": {
+    "mtime": 1783649994.6480513,
+    "ast_hash": "47f6bbc66208caee831c3f413f08e441",
+    "semantic_hash": "47f6bbc66208caee831c3f413f08e441"
+  },
+  "themes/terminal/.stylelintrc.json": {
+    "mtime": 1783649994.648187,
+    "ast_hash": "7be919becc7f8dcd7797e39eac8ca985",
+    "semantic_hash": "7be919becc7f8dcd7797e39eac8ca985"
+  },
+  "themes/terminal/assets/js/code.js": {
+    "mtime": 1783649994.6498387,
+    "ast_hash": "8373fea3a7f09f13d3eb96bae4218eaf",
+    "semantic_hash": "8373fea3a7f09f13d3eb96bae4218eaf"
+  },
+  "themes/terminal/assets/js/menu.js": {
+    "mtime": 1783649994.6498997,
+    "ast_hash": "6b36285ec213951e7467e1333d7f7185",
+    "semantic_hash": "6b36285ec213951e7467e1333d7f7185"
+  },
+  "themes/terminal/babel.config.js": {
+    "mtime": 1783649994.6499636,
+    "ast_hash": "5eedcd1958e8d122b2275e46feb26a46",
+    "semantic_hash": "5eedcd1958e8d122b2275e46feb26a46"
+  },
+  "themes/terminal/go.mod": {
+    "mtime": 1783649994.6509876,
+    "ast_hash": "ae4d4af0335742773d9094968b85d8e4",
+    "semantic_hash": "ae4d4af0335742773d9094968b85d8e4"
+  },
+  "themes/terminal/package.hugo.json": {
+    "mtime": 1783649994.6563132,
+    "ast_hash": "e4a7b2472ec5d07460d950475f5432e3",
+    "semantic_hash": "e4a7b2472ec5d07460d950475f5432e3"
+  },
+  "themes/terminal/package.json": {
+    "mtime": 1783649994.6563702,
+    "ast_hash": "7d2ba802b3650102a3c4bae26f30cd52",
+    "semantic_hash": "7d2ba802b3650102a3c4bae26f30cd52"
+  },
+  ".github/workflows/deploy.yml": {
+    "mtime": 1783648081.623235,
+    "ast_hash": "d7f5574754b4222bbd6ad8ec5b21e7f2",
+    "semantic_hash": "d7f5574754b4222bbd6ad8ec5b21e7f2"
+  },
+  "archetypes/default.md": {
+    "mtime": 1783648081.6239374,
+    "ast_hash": "3d39ef027babc74391e207d220de7904",
+    "semantic_hash": "3d39ef027babc74391e207d220de7904"
+  },
+  "content/_index.md": {
+    "mtime": 1783689849.1974537,
+    "ast_hash": "1466a2fccb895db13c4cdf59248854ce",
+    "semantic_hash": "1466a2fccb895db13c4cdf59248854ce"
+  },
+  "content/consulting/_index.md": {
+    "mtime": 1783648081.6244237,
+    "ast_hash": "a9f8aecb018e4f1fbe8ae8dada39073a",
+    "semantic_hash": "a9f8aecb018e4f1fbe8ae8dada39073a"
+  },
+  "content/cv/_index.md": {
+    "mtime": 1783648081.6245914,
+    "ast_hash": "327ce55d9d5fb08ff6143f40fb53b23f",
+    "semantic_hash": "327ce55d9d5fb08ff6143f40fb53b23f"
+  },
+  "content/ongoing-work/_index.md": {
+    "mtime": 1783687544.7724295,
+    "ast_hash": "6f49a16aa462fc5e9d53dcda6d3f16eb",
+    "semantic_hash": "6f49a16aa462fc5e9d53dcda6d3f16eb"
+  },
+  "content/publications/_index.md": {
+    "mtime": 1783648081.6249373,
+    "ast_hash": "45a7c5cd136fcabc8278117add49309f",
+    "semantic_hash": "45a7c5cd136fcabc8278117add49309f"
+  },
+  "content/teaching/_index.md": {
+    "mtime": 1783648081.6251338,
+    "ast_hash": "d0493422a60dd4b441e9ca2ac74b7420",
+    "semantic_hash": "d0493422a60dd4b441e9ca2ac74b7420"
+  },
+  "layouts/index.html": {
+    "mtime": 1783648081.6252768,
+    "ast_hash": "9cb9e5ef9f949faf2ae46f97cb71768e",
+    "semantic_hash": "9cb9e5ef9f949faf2ae46f97cb71768e"
+  },
+  "public/404.html": {
+    "mtime": 1783728313.1808236,
+    "ast_hash": "6ad57b11e45aca3c0c45bdfbee5a0b8e",
+    "semantic_hash": "6ad57b11e45aca3c0c45bdfbee5a0b8e"
+  },
+  "public/categories/index.html": {
+    "mtime": 1783728313.1808243,
+    "ast_hash": "63dfdcdcdac2b50586a5cae7bc25099a",
+    "semantic_hash": "63dfdcdcdac2b50586a5cae7bc25099a"
+  },
+  "public/consulting/index.html": {
+    "mtime": 1783728313.1810977,
+    "ast_hash": "5e646d55fc6d7ae6bdd90e6330b4df5f",
+    "semantic_hash": "5e646d55fc6d7ae6bdd90e6330b4df5f"
+  },
+  "public/consulting/page/1/index.html": {
+    "mtime": 1783728313.1821876,
+    "ast_hash": "f9b0c3c5a1d5b207801bcedefda10906",
+    "semantic_hash": "f9b0c3c5a1d5b207801bcedefda10906"
+  },
+  "public/cv/index.html": {
+    "mtime": 1783728313.1813133,
+    "ast_hash": "d7493f28e5943eaa8726aa167727c3b1",
+    "semantic_hash": "d7493f28e5943eaa8726aa167727c3b1"
+  },
+  "public/cv/page/1/index.html": {
+    "mtime": 1783728313.1821916,
+    "ast_hash": "a1942766aca1c7dc53713fd41ce5d1c4",
+    "semantic_hash": "a1942766aca1c7dc53713fd41ce5d1c4"
+  },
+  "public/index.html": {
+    "mtime": 1783728313.1811426,
+    "ast_hash": "b32a7648b3b073fb0d9570654ace26c6",
+    "semantic_hash": "b32a7648b3b073fb0d9570654ace26c6"
+  },
+  "public/notebooks/Bayes_structured_dispersion.nb.html": {
+    "mtime": 1783648081.7489948,
+    "ast_hash": "b5161f0789ab536b0a92a0bea7719c2a",
+    "semantic_hash": "b5161f0789ab536b0a92a0bea7719c2a"
+  },
+  "public/notebooks/Gofs.nb.html": {
+    "mtime": 1783648081.7493713,
+    "ast_hash": "5d65d7d5786b51d9469571ce7ad0166b",
+    "semantic_hash": "5d65d7d5786b51d9469571ce7ad0166b"
+  },
+  "public/notebooks/Lasso_llm.nb.html": {
+    "mtime": 1783648081.7499132,
+    "ast_hash": "97ea99d6a2e3dd7a41468293cdec018e",
+    "semantic_hash": "97ea99d6a2e3dd7a41468293cdec018e"
+  },
+  "public/notebooks/Visualization_llm.nb.html": {
+    "mtime": 1783648081.75057,
+    "ast_hash": "9dd812852f285a72c8a0e84021671eba",
+    "semantic_hash": "9dd812852f285a72c8a0e84021671eba"
+  },
+  "public/ongoing-work/index.html": {
+    "mtime": 1783728313.1809387,
+    "ast_hash": "ee29a4093b7ee5a496913573a24c79e8",
+    "semantic_hash": "ee29a4093b7ee5a496913573a24c79e8"
+  },
+  "public/ongoing-work/page/1/index.html": {
+    "mtime": 1783728313.1819563,
+    "ast_hash": "45e7a2aa921e6323d25a528f63c5cd39",
+    "semantic_hash": "45e7a2aa921e6323d25a528f63c5cd39"
+  },
+  "public/presentations/experiment/unfairness_inequality.html": {
+    "mtime": 1783648081.797338,
+    "ast_hash": "817409991029b05d7b3775783ac9f6f4",
+    "semantic_hash": "817409991029b05d7b3775783ac9f6f4"
+  },
+  "public/presentations/experiment/unfairness_inequality.qmd": {
+    "mtime": 1783648081.8099785,
+    "ast_hash": "d94353858f5edf3e420b6ae18a62b2b5",
+    "semantic_hash": "d94353858f5edf3e420b6ae18a62b2b5"
+  },
+  "public/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/notes/speaker-view.html": {
+    "mtime": 1783648081.821315,
+    "ast_hash": "3e84d135161198849174057abe95b91c",
+    "semantic_hash": "3e84d135161198849174057abe95b91c"
+  },
+  "public/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/pdf-export/plugin.yml": {
+    "mtime": 1783648081.821545,
+    "ast_hash": "76add7202812cd14a48ca57b96777de4",
+    "semantic_hash": "76add7202812cd14a48ca57b96777de4"
+  },
+  "public/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/quarto-line-highlight/plugin.yml": {
+    "mtime": 1783648081.821837,
+    "ast_hash": "4af9468c1cc516c6b54c12e686ba708f",
+    "semantic_hash": "4af9468c1cc516c6b54c12e686ba708f"
+  },
+  "public/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/quarto-support/plugin.yml": {
+    "mtime": 1783648081.822044,
+    "ast_hash": "4f79b4a104bed30cd5b7b49d598bed88",
+    "semantic_hash": "4f79b4a104bed30cd5b7b49d598bed88"
+  },
+  "public/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/reveal-menu/plugin.yml": {
+    "mtime": 1783648081.8225126,
+    "ast_hash": "b949d3d3d5bdf5b5f508e6bfb328798e",
+    "semantic_hash": "b949d3d3d5bdf5b5f508e6bfb328798e"
+  },
+  "public/presentations/mobility/mobility.html": {
+    "mtime": 1783648081.8405936,
+    "ast_hash": "a10df307614e528c11cd89be74f9517e",
+    "semantic_hash": "a10df307614e528c11cd89be74f9517e"
+  },
+  "public/presentations/mobility/mobility.qmd": {
+    "mtime": 1783648081.8406851,
+    "ast_hash": "84b95bc1c713e86e530094154171a3ea",
+    "semantic_hash": "84b95bc1c713e86e530094154171a3ea"
+  },
+  "public/presentations/mobility/mobility_files/libs/revealjs/plugin/notes/speaker-view.html": {
+    "mtime": 1783648081.850533,
+    "ast_hash": "3e84d135161198849174057abe95b91c",
+    "semantic_hash": "3e84d135161198849174057abe95b91c"
+  },
+  "public/presentations/mobility/mobility_files/libs/revealjs/plugin/pdf-export/plugin.yml": {
+    "mtime": 1783648081.8506637,
+    "ast_hash": "76add7202812cd14a48ca57b96777de4",
+    "semantic_hash": "76add7202812cd14a48ca57b96777de4"
+  },
+  "public/presentations/mobility/mobility_files/libs/revealjs/plugin/quarto-line-highlight/plugin.yml": {
+    "mtime": 1783648081.850868,
+    "ast_hash": "4af9468c1cc516c6b54c12e686ba708f",
+    "semantic_hash": "4af9468c1cc516c6b54c12e686ba708f"
+  },
+  "public/presentations/mobility/mobility_files/libs/revealjs/plugin/quarto-support/plugin.yml": {
+    "mtime": 1783648081.8509881,
+    "ast_hash": "4f79b4a104bed30cd5b7b49d598bed88",
+    "semantic_hash": "4f79b4a104bed30cd5b7b49d598bed88"
+  },
+  "public/presentations/mobility/mobility_files/libs/revealjs/plugin/reveal-menu/plugin.yml": {
+    "mtime": 1783648081.851325,
+    "ast_hash": "b949d3d3d5bdf5b5f508e6bfb328798e",
+    "semantic_hash": "b949d3d3d5bdf5b5f508e6bfb328798e"
+  },
+  "public/presentations/mobility/mobility_short.html": {
+    "mtime": 1783648081.8519514,
+    "ast_hash": "73c3779fd6f9e97adfafeeab001a871b",
+    "semantic_hash": "73c3779fd6f9e97adfafeeab001a871b"
+  },
+  "public/presentations/mobility/mobility_short.qmd": {
+    "mtime": 1783648081.8520184,
+    "ast_hash": "053833c7ae661ff3902eb3c67594bd02",
+    "semantic_hash": "053833c7ae661ff3902eb3c67594bd02"
+  },
+  "public/presentations/mobility/mobility_short_files/libs/revealjs/plugin/notes/speaker-view.html": {
+    "mtime": 1783648081.8607612,
+    "ast_hash": "3e84d135161198849174057abe95b91c",
+    "semantic_hash": "3e84d135161198849174057abe95b91c"
+  },
+  "public/presentations/mobility/mobility_short_files/libs/revealjs/plugin/pdf-export/plugin.yml": {
+    "mtime": 1783648081.86089,
+    "ast_hash": "76add7202812cd14a48ca57b96777de4",
+    "semantic_hash": "76add7202812cd14a48ca57b96777de4"
+  },
+  "public/presentations/mobility/mobility_short_files/libs/revealjs/plugin/quarto-line-highlight/plugin.yml": {
+    "mtime": 1783648081.8610964,
+    "ast_hash": "4af9468c1cc516c6b54c12e686ba708f",
+    "semantic_hash": "4af9468c1cc516c6b54c12e686ba708f"
+  },
+  "public/presentations/mobility/mobility_short_files/libs/revealjs/plugin/quarto-support/plugin.yml": {
+    "mtime": 1783648081.8612208,
+    "ast_hash": "4f79b4a104bed30cd5b7b49d598bed88",
+    "semantic_hash": "4f79b4a104bed30cd5b7b49d598bed88"
+  },
+  "public/presentations/mobility/mobility_short_files/libs/revealjs/plugin/reveal-menu/plugin.yml": {
+    "mtime": 1783648081.8615906,
+    "ast_hash": "b949d3d3d5bdf5b5f508e6bfb328798e",
+    "semantic_hash": "b949d3d3d5bdf5b5f508e6bfb328798e"
+  },
+  "public/publications/index.html": {
+    "mtime": 1783728313.1812253,
+    "ast_hash": "88f8d78e96f758106d99af22ecf76a18",
+    "semantic_hash": "88f8d78e96f758106d99af22ecf76a18"
+  },
+  "public/publications/page/1/index.html": {
+    "mtime": 1783728313.1821885,
+    "ast_hash": "e02890306c68cab9ed93d3be4bab618e",
+    "semantic_hash": "e02890306c68cab9ed93d3be4bab618e"
+  },
+  "public/tags/index.html": {
+    "mtime": 1783728313.181106,
+    "ast_hash": "498db39eca1ed5b593978a46e8e96138",
+    "semantic_hash": "498db39eca1ed5b593978a46e8e96138"
+  },
+  "public/teaching/index.html": {
+    "mtime": 1783728313.18075,
+    "ast_hash": "7e436b919c1281d0e436e85a3349b608",
+    "semantic_hash": "7e436b919c1281d0e436e85a3349b608"
+  },
+  "public/teaching/page/1/index.html": {
+    "mtime": 1783728313.1822426,
+    "ast_hash": "83a40e6f1095f11f287625c32568d481",
+    "semantic_hash": "83a40e6f1095f11f287625c32568d481"
+  },
+  "static/notebooks/Bayes_structured_dispersion.nb.html": {
+    "mtime": 1783648081.7489948,
+    "ast_hash": "b5161f0789ab536b0a92a0bea7719c2a",
+    "semantic_hash": "b5161f0789ab536b0a92a0bea7719c2a"
+  },
+  "static/notebooks/Gofs.nb.html": {
+    "mtime": 1783648081.7493713,
+    "ast_hash": "5d65d7d5786b51d9469571ce7ad0166b",
+    "semantic_hash": "5d65d7d5786b51d9469571ce7ad0166b"
+  },
+  "static/notebooks/Lasso_llm.nb.html": {
+    "mtime": 1783648081.7499132,
+    "ast_hash": "97ea99d6a2e3dd7a41468293cdec018e",
+    "semantic_hash": "97ea99d6a2e3dd7a41468293cdec018e"
+  },
+  "static/notebooks/Visualization_llm.nb.html": {
+    "mtime": 1783648081.75057,
+    "ast_hash": "9dd812852f285a72c8a0e84021671eba",
+    "semantic_hash": "9dd812852f285a72c8a0e84021671eba"
+  },
+  "static/presentations/experiment/unfairness_inequality.html": {
+    "mtime": 1783648081.797338,
+    "ast_hash": "817409991029b05d7b3775783ac9f6f4",
+    "semantic_hash": "817409991029b05d7b3775783ac9f6f4"
+  },
+  "static/presentations/experiment/unfairness_inequality.qmd": {
+    "mtime": 1783648081.8099785,
+    "ast_hash": "d94353858f5edf3e420b6ae18a62b2b5",
+    "semantic_hash": "d94353858f5edf3e420b6ae18a62b2b5"
+  },
+  "static/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/notes/speaker-view.html": {
+    "mtime": 1783648081.821315,
+    "ast_hash": "3e84d135161198849174057abe95b91c",
+    "semantic_hash": "3e84d135161198849174057abe95b91c"
+  },
+  "static/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/pdf-export/plugin.yml": {
+    "mtime": 1783648081.821545,
+    "ast_hash": "76add7202812cd14a48ca57b96777de4",
+    "semantic_hash": "76add7202812cd14a48ca57b96777de4"
+  },
+  "static/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/quarto-line-highlight/plugin.yml": {
+    "mtime": 1783648081.821837,
+    "ast_hash": "4af9468c1cc516c6b54c12e686ba708f",
+    "semantic_hash": "4af9468c1cc516c6b54c12e686ba708f"
+  },
+  "static/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/quarto-support/plugin.yml": {
+    "mtime": 1783648081.822044,
+    "ast_hash": "4f79b4a104bed30cd5b7b49d598bed88",
+    "semantic_hash": "4f79b4a104bed30cd5b7b49d598bed88"
+  },
+  "static/presentations/experiment/unfairness_inequality_files/libs/revealjs/plugin/reveal-menu/plugin.yml": {
+    "mtime": 1783648081.8225126,
+    "ast_hash": "b949d3d3d5bdf5b5f508e6bfb328798e",
+    "semantic_hash": "b949d3d3d5bdf5b5f508e6bfb328798e"
+  },
+  "static/presentations/mobility/mobility.html": {
+    "mtime": 1783648081.8405936,
+    "ast_hash": "a10df307614e528c11cd89be74f9517e",
+    "semantic_hash": "a10df307614e528c11cd89be74f9517e"
+  },
+  "static/presentations/mobility/mobility.qmd": {
+    "mtime": 1783648081.8406851,
+    "ast_hash": "84b95bc1c713e86e530094154171a3ea",
+    "semantic_hash": "84b95bc1c713e86e530094154171a3ea"
+  },
+  "static/presentations/mobility/mobility_files/libs/revealjs/plugin/notes/speaker-view.html": {
+    "mtime": 1783648081.850533,
+    "ast_hash": "3e84d135161198849174057abe95b91c",
+    "semantic_hash": "3e84d135161198849174057abe95b91c"
+  },
+  "static/presentations/mobility/mobility_files/libs/revealjs/plugin/pdf-export/plugin.yml": {
+    "mtime": 1783648081.8506637,
+    "ast_hash": "76add7202812cd14a48ca57b96777de4",
+    "semantic_hash": "76add7202812cd14a48ca57b96777de4"
+  },
+  "static/presentations/mobility/mobility_files/libs/revealjs/plugin/quarto-line-highlight/plugin.yml": {
+    "mtime": 1783648081.850868,
+    "ast_hash": "4af9468c1cc516c6b54c12e686ba708f",
+    "semantic_hash": "4af9468c1cc516c6b54c12e686ba708f"
+  },
+  "static/presentations/mobility/mobility_files/libs/revealjs/plugin/quarto-support/plugin.yml": {
+    "mtime": 1783648081.8509881,
+    "ast_hash": "4f79b4a104bed30cd5b7b49d598bed88",
+    "semantic_hash": "4f79b4a104bed30cd5b7b49d598bed88"
+  },
+  "static/presentations/mobility/mobility_files/libs/revealjs/plugin/reveal-menu/plugin.yml": {
+    "mtime": 1783648081.851325,
+    "ast_hash": "b949d3d3d5bdf5b5f508e6bfb328798e",
+    "semantic_hash": "b949d3d3d5bdf5b5f508e6bfb328798e"
+  },
+  "static/presentations/mobility/mobility_short.html": {
+    "mtime": 1783648081.8519514,
+    "ast_hash": "73c3779fd6f9e97adfafeeab001a871b",
+    "semantic_hash": "73c3779fd6f9e97adfafeeab001a871b"
+  },
+  "static/presentations/mobility/mobility_short.qmd": {
+    "mtime": 1783648081.8520184,
+    "ast_hash": "053833c7ae661ff3902eb3c67594bd02",
+    "semantic_hash": "053833c7ae661ff3902eb3c67594bd02"
+  },
+  "static/presentations/mobility/mobility_short_files/libs/revealjs/plugin/notes/speaker-view.html": {
+    "mtime": 1783648081.8607612,
+    "ast_hash": "3e84d135161198849174057abe95b91c",
+    "semantic_hash": "3e84d135161198849174057abe95b91c"
+  },
+  "static/presentations/mobility/mobility_short_files/libs/revealjs/plugin/pdf-export/plugin.yml": {
+    "mtime": 1783648081.86089,
+    "ast_hash": "76add7202812cd14a48ca57b96777de4",
+    "semantic_hash": "76add7202812cd14a48ca57b96777de4"
+  },
+  "static/presentations/mobility/mobility_short_files/libs/revealjs/plugin/quarto-line-highlight/plugin.yml": {
+    "mtime": 1783648081.8610964,
+    "ast_hash": "4af9468c1cc516c6b54c12e686ba708f",
+    "semantic_hash": "4af9468c1cc516c6b54c12e686ba708f"
+  },
+  "static/presentations/mobility/mobility_short_files/libs/revealjs/plugin/quarto-support/plugin.yml": {
+    "mtime": 1783648081.8612208,
+    "ast_hash": "4f79b4a104bed30cd5b7b49d598bed88",
+    "semantic_hash": "4f79b4a104bed30cd5b7b49d598bed88"
+  },
+  "static/presentations/mobility/mobility_short_files/libs/revealjs/plugin/reveal-menu/plugin.yml": {
+    "mtime": 1783648081.8615906,
+    "ast_hash": "b949d3d3d5bdf5b5f508e6bfb328798e",
+    "semantic_hash": "b949d3d3d5bdf5b5f508e6bfb328798e"
+  },
+  "themes/terminal/.eslintrc.yml": {
+    "mtime": 1783649994.6476264,
+    "ast_hash": "a95fa1f7cc28c7a88df0958abf493296",
+    "semantic_hash": "a95fa1f7cc28c7a88df0958abf493296"
+  },
+  "themes/terminal/.github/workflows/build.yml": {
+    "mtime": 1783649994.6477833,
+    "ast_hash": "e464c81fafd27cac93ecf8ed3ea92341",
+    "semantic_hash": "e464c81fafd27cac93ecf8ed3ea92341"
+  },
+  "themes/terminal/COMMUNITY-FEATURES.md": {
+    "mtime": 1783649994.648261,
+    "ast_hash": "b0778254495f7b0dd23d77352a1aa2ed",
+    "semantic_hash": "b0778254495f7b0dd23d77352a1aa2ed"
+  },
+  "themes/terminal/LICENSE.md": {
+    "mtime": 1783649994.6483254,
+    "ast_hash": "e2d3dbca0671abf82a9ce02f20ec7fdb",
+    "semantic_hash": "e2d3dbca0671abf82a9ce02f20ec7fdb"
+  },
+  "themes/terminal/README.md": {
+    "mtime": 1783649994.6484737,
+    "ast_hash": "b24142c85a670f4492333a292b243f5d",
+    "semantic_hash": "b24142c85a670f4492333a292b243f5d"
+  },
+  "themes/terminal/archetypes/posts.md": {
+    "mtime": 1783649994.648578,
+    "ast_hash": "d83f1f7a9dcb7e3ab948f8978705a469",
+    "semantic_hash": "d83f1f7a9dcb7e3ab948f8978705a469"
+  },
+  "themes/terminal/exampleSite/content/about.md": {
+    "mtime": 1783649994.6502526,
+    "ast_hash": "a0c9d74cb4cb0124f2e1d01d1504d445",
+    "semantic_hash": "a0c9d74cb4cb0124f2e1d01d1504d445"
+  },
+  "themes/terminal/exampleSite/content/posts/hello.md": {
+    "mtime": 1783649994.6503713,
+    "ast_hash": "f2918d423a3ae2204df73e9341baf22b",
+    "semantic_hash": "f2918d423a3ae2204df73e9341baf22b"
+  },
+  "themes/terminal/exampleSite/content/showcase.md": {
+    "mtime": 1783649994.6504948,
+    "ast_hash": "01c48528eb38f2c32a00063b4d21629f",
+    "semantic_hash": "01c48528eb38f2c32a00063b4d21629f"
+  },
+  "themes/terminal/layouts/404.html": {
+    "mtime": 1783649994.6536582,
+    "ast_hash": "0257f52dac4601a24764a7531950d613",
+    "semantic_hash": "0257f52dac4601a24764a7531950d613"
+  },
+  "themes/terminal/layouts/_default/baseof.html": {
+    "mtime": 1783649994.6537955,
+    "ast_hash": "e5b5f1dd429a39a5ebe1a20e28ebea9b",
+    "semantic_hash": "e5b5f1dd429a39a5ebe1a20e28ebea9b"
+  },
+  "themes/terminal/layouts/_default/index.html": {
+    "mtime": 1783649994.653884,
+    "ast_hash": "6a83f1ff21bafc8231146a200e4d89e5",
+    "semantic_hash": "6a83f1ff21bafc8231146a200e4d89e5"
+  },
+  "themes/terminal/layouts/_default/list.html": {
+    "mtime": 1783649994.6539505,
+    "ast_hash": "20eea7cea543e8aa4670886b8b17ab94",
+    "semantic_hash": "20eea7cea543e8aa4670886b8b17ab94"
+  },
+  "themes/terminal/layouts/_default/single.html": {
+    "mtime": 1783649994.654024,
+    "ast_hash": "d154eebde01ffea6328737f645b68a99",
+    "semantic_hash": "d154eebde01ffea6328737f645b68a99"
+  },
+  "themes/terminal/layouts/_default/term.html": {
+    "mtime": 1783649994.6540873,
+    "ast_hash": "a5f4636b46f5e7a6137c6fa2485c8c7b",
+    "semantic_hash": "a5f4636b46f5e7a6137c6fa2485c8c7b"
+  },
+  "themes/terminal/layouts/_default/terms.html": {
+    "mtime": 1783649994.6541538,
+    "ast_hash": "d59186d08e80a1d5f824b486382046af",
+    "semantic_hash": "d59186d08e80a1d5f824b486382046af"
+  },
+  "themes/terminal/layouts/partials/comments.html": {
+    "mtime": 1783649994.654262,
+    "ast_hash": "94865d0e52cd7672f06899ed4869c3d0",
+    "semantic_hash": "94865d0e52cd7672f06899ed4869c3d0"
+  },
+  "themes/terminal/layouts/partials/cover.html": {
+    "mtime": 1783649994.6543283,
+    "ast_hash": "c8797d319b299b6b851cb5d4be5f3cc5",
+    "semantic_hash": "c8797d319b299b6b851cb5d4be5f3cc5"
+  },
+  "themes/terminal/layouts/partials/extended_footer.html": {
+    "mtime": 1783649994.6543932,
+    "ast_hash": "f464abb7ad7ed2498afc5939c6c80f35",
+    "semantic_hash": "f464abb7ad7ed2498afc5939c6c80f35"
+  },
+  "themes/terminal/layouts/partials/extended_head.html": {
+    "mtime": 1783649994.654458,
+    "ast_hash": "31044fe4f4651293eb11c0c90bd3ba90",
+    "semantic_hash": "31044fe4f4651293eb11c0c90bd3ba90"
+  },
+  "themes/terminal/layouts/partials/footer.html": {
+    "mtime": 1783649994.6545234,
+    "ast_hash": "3ad224af5744b55e353ce87dcf371426",
+    "semantic_hash": "3ad224af5744b55e353ce87dcf371426"
+  },
+  "themes/terminal/layouts/partials/head.html": {
+    "mtime": 1783649994.6546357,
+    "ast_hash": "9a04540246833128ab847e7d52949409",
+    "semantic_hash": "9a04540246833128ab847e7d52949409"
+  },
+  "themes/terminal/layouts/partials/header.html": {
+    "mtime": 1783649994.6547654,
+    "ast_hash": "7c05dd9e45cc3ac8ec9f95fb893bd60e",
+    "semantic_hash": "7c05dd9e45cc3ac8ec9f95fb893bd60e"
+  },
+  "themes/terminal/layouts/partials/language-menu.html": {
+    "mtime": 1783649994.654924,
+    "ast_hash": "bb3861ee7e17fd2ca8cc33871d23d45f",
+    "semantic_hash": "bb3861ee7e17fd2ca8cc33871d23d45f"
+  },
+  "themes/terminal/layouts/partials/logo.html": {
+    "mtime": 1783649994.6550083,
+    "ast_hash": "5afa3816a883fc8f6324530f2150fd27",
+    "semantic_hash": "5afa3816a883fc8f6324530f2150fd27"
+  },
+  "themes/terminal/layouts/partials/menu.html": {
+    "mtime": 1783649994.655092,
+    "ast_hash": "cd1a0d5917bd28f4a58782e444f72f98",
+    "semantic_hash": "cd1a0d5917bd28f4a58782e444f72f98"
+  },
+  "themes/terminal/layouts/partials/mobile-menu.html": {
+    "mtime": 1783649994.6551921,
+    "ast_hash": "670734c9cec5cbbe5fedc430579ea803",
+    "semantic_hash": "670734c9cec5cbbe5fedc430579ea803"
+  },
+  "themes/terminal/layouts/partials/pagination.html": {
+    "mtime": 1783649994.6552918,
+    "ast_hash": "f2527a5dc7db1f74a48c249ab689e216",
+    "semantic_hash": "f2527a5dc7db1f74a48c249ab689e216"
+  },
+  "themes/terminal/layouts/partials/post-date.html": {
+    "mtime": 1783649994.6553657,
+    "ast_hash": "ed167253f91e0321efb90c9e893b3510",
+    "semantic_hash": "ed167253f91e0321efb90c9e893b3510"
+  },
+  "themes/terminal/layouts/partials/post-lastmod.html": {
+    "mtime": 1783649994.6554341,
+    "ast_hash": "7f7bb56be730d649a83e3dd601213b48",
+    "semantic_hash": "7f7bb56be730d649a83e3dd601213b48"
+  },
+  "themes/terminal/layouts/partials/posts_pagination.html": {
+    "mtime": 1783649994.6555061,
+    "ast_hash": "ade4a89d46916aaaf7468abf7afd3761",
+    "semantic_hash": "ade4a89d46916aaaf7468abf7afd3761"
+  },
+  "themes/terminal/layouts/shortcodes/code.html": {
+    "mtime": 1783649994.6556525,
+    "ast_hash": "e5cb59f4008009ff23bf5fc8e401bf91",
+    "semantic_hash": "e5cb59f4008009ff23bf5fc8e401bf91"
+  },
+  "themes/terminal/layouts/shortcodes/image.html": {
+    "mtime": 1783649994.655741,
+    "ast_hash": "67f8a109f63b5e7522860401ef6d2eef",
+    "semantic_hash": "67f8a109f63b5e7522860401ef6d2eef"
+  },
+  "public/papers/aemusa.pdf": {
+    "mtime": 1783648081.7559283,
+    "ast_hash": "ab7fac8e7b52d75ace71ef83df2f910d",
+    "semantic_hash": "ab7fac8e7b52d75ace71ef83df2f910d"
+  },
+  "public/papers/beliefs.pdf": {
+    "mtime": 1783648081.758595,
+    "ast_hash": "e8e74d451d3e26ea0504c2fbadfa74d8",
+    "semantic_hash": "e8e74d451d3e26ea0504c2fbadfa74d8"
+  },
+  "public/papers/beliefs_experiment_cc.pdf": {
+    "mtime": 1783648081.7587712,
+    "ast_hash": "4d73cd2665185c47f10b9ebe7c4845c9",
+    "semantic_hash": "4d73cd2665185c47f10b9ebe7c4845c9"
+  },
+  "public/papers/beliefs_experiment_dc.pdf": {
+    "mtime": 1783648081.759414,
+    "ast_hash": "d0868fdd1aeaaf55ee6a27ce2390ded8",
+    "semantic_hash": "d0868fdd1aeaaf55ee6a27ce2390ded8"
+  },
+  "public/papers/beliefs_experiment_es.pdf": {
+    "mtime": 1783648081.7602284,
+    "ast_hash": "ac39966b84d83a0a8a1806ee56b2cf1e",
+    "semantic_hash": "ac39966b84d83a0a8a1806ee56b2cf1e"
+  },
+  "public/papers/beliefs_experiment_ns.pdf": {
+    "mtime": 1783648081.760617,
+    "ast_hash": "19392f09836aa84ea152e517e8599730",
+    "semantic_hash": "19392f09836aa84ea152e517e8599730"
+  },
+  "public/papers/beliefs_experiment_nyt.pdf": {
+    "mtime": 1783648081.760788,
+    "ast_hash": "e3594b24a4b2d294158236a997a0d5f2",
+    "semantic_hash": "e3594b24a4b2d294158236a997a0d5f2"
+  },
+  "public/papers/beliefs_experiment_sd.pdf": {
+    "mtime": 1783648081.7609892,
+    "ast_hash": "cce85720752558c2bda01db00eb31824",
+    "semantic_hash": "cce85720752558c2bda01db00eb31824"
+  },
+  "public/papers/beliefs_experiment_wp.pdf": {
+    "mtime": 1783648081.7611954,
+    "ast_hash": "3444c84ec9657923a9323bfbec4008dd",
+    "semantic_hash": "3444c84ec9657923a9323bfbec4008dd"
+  },
+  "public/papers/heatmap_llm.pdf": {
+    "mtime": 1783648081.7615805,
+    "ast_hash": "d24b307486ad8e67acb32ff629890b28",
+    "semantic_hash": "d24b307486ad8e67acb32ff629890b28"
+  },
+  "public/papers/longhours.pdf": {
+    "mtime": 1783648081.7638292,
+    "ast_hash": "0248ab494e8579ceb9d5e1ad516b0e2e",
+    "semantic_hash": "0248ab494e8579ceb9d5e1ad516b0e2e"
+  },
+  "public/papers/longhours_nyt.pdf": {
+    "mtime": 1783648081.7730722,
+    "ast_hash": "422ffa76ec718e22bca9ff8743c87034",
+    "semantic_hash": "422ffa76ec718e22bca9ff8743c87034"
+  },
+  "public/papers/mobbw.pdf": {
+    "mtime": 1783648081.7760675,
+    "ast_hash": "b171caa53c938281f3b53db5d0031e1d",
+    "semantic_hash": "b171caa53c938281f3b53db5d0031e1d"
+  },
+  "public/papers/skincol.pdf": {
+    "mtime": 1783648081.7772775,
+    "ast_hash": "56155c6d9a4d765a1335e684709f0da5",
+    "semantic_hash": "56155c6d9a4d765a1335e684709f0da5"
+  },
+  "public/presentations/experiment/unfairness_inequality.pdf": {
+    "mtime": 1783648081.8097436,
+    "ast_hash": "556662989381189308bab863f5da7d3c",
+    "semantic_hash": "556662989381189308bab863f5da7d3c"
+  },
+  "static/papers/aemusa.pdf": {
+    "mtime": 1783648081.7559283,
+    "ast_hash": "ab7fac8e7b52d75ace71ef83df2f910d",
+    "semantic_hash": "ab7fac8e7b52d75ace71ef83df2f910d"
+  },
+  "static/papers/beliefs.pdf": {
+    "mtime": 1783648081.758595,
+    "ast_hash": "e8e74d451d3e26ea0504c2fbadfa74d8",
+    "semantic_hash": "e8e74d451d3e26ea0504c2fbadfa74d8"
+  },
+  "static/papers/beliefs_experiment_cc.pdf": {
+    "mtime": 1783648081.7587712,
+    "ast_hash": "4d73cd2665185c47f10b9ebe7c4845c9",
+    "semantic_hash": "4d73cd2665185c47f10b9ebe7c4845c9"
+  },
+  "static/papers/beliefs_experiment_dc.pdf": {
+    "mtime": 1783648081.759414,
+    "ast_hash": "d0868fdd1aeaaf55ee6a27ce2390ded8",
+    "semantic_hash": "d0868fdd1aeaaf55ee6a27ce2390ded8"
+  },
+  "static/papers/beliefs_experiment_es.pdf": {
+    "mtime": 1783648081.7602284,
+    "ast_hash": "ac39966b84d83a0a8a1806ee56b2cf1e",
+    "semantic_hash": "ac39966b84d83a0a8a1806ee56b2cf1e"
+  },
+  "static/papers/beliefs_experiment_ns.pdf": {
+    "mtime": 1783648081.760617,
+    "ast_hash": "19392f09836aa84ea152e517e8599730",
+    "semantic_hash": "19392f09836aa84ea152e517e8599730"
+  },
+  "static/papers/beliefs_experiment_nyt.pdf": {
+    "mtime": 1783648081.760788,
+    "ast_hash": "e3594b24a4b2d294158236a997a0d5f2",
+    "semantic_hash": "e3594b24a4b2d294158236a997a0d5f2"
+  },
+  "static/papers/beliefs_experiment_sd.pdf": {
+    "mtime": 1783648081.7609892,
+    "ast_hash": "cce85720752558c2bda01db00eb31824",
+    "semantic_hash": "cce85720752558c2bda01db00eb31824"
+  },
+  "static/papers/beliefs_experiment_wp.pdf": {
+    "mtime": 1783648081.7611954,
+    "ast_hash": "3444c84ec9657923a9323bfbec4008dd",
+    "semantic_hash": "3444c84ec9657923a9323bfbec4008dd"
+  },
+  "static/papers/heatmap_llm.pdf": {
+    "mtime": 1783648081.7615805,
+    "ast_hash": "d24b307486ad8e67acb32ff629890b28",
+    "semantic_hash": "d24b307486ad8e67acb32ff629890b28"
+  },
+  "static/papers/longhours.pdf": {
+    "mtime": 1783648081.7638292,
+    "ast_hash": "0248ab494e8579ceb9d5e1ad516b0e2e",
+    "semantic_hash": "0248ab494e8579ceb9d5e1ad516b0e2e"
+  },
+  "static/papers/longhours_nyt.pdf": {
+    "mtime": 1783648081.7730722,
+    "ast_hash": "422ffa76ec718e22bca9ff8743c87034",
+    "semantic_hash": "422ffa76ec718e22bca9ff8743c87034"
+  },
+  "static/papers/mobbw.pdf": {
+    "mtime": 1783648081.7760675,
+    "ast_hash": "b171caa53c938281f3b53db5d0031e1d",
+    "semantic_hash": "b171caa53c938281f3b53db5d0031e1d"
+  },
+  "static/papers/skincol.pdf": {
+    "mtime": 1783648081.7772775,
+    "ast_hash": "56155c6d9a4d765a1335e684709f0da5",
+    "semantic_hash": "56155c6d9a4d765a1335e684709f0da5"
+  },
+  "static/presentations/experiment/unfairness_inequality.pdf": {
+    "mtime": 1783648081.8097436,
+    "ast_hash": "556662989381189308bab863f5da7d3c",
+    "semantic_hash": "556662989381189308bab863f5da7d3c"
+  },
+  "public/apple-touch-icon.png": {
+    "mtime": 1783649994.6564817,
+    "ast_hash": "72e0b4139320ead02b58337d9a0b5cd0",
+    "semantic_hash": "72e0b4139320ead02b58337d9a0b5cd0"
+  },
+  "public/favicon.png": {
+    "mtime": 1783649994.6565554,
+    "ast_hash": "72e0b4139320ead02b58337d9a0b5cd0",
+    "semantic_hash": "72e0b4139320ead02b58337d9a0b5cd0"
+  },
+  "public/images/me.jpg": {
+    "mtime": 1783648081.7484741,
+    "ast_hash": "6959a3e2e99b0e97c3e66c49095f2b63",
+    "semantic_hash": "6959a3e2e99b0e97c3e66c49095f2b63"
+  },
+  "public/og-image.png": {
+    "mtime": 1783649994.6569731,
+    "ast_hash": "5a2d14d29fa7d61a5a6f415c1a37ad72",
+    "semantic_hash": "5a2d14d29fa7d61a5a6f415c1a37ad72"
+  },
+  "public/presentations/experiment/experimenter.png": {
+    "mtime": 1783648081.7779937,
+    "ast_hash": "f823e3be5695e9c69c6a6db23c0e3641",
+    "semantic_hash": "f823e3be5695e9c69c6a6db23c0e3641"
+  },
+  "public/presentations/experiment/fair.png": {
+    "mtime": 1783648081.7801955,
+    "ast_hash": "7aaaf83456f1efaadddd4764411b7b68",
+    "semantic_hash": "7aaaf83456f1efaadddd4764411b7b68"
+  },
+  "public/presentations/experiment/figures/ahead_ambition.jpg": {
+    "mtime": 1783648081.7803965,
+    "ast_hash": "1a8086500926a5669c24822ac32d92ba",
+    "semantic_hash": "1a8086500926a5669c24822ac32d92ba"
+  },
+  "public/presentations/experiment/figures/ahead_fwealth.jpg": {
+    "mtime": 1783648081.7805305,
+    "ast_hash": "cdc2d9637c0e91b3d2e3b17cbb448bdc",
+    "semantic_hash": "cdc2d9637c0e91b3d2e3b17cbb448bdc"
+  },
+  "public/presentations/experiment/figures/ahead_hardwork.jpg": {
+    "mtime": 1783648081.7807603,
+    "ast_hash": "aba6127054d81cea5b644d3a398bd9b5",
+    "semantic_hash": "aba6127054d81cea5b644d3a398bd9b5"
+  },
+  "public/presentations/experiment/figures/ahead_peduc.jpg": {
+    "mtime": 1783648081.7809713,
+    "ast_hash": "a5984c7a9d29cf01b5a7f665f6240c37",
+    "semantic_hash": "a5984c7a9d29cf01b5a7f665f6240c37"
+  },
+  "public/presentations/experiment/figures/dictator_game_receiver.jpg": {
+    "mtime": 1783648081.7810752,
+    "ast_hash": "5a169968c922934c761f99472dad4bda",
+    "semantic_hash": "5a169968c922934c761f99472dad4bda"
+  },
+  "public/presentations/experiment/figures/distribution_keep.jpg": {
+    "mtime": 1783648081.7814035,
+    "ast_hash": "696f4e6adcc4e5af83a1b6414e862768",
+    "semantic_hash": "696f4e6adcc4e5af83a1b6414e862768"
+  },
+  "public/presentations/experiment/figures/fair_ineq.jpg": {
+    "mtime": 1783648081.781688,
+    "ast_hash": "5dad6bac24c808e4a700633a8fa44736",
+    "semantic_hash": "5dad6bac24c808e4a700633a8fa44736"
+  },
+  "public/presentations/experiment/figures/fairness.jpg": {
+    "mtime": 1783648081.7819545,
+    "ast_hash": "ce11e9a3d810a618d2c50dc57b69b297",
+    "semantic_hash": "ce11e9a3d810a618d2c50dc57b69b297"
+  },
+  "public/presentations/experiment/figures/feeling_neg.jpg": {
+    "mtime": 1783648081.7822533,
+    "ast_hash": "643ca893dc045985aa643a27983effea",
+    "semantic_hash": "643ca893dc045985aa643a27983effea"
+  },
+  "public/presentations/experiment/figures/feeling_pos.jpg": {
+    "mtime": 1783648081.7825685,
+    "ast_hash": "05c94eb21936cdfb9f4f03b43d9ee54f",
+    "semantic_hash": "05c94eb21936cdfb9f4f03b43d9ee54f"
+  },
+  "public/presentations/experiment/figures/gov_redineq.jpg": {
+    "mtime": 1783648081.7828574,
+    "ast_hash": "f3b8061bc1ea51b2593f6230b32e2b9d",
+    "semantic_hash": "f3b8061bc1ea51b2593f6230b32e2b9d"
+  },
+  "public/presentations/experiment/figures/ineq_toohigh.jpg": {
+    "mtime": 1783648081.7831273,
+    "ast_hash": "fd06878f6bba8bb79e763258ad774521",
+    "semantic_hash": "fd06878f6bba8bb79e763258ad774521"
+  },
+  "public/presentations/experiment/figures/just_ineq.jpg": {
+    "mtime": 1783648081.7834218,
+    "ast_hash": "33493dbc22038a530d753abd0f6b01a2",
+    "semantic_hash": "33493dbc22038a530d753abd0f6b01a2"
+  },
+  "public/presentations/experiment/figures/least_luck.jpg": {
+    "mtime": 1783648081.783713,
+    "ast_hash": "6becb9def9fc0591cd6f3c668c171973",
+    "semantic_hash": "6becb9def9fc0591cd6f3c668c171973"
+  },
+  "public/presentations/experiment/figures/least_rules.jpg": {
+    "mtime": 1783648081.7839217,
+    "ast_hash": "5b068cf31bfc4c49bb43ffa4f25fbe14",
+    "semantic_hash": "5b068cf31bfc4c49bb43ffa4f25fbe14"
+  },
+  "public/presentations/experiment/figures/least_talent.jpg": {
+    "mtime": 1783648081.7840762,
+    "ast_hash": "1bc2ede8bf4798f0c416ebc8e7e2028e",
+    "semantic_hash": "1bc2ede8bf4798f0c416ebc8e7e2028e"
+  },
+  "public/presentations/experiment/figures/max_payment_UG.jpg": {
+    "mtime": 1783648081.7842164,
+    "ast_hash": "89d90e2ad3028036a2efaa6d02046350",
+    "semantic_hash": "89d90e2ad3028036a2efaa6d02046350"
+  },
+  "public/presentations/experiment/figures/min_payment_UG.jpg": {
+    "mtime": 1783648081.7844536,
+    "ast_hash": "66f241f5782b1d355008195c5d2bb2b2",
+    "semantic_hash": "66f241f5782b1d355008195c5d2bb2b2"
+  },
+  "public/presentations/experiment/figures/most_luck.jpg": {
+    "mtime": 1783648081.784599,
+    "ast_hash": "49676e2a6157fc9e4fdb273556c14bbe",
+    "semantic_hash": "49676e2a6157fc9e4fdb273556c14bbe"
+  },
+  "public/presentations/experiment/figures/most_rules.jpg": {
+    "mtime": 1783648081.7848837,
+    "ast_hash": "0ace3e5142f6a1110a582171c8b3bfd3",
+    "semantic_hash": "0ace3e5142f6a1110a582171c8b3bfd3"
+  },
+  "public/presentations/experiment/figures/most_talent.jpg": {
+    "mtime": 1783648081.7850285,
+    "ast_hash": "8461b7add012699eaebb08c14565f481",
+    "semantic_hash": "8461b7add012699eaebb08c14565f481"
+  },
+  "public/presentations/experiment/figures/plot_ahead.png": {
+    "mtime": 1783648081.7857919,
+    "ast_hash": "be2a590e860534357b6962440b151a01",
+    "semantic_hash": "be2a590e860534357b6962440b151a01"
+  },
+  "public/presentations/experiment/figures/plot_dev_minmax.jpg": {
+    "mtime": 1783648081.7872062,
+    "ast_hash": "b94157ee8b8330b2d1ac8836254aa6e0",
+    "semantic_hash": "b94157ee8b8330b2d1ac8836254aa6e0"
+  },
+  "public/presentations/experiment/figures/plot_exchange.jpg": {
+    "mtime": 1783648081.7880743,
+    "ast_hash": "8e2b22d2ec8be680de97cbf632d1ae60",
+    "semantic_hash": "8e2b22d2ec8be680de97cbf632d1ae60"
+  },
+  "public/presentations/experiment/figures/plot_fair_ineq.png": {
+    "mtime": 1783648081.789045,
+    "ast_hash": "00d5f3685a637a2161e87f51a9a91ac5",
+    "semantic_hash": "00d5f3685a637a2161e87f51a9a91ac5"
+  },
+  "public/presentations/experiment/figures/plot_games.png": {
+    "mtime": 1783648081.7897658,
+    "ast_hash": "206faefb89e7440da72f2ff68378a940",
+    "semantic_hash": "206faefb89e7440da72f2ff68378a940"
+  },
+  "public/presentations/experiment/figures/plot_most.png": {
+    "mtime": 1783648081.790339,
+    "ast_hash": "944027e718f42eec39603577a164ea9c",
+    "semantic_hash": "944027e718f42eec39603577a164ea9c"
+  },
+  "public/presentations/experiment/figures/plot_winhandskills.jpg": {
+    "mtime": 1783648081.7907252,
+    "ast_hash": "9925775958721098cd904c4beab1426e",
+    "semantic_hash": "9925775958721098cd904c4beab1426e"
+  },
+  "public/presentations/experiment/figures/plot_wintrain.jpg": {
+    "mtime": 1783648081.7911172,
+    "ast_hash": "16704f1923aad197e63b80c6440155ef",
+    "semantic_hash": "16704f1923aad197e63b80c6440155ef"
+  },
+  "public/presentations/experiment/figures/ultimatum_game_proposer_proposer.jpg": {
+    "mtime": 1783648081.791396,
+    "ast_hash": "267612b1d029ac934207959f62b965a2",
+    "semantic_hash": "267612b1d029ac934207959f62b965a2"
+  },
+  "public/presentations/experiment/figures/ultimatum_game_proposer_receiver.jpg": {
+    "mtime": 1783648081.7915652,
+    "ast_hash": "b3754d2477d3428ab943bc2c2c382bc6",
+    "semantic_hash": "b3754d2477d3428ab943bc2c2c382bc6"
+  },
+  "public/presentations/experiment/game.png": {
+    "mtime": 1783648081.793777,
+    "ast_hash": "ad3516282bc69e3db07560d68a1cc73b",
+    "semantic_hash": "ad3516282bc69e3db07560d68a1cc73b"
+  },
+  "public/presentations/experiment/starman_nhb.png": {
+    "mtime": 1783648081.794237,
+    "ast_hash": "2fd12e826bcb44de3f6547c4a52e7a62",
+    "semantic_hash": "2fd12e826bcb44de3f6547c4a52e7a62"
+  },
+  "public/presentations/experiment/unequal.png": {
+    "mtime": 1783648081.795209,
+    "ast_hash": "a1486385818725d405529ad11e2c343f",
+    "semantic_hash": "a1486385818725d405529ad11e2c343f"
+  },
+  "public/presentations/experiment/unequal_fair.png": {
+    "mtime": 1783648081.7962804,
+    "ast_hash": "33f3a9e5483f5102a7f281c83e03e58d",
+    "semantic_hash": "33f3a9e5483f5102a7f281c83e03e58d"
+  },
+  "public/presentations/experiment/unfair.png": {
+    "mtime": 1783648081.797204,
+    "ast_hash": "62c5526e14a1154b3cf9de9b89a26e92",
+    "semantic_hash": "62c5526e14a1154b3cf9de9b89a26e92"
+  },
+  "public/presentations/mobility/figures/combined_agg_comp_effects_male.png": {
+    "mtime": 1783648081.8235705,
+    "ast_hash": "58fff0609fc0a239e6f0f0c9f982749e",
+    "semantic_hash": "58fff0609fc0a239e6f0f0c9f982749e"
+  },
+  "public/presentations/mobility/figures/combined_agg_comp_effects_real.png": {
+    "mtime": 1783648081.824066,
+    "ast_hash": "6e2604aa1371fe1d71b37d76e3e44d0d",
+    "semantic_hash": "6e2604aa1371fe1d71b37d76e3e44d0d"
+  },
+  "public/presentations/mobility/figures/combined_agg_comp_effects_sim.png": {
+    "mtime": 1783648081.8242831,
+    "ast_hash": "3b7548497010552188c72a0bc773e654",
+    "semantic_hash": "3b7548497010552188c72a0bc773e654"
+  },
+  "public/presentations/mobility/figures/mobility.png": {
+    "mtime": 1783648081.829761,
+    "ast_hash": "25ba233560eafbb41bb3061bb32a9624",
+    "semantic_hash": "25ba233560eafbb41bb3061bb32a9624"
+  },
+  "public/presentations/mobility/figures/mobility_area_plot_real_male.png": {
+    "mtime": 1783648081.8302877,
+    "ast_hash": "9137718bcd8b41d9c39ee7564cdecd71",
+    "semantic_hash": "9137718bcd8b41d9c39ee7564cdecd71"
+  },
+  "public/presentations/mobility/figures/mobility_areadiff_plot.png": {
+    "mtime": 1783648081.8315964,
+    "ast_hash": "511864f8abf9cb3454680c6c52f343ef",
+    "semantic_hash": "511864f8abf9cb3454680c6c52f343ef"
+  },
+  "public/presentations/mobility/figures/mobility_areadiff_real_plot.png": {
+    "mtime": 1783648081.8339303,
+    "ast_hash": "f133802e36698346510939f25e5e0cda",
+    "semantic_hash": "f133802e36698346510939f25e5e0cda"
+  },
+  "public/presentations/mobility/figures/mobility_curve_men.png": {
+    "mtime": 1783648081.8343565,
+    "ast_hash": "9ca472bfb8933394cf70426386f63a84",
+    "semantic_hash": "9ca472bfb8933394cf70426386f63a84"
+  },
+  "public/presentations/mobility/figures/mobility_curve_real.png": {
+    "mtime": 1783648081.8353064,
+    "ast_hash": "155fc6180f185cfd3fb783f4fefa4d2d",
+    "semantic_hash": "155fc6180f185cfd3fb783f4fefa4d2d"
+  },
+  "public/presentations/mobility/figures/mobility_curve_sim.png": {
+    "mtime": 1783648081.8357737,
+    "ast_hash": "f18303dcb37d193ac3c5364f25080c7f",
+    "semantic_hash": "f18303dcb37d193ac3c5364f25080c7f"
+  },
+  "public/presentations/mobility/figures/mobility_curve_women.png": {
+    "mtime": 1783648081.8361456,
+    "ast_hash": "503c7c154934ec531b9257394ae30813",
+    "semantic_hash": "503c7c154934ec531b9257394ae30813"
+  },
+  "public/presentations/mobility/figures/mobility_diff_plot_real_male.png": {
+    "mtime": 1783648081.8367455,
+    "ast_hash": "d1b39f72d0cabe29868403335e3f804d",
+    "semantic_hash": "d1b39f72d0cabe29868403335e3f804d"
+  },
+  "public/presentations/mobility/figures/politics_mobility.png": {
+    "mtime": 1783648081.8389785,
+    "ast_hash": "92d669e25a9015989cba56ca6d0009c9",
+    "semantic_hash": "92d669e25a9015989cba56ca6d0009c9"
+  },
+  "public/presentations/mobility/figures/speech.png": {
+    "mtime": 1783648081.8391583,
+    "ast_hash": "691406f4d91b1a8606846de45332c32b",
+    "semantic_hash": "691406f4d91b1a8606846de45332c32b"
+  },
+  "public/presentations/mobility/figures/theory.png": {
+    "mtime": 1783648081.8396573,
+    "ast_hash": "83c984f8fd33feaa31c06b76c68d6ef1",
+    "semantic_hash": "83c984f8fd33feaa31c06b76c68d6ef1"
+  },
+  "public/presentations/mobility/figures/theory_old.png": {
+    "mtime": 1783648081.8404796,
+    "ast_hash": "ef5829250bf992bf20397099a8e5ae64",
+    "semantic_hash": "ef5829250bf992bf20397099a8e5ae64"
+  },
+  "static/images/me.jpg": {
+    "mtime": 1783648081.7484741,
+    "ast_hash": "6959a3e2e99b0e97c3e66c49095f2b63",
+    "semantic_hash": "6959a3e2e99b0e97c3e66c49095f2b63"
+  },
+  "static/presentations/experiment/experimenter.png": {
+    "mtime": 1783648081.7779937,
+    "ast_hash": "f823e3be5695e9c69c6a6db23c0e3641",
+    "semantic_hash": "f823e3be5695e9c69c6a6db23c0e3641"
+  },
+  "static/presentations/experiment/fair.png": {
+    "mtime": 1783648081.7801955,
+    "ast_hash": "7aaaf83456f1efaadddd4764411b7b68",
+    "semantic_hash": "7aaaf83456f1efaadddd4764411b7b68"
+  },
+  "static/presentations/experiment/figures/ahead_ambition.jpg": {
+    "mtime": 1783648081.7803965,
+    "ast_hash": "1a8086500926a5669c24822ac32d92ba",
+    "semantic_hash": "1a8086500926a5669c24822ac32d92ba"
+  },
+  "static/presentations/experiment/figures/ahead_fwealth.jpg": {
+    "mtime": 1783648081.7805305,
+    "ast_hash": "cdc2d9637c0e91b3d2e3b17cbb448bdc",
+    "semantic_hash": "cdc2d9637c0e91b3d2e3b17cbb448bdc"
+  },
+  "static/presentations/experiment/figures/ahead_hardwork.jpg": {
+    "mtime": 1783648081.7807603,
+    "ast_hash": "aba6127054d81cea5b644d3a398bd9b5",
+    "semantic_hash": "aba6127054d81cea5b644d3a398bd9b5"
+  },
+  "static/presentations/experiment/figures/ahead_peduc.jpg": {
+    "mtime": 1783648081.7809713,
+    "ast_hash": "a5984c7a9d29cf01b5a7f665f6240c37",
+    "semantic_hash": "a5984c7a9d29cf01b5a7f665f6240c37"
+  },
+  "static/presentations/experiment/figures/dictator_game_receiver.jpg": {
+    "mtime": 1783648081.7810752,
+    "ast_hash": "5a169968c922934c761f99472dad4bda",
+    "semantic_hash": "5a169968c922934c761f99472dad4bda"
+  },
+  "static/presentations/experiment/figures/distribution_keep.jpg": {
+    "mtime": 1783648081.7814035,
+    "ast_hash": "696f4e6adcc4e5af83a1b6414e862768",
+    "semantic_hash": "696f4e6adcc4e5af83a1b6414e862768"
+  },
+  "static/presentations/experiment/figures/fair_ineq.jpg": {
+    "mtime": 1783648081.781688,
+    "ast_hash": "5dad6bac24c808e4a700633a8fa44736",
+    "semantic_hash": "5dad6bac24c808e4a700633a8fa44736"
+  },
+  "static/presentations/experiment/figures/fairness.jpg": {
+    "mtime": 1783648081.7819545,
+    "ast_hash": "ce11e9a3d810a618d2c50dc57b69b297",
+    "semantic_hash": "ce11e9a3d810a618d2c50dc57b69b297"
+  },
+  "static/presentations/experiment/figures/feeling_neg.jpg": {
+    "mtime": 1783648081.7822533,
+    "ast_hash": "643ca893dc045985aa643a27983effea",
+    "semantic_hash": "643ca893dc045985aa643a27983effea"
+  },
+  "static/presentations/experiment/figures/feeling_pos.jpg": {
+    "mtime": 1783648081.7825685,
+    "ast_hash": "05c94eb21936cdfb9f4f03b43d9ee54f",
+    "semantic_hash": "05c94eb21936cdfb9f4f03b43d9ee54f"
+  },
+  "static/presentations/experiment/figures/gov_redineq.jpg": {
+    "mtime": 1783648081.7828574,
+    "ast_hash": "f3b8061bc1ea51b2593f6230b32e2b9d",
+    "semantic_hash": "f3b8061bc1ea51b2593f6230b32e2b9d"
+  },
+  "static/presentations/experiment/figures/ineq_toohigh.jpg": {
+    "mtime": 1783648081.7831273,
+    "ast_hash": "fd06878f6bba8bb79e763258ad774521",
+    "semantic_hash": "fd06878f6bba8bb79e763258ad774521"
+  },
+  "static/presentations/experiment/figures/just_ineq.jpg": {
+    "mtime": 1783648081.7834218,
+    "ast_hash": "33493dbc22038a530d753abd0f6b01a2",
+    "semantic_hash": "33493dbc22038a530d753abd0f6b01a2"
+  },
+  "static/presentations/experiment/figures/least_luck.jpg": {
+    "mtime": 1783648081.783713,
+    "ast_hash": "6becb9def9fc0591cd6f3c668c171973",
+    "semantic_hash": "6becb9def9fc0591cd6f3c668c171973"
+  },
+  "static/presentations/experiment/figures/least_rules.jpg": {
+    "mtime": 1783648081.7839217,
+    "ast_hash": "5b068cf31bfc4c49bb43ffa4f25fbe14",
+    "semantic_hash": "5b068cf31bfc4c49bb43ffa4f25fbe14"
+  },
+  "static/presentations/experiment/figures/least_talent.jpg": {
+    "mtime": 1783648081.7840762,
+    "ast_hash": "1bc2ede8bf4798f0c416ebc8e7e2028e",
+    "semantic_hash": "1bc2ede8bf4798f0c416ebc8e7e2028e"
+  },
+  "static/presentations/experiment/figures/max_payment_UG.jpg": {
+    "mtime": 1783648081.7842164,
+    "ast_hash": "89d90e2ad3028036a2efaa6d02046350",
+    "semantic_hash": "89d90e2ad3028036a2efaa6d02046350"
+  },
+  "static/presentations/experiment/figures/min_payment_UG.jpg": {
+    "mtime": 1783648081.7844536,
+    "ast_hash": "66f241f5782b1d355008195c5d2bb2b2",
+    "semantic_hash": "66f241f5782b1d355008195c5d2bb2b2"
+  },
+  "static/presentations/experiment/figures/most_luck.jpg": {
+    "mtime": 1783648081.784599,
+    "ast_hash": "49676e2a6157fc9e4fdb273556c14bbe",
+    "semantic_hash": "49676e2a6157fc9e4fdb273556c14bbe"
+  },
+  "static/presentations/experiment/figures/most_rules.jpg": {
+    "mtime": 1783648081.7848837,
+    "ast_hash": "0ace3e5142f6a1110a582171c8b3bfd3",
+    "semantic_hash": "0ace3e5142f6a1110a582171c8b3bfd3"
+  },
+  "static/presentations/experiment/figures/most_talent.jpg": {
+    "mtime": 1783648081.7850285,
+    "ast_hash": "8461b7add012699eaebb08c14565f481",
+    "semantic_hash": "8461b7add012699eaebb08c14565f481"
+  },
+  "static/presentations/experiment/figures/plot_ahead.png": {
+    "mtime": 1783648081.7857919,
+    "ast_hash": "be2a590e860534357b6962440b151a01",
+    "semantic_hash": "be2a590e860534357b6962440b151a01"
+  },
+  "static/presentations/experiment/figures/plot_dev_minmax.jpg": {
+    "mtime": 1783648081.7872062,
+    "ast_hash": "b94157ee8b8330b2d1ac8836254aa6e0",
+    "semantic_hash": "b94157ee8b8330b2d1ac8836254aa6e0"
+  },
+  "static/presentations/experiment/figures/plot_exchange.jpg": {
+    "mtime": 1783648081.7880743,
+    "ast_hash": "8e2b22d2ec8be680de97cbf632d1ae60",
+    "semantic_hash": "8e2b22d2ec8be680de97cbf632d1ae60"
+  },
+  "static/presentations/experiment/figures/plot_fair_ineq.png": {
+    "mtime": 1783648081.789045,
+    "ast_hash": "00d5f3685a637a2161e87f51a9a91ac5",
+    "semantic_hash": "00d5f3685a637a2161e87f51a9a91ac5"
+  },
+  "static/presentations/experiment/figures/plot_games.png": {
+    "mtime": 1783648081.7897658,
+    "ast_hash": "206faefb89e7440da72f2ff68378a940",
+    "semantic_hash": "206faefb89e7440da72f2ff68378a940"
+  },
+  "static/presentations/experiment/figures/plot_most.png": {
+    "mtime": 1783648081.790339,
+    "ast_hash": "944027e718f42eec39603577a164ea9c",
+    "semantic_hash": "944027e718f42eec39603577a164ea9c"
+  },
+  "static/presentations/experiment/figures/plot_winhandskills.jpg": {
+    "mtime": 1783648081.7907252,
+    "ast_hash": "9925775958721098cd904c4beab1426e",
+    "semantic_hash": "9925775958721098cd904c4beab1426e"
+  },
+  "static/presentations/experiment/figures/plot_wintrain.jpg": {
+    "mtime": 1783648081.7911172,
+    "ast_hash": "16704f1923aad197e63b80c6440155ef",
+    "semantic_hash": "16704f1923aad197e63b80c6440155ef"
+  },
+  "static/presentations/experiment/figures/ultimatum_game_proposer_proposer.jpg": {
+    "mtime": 1783648081.791396,
+    "ast_hash": "267612b1d029ac934207959f62b965a2",
+    "semantic_hash": "267612b1d029ac934207959f62b965a2"
+  },
+  "static/presentations/experiment/figures/ultimatum_game_proposer_receiver.jpg": {
+    "mtime": 1783648081.7915652,
+    "ast_hash": "b3754d2477d3428ab943bc2c2c382bc6",
+    "semantic_hash": "b3754d2477d3428ab943bc2c2c382bc6"
+  },
+  "static/presentations/experiment/game.png": {
+    "mtime": 1783648081.793777,
+    "ast_hash": "ad3516282bc69e3db07560d68a1cc73b",
+    "semantic_hash": "ad3516282bc69e3db07560d68a1cc73b"
+  },
+  "static/presentations/experiment/starman_nhb.png": {
+    "mtime": 1783648081.794237,
+    "ast_hash": "2fd12e826bcb44de3f6547c4a52e7a62",
+    "semantic_hash": "2fd12e826bcb44de3f6547c4a52e7a62"
+  },
+  "static/presentations/experiment/unequal.png": {
+    "mtime": 1783648081.795209,
+    "ast_hash": "a1486385818725d405529ad11e2c343f",
+    "semantic_hash": "a1486385818725d405529ad11e2c343f"
+  },
+  "static/presentations/experiment/unequal_fair.png": {
+    "mtime": 1783648081.7962804,
+    "ast_hash": "33f3a9e5483f5102a7f281c83e03e58d",
+    "semantic_hash": "33f3a9e5483f5102a7f281c83e03e58d"
+  },
+  "static/presentations/experiment/unfair.png": {
+    "mtime": 1783648081.797204,
+    "ast_hash": "62c5526e14a1154b3cf9de9b89a26e92",
+    "semantic_hash": "62c5526e14a1154b3cf9de9b89a26e92"
+  },
+  "static/presentations/mobility/figures/combined_agg_comp_effects_male.png": {
+    "mtime": 1783648081.8235705,
+    "ast_hash": "58fff0609fc0a239e6f0f0c9f982749e",
+    "semantic_hash": "58fff0609fc0a239e6f0f0c9f982749e"
+  },
+  "static/presentations/mobility/figures/combined_agg_comp_effects_real.png": {
+    "mtime": 1783648081.824066,
+    "ast_hash": "6e2604aa1371fe1d71b37d76e3e44d0d",
+    "semantic_hash": "6e2604aa1371fe1d71b37d76e3e44d0d"
+  },
+  "static/presentations/mobility/figures/combined_agg_comp_effects_sim.png": {
+    "mtime": 1783648081.8242831,
+    "ast_hash": "3b7548497010552188c72a0bc773e654",
+    "semantic_hash": "3b7548497010552188c72a0bc773e654"
+  },
+  "static/presentations/mobility/figures/mobility.png": {
+    "mtime": 1783648081.829761,
+    "ast_hash": "25ba233560eafbb41bb3061bb32a9624",
+    "semantic_hash": "25ba233560eafbb41bb3061bb32a9624"
+  },
+  "static/presentations/mobility/figures/mobility_area_plot_real_male.png": {
+    "mtime": 1783648081.8302877,
+    "ast_hash": "9137718bcd8b41d9c39ee7564cdecd71",
+    "semantic_hash": "9137718bcd8b41d9c39ee7564cdecd71"
+  },
+  "static/presentations/mobility/figures/mobility_areadiff_plot.png": {
+    "mtime": 1783648081.8315964,
+    "ast_hash": "511864f8abf9cb3454680c6c52f343ef",
+    "semantic_hash": "511864f8abf9cb3454680c6c52f343ef"
+  },
+  "static/presentations/mobility/figures/mobility_areadiff_real_plot.png": {
+    "mtime": 1783648081.8339303,
+    "ast_hash": "f133802e36698346510939f25e5e0cda",
+    "semantic_hash": "f133802e36698346510939f25e5e0cda"
+  },
+  "static/presentations/mobility/figures/mobility_curve_men.png": {
+    "mtime": 1783648081.8343565,
+    "ast_hash": "9ca472bfb8933394cf70426386f63a84",
+    "semantic_hash": "9ca472bfb8933394cf70426386f63a84"
+  },
+  "static/presentations/mobility/figures/mobility_curve_real.png": {
+    "mtime": 1783648081.8353064,
+    "ast_hash": "155fc6180f185cfd3fb783f4fefa4d2d",
+    "semantic_hash": "155fc6180f185cfd3fb783f4fefa4d2d"
+  },
+  "static/presentations/mobility/figures/mobility_curve_sim.png": {
+    "mtime": 1783648081.8357737,
+    "ast_hash": "f18303dcb37d193ac3c5364f25080c7f",
+    "semantic_hash": "f18303dcb37d193ac3c5364f25080c7f"
+  },
+  "static/presentations/mobility/figures/mobility_curve_women.png": {
+    "mtime": 1783648081.8361456,
+    "ast_hash": "503c7c154934ec531b9257394ae30813",
+    "semantic_hash": "503c7c154934ec531b9257394ae30813"
+  },
+  "static/presentations/mobility/figures/mobility_diff_plot_real_male.png": {
+    "mtime": 1783648081.8367455,
+    "ast_hash": "d1b39f72d0cabe29868403335e3f804d",
+    "semantic_hash": "d1b39f72d0cabe29868403335e3f804d"
+  },
+  "static/presentations/mobility/figures/politics_mobility.png": {
+    "mtime": 1783648081.8389785,
+    "ast_hash": "92d669e25a9015989cba56ca6d0009c9",
+    "semantic_hash": "92d669e25a9015989cba56ca6d0009c9"
+  },
+  "static/presentations/mobility/figures/speech.png": {
+    "mtime": 1783648081.8391583,
+    "ast_hash": "691406f4d91b1a8606846de45332c32b",
+    "semantic_hash": "691406f4d91b1a8606846de45332c32b"
+  },
+  "static/presentations/mobility/figures/theory.png": {
+    "mtime": 1783648081.8396573,
+    "ast_hash": "83c984f8fd33feaa31c06b76c68d6ef1",
+    "semantic_hash": "83c984f8fd33feaa31c06b76c68d6ef1"
+  },
+  "static/presentations/mobility/figures/theory_old.png": {
+    "mtime": 1783648081.8404796,
+    "ast_hash": "ef5829250bf992bf20397099a8e5ae64",
+    "semantic_hash": "ef5829250bf992bf20397099a8e5ae64"
+  },
+  "themes/terminal/exampleSite/static/img/hello.jpg": {
+    "mtime": 1783649994.6508944,
+    "ast_hash": "6871f6b27b75646eb567bc25cd7d7d24",
+    "semantic_hash": "6871f6b27b75646eb567bc25cd7d7d24"
+  },
+  "themes/terminal/images/screenshot.png": {
+    "mtime": 1783649994.6512992,
+    "ast_hash": "7784a74efec85197c569e2e3881df551",
+    "semantic_hash": "7784a74efec85197c569e2e3881df551"
+  },
+  "themes/terminal/images/terminal-css.png": {
+    "mtime": 1783649994.6518896,
+    "ast_hash": "f47b8fcd86b2a5e6cbe30da8f0a98f37",
+    "semantic_hash": "f47b8fcd86b2a5e6cbe30da8f0a98f37"
+  },
+  "themes/terminal/images/terminal-theme-old.png": {
+    "mtime": 1783649994.6530871,
+    "ast_hash": "acb3ee77ee54a3ee44f7b57cb99db41d",
+    "semantic_hash": "acb3ee77ee54a3ee44f7b57cb99db41d"
+  },
+  "themes/terminal/images/terminal-theme.png": {
+    "mtime": 1783649994.6532793,
+    "ast_hash": "ee146e48a5cdd864e8fcf1c21bbec211",
+    "semantic_hash": "ee146e48a5cdd864e8fcf1c21bbec211"
+  },
+  "themes/terminal/images/tn.png": {
+    "mtime": 1783649994.653489,
+    "ast_hash": "ac1fab69e322f305fe77e7e829c4aea4",
+    "semantic_hash": "ac1fab69e322f305fe77e7e829c4aea4"
+  },
+  "themes/terminal/static/apple-touch-icon.png": {
+    "mtime": 1783649994.6564817,
+    "ast_hash": "72e0b4139320ead02b58337d9a0b5cd0",
+    "semantic_hash": "72e0b4139320ead02b58337d9a0b5cd0"
+  },
+  "themes/terminal/static/favicon.png": {
+    "mtime": 1783649994.6565554,
+    "ast_hash": "72e0b4139320ead02b58337d9a0b5cd0",
+    "semantic_hash": "72e0b4139320ead02b58337d9a0b5cd0"
+  },
+  "themes/terminal/static/og-image.png": {
+    "mtime": 1783649994.6569731,
+    "ast_hash": "5a2d14d29fa7d61a5a6f415c1a37ad72",
+    "semantic_hash": "5a2d14d29fa7d61a5a6f415c1a37ad72"
+  }
+}

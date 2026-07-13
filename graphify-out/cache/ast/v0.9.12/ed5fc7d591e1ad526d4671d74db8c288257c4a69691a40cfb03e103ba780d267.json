@@ -1,0 +1,1 @@
+{"nodes": [{"id": "pkg_github_com_panr_hugo_theme_terminal_v4", "label": "github.com/panr/hugo-theme-terminal/v4", "file_type": "code", "type": "package", "ecosystem": "go", "source_file": "themes/terminal/go.mod", "source_location": "L1"}], "edges": []}
