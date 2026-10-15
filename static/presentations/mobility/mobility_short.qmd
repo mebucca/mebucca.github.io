@@ -1,6 +1,6 @@
 ---
 title: "why do some groups experience greater mobility than others?"
-subtitle: "<br>a simple framework  and decomposition method <br> linking absolute and relative intergenerational mobility<br>"
+subtitle: "<br>an IGE-based conditional-distribution framework <br> linking absolute and relative intergenerational mobility, <br> with origin-specific uncertainty<br>"
 author:
   - name: "mauricio bucca"
     affiliation: "puc chile"
@@ -78,7 +78,7 @@ execute:
 
 
 ::: {.column width="55%" style="padding-left:45px;"}
-<img src="figures/speech.png" style="max-width:none; width:150%; margin-left:10%;"/>
+<img src="figures/speech.png" style="max-width:none; width:95%; margin-left:0%;"/>
 :::
 :::::
 
@@ -90,7 +90,7 @@ execute:
 :::
 
 ::: {.column width="55%" style="padding-left:45px;"}
-<img src="figures/speech.png" style="max-width:none; width:150%; margin-left:10%;"/>
+<img src="figures/speech.png" style="max-width:none; width:95%; margin-left:0%;"/>
 
 ::: {.incremental}
 **two ways this story could be true:**
@@ -110,7 +110,7 @@ execute:
 
 <br>
 
-**core claim:** properly understanding mobility requires examining both types simultaneously. This paper introduces a **simple unified framework** that allows fo that
+**core claim:** properly understanding mobility requires examining both types simultaneously. this paper introduces a **simple unified framework** that allows for that
 
 
 ------------------------------------------------------------------------
@@ -130,35 +130,37 @@ execute:
 
 <br>
 
-- The standard model is the **IGE workhorse**:  $E[y \mid x] = \alpha + \beta x$
+- the standard model is the **IGE workhorse**:  $E[y \mid x] = \alpha + \beta x$
 
   where $x$ is parents’ permanent log income and $y$ is children’s log income.  
-  The slope $\beta$ is the **intergenerational elasticity (IGE)**, typically in the [0.2–0.6] range.
+  the slope $\beta$ is the **intergenerational elasticity (IGE)**, typically in the [0.2–0.6] range.
 
 <br>
 
-- Population-level concept: **non-directional** and essentially a **zero-sum** measure of positional movement.
+- population-level concept: **non-directional** and essentially a **zero-sum** measure of positional movement.
 
 :::
 
----
+------------------------------------------------------------------------
 
 ## definitions
+
 ::: {.incremental}
 
 <br>
 
 **absolute mobility** compares children’s income to their parents on a **level scale**, not a rank or positional scale.
 
-- With a meaningful threshold $\delta$, classify mobility using the gap $y - x$:
+- with a meaningful threshold $\delta$, classify mobility using the gap $y - x$:
 
-  - **Upward mobility:** $y > x + \delta$  
-  - **Downward mobility:** $y < x - \delta$  
-  - **Immobility:** $x - \delta \le y \le x + \delta$
+  - **upward mobility:** $y > x + \delta$  
+  - **downward mobility:** $y < x - \delta$  
+  - **immobility:** $x - \delta \le y \le x + \delta$
+
 
 <br>
 
-- Individual-level outcome: **directional** — everyone can, in principle, move up, move down, or stay roughly the same.
+- individual-level outcome: **directional** — everyone can, in principle, move up, move down, or stay roughly the same.
 
 :::
 
@@ -177,14 +179,14 @@ four key components:
 
 | parameter | interpretation |
 |-----------|----------------|
-| $\alpha$ | income floor — expected income for children from bottom of distribution |
+| $\alpha$ | income floor — expected income at a low **reference origin** $c$ (not literally the bottom) |
 | $\beta$ | persistence (IGE) — degree of relative immobility |
 | $\sigma$ | uncertainty — unpredictability in intergenerational transmission |
 | $x$ | parental income — the baseline for absolute comparison |
 
 . . .
 
-*note: can be extended so both expected income $\mu_i(x)$ and income uncertainty $\sigma(x)$ vary with parental income*
+*extension: the present framework allow both expected income $\mu_i(x)$ and income uncertainty $\sigma(x)$ vary with parental income*
 
 ------------------------------------------------------------------------
 
@@ -192,9 +194,10 @@ four key components:
 
 ::: {.center}
 
-<img src="figures/theory.png" width="110%" />
 
-<br>
+<img src="figures/theory.png" style="max-width:none; width:85%;" />
+
+
 
 absolute mobility probabilities:
 
@@ -213,20 +216,22 @@ $$
 
 we can express absolute mobility probabilities as a function of the IGE components:
 
-. . .
-
-- step 1: start with the income generation model: $y \mid x \sim \text{Normal}\big(\mu(x) = \alpha + \beta x,\; \sigma(x)\big)$
-
+<br>
 
 . . .
 
+- step 1: start with the income generation model: $y \mid x \sim \text{Normal}\big(\mu(x) = \alpha + \beta \widetilde{x},\; \sigma(x)\big)$, with $\widetilde{x}=x-c$ centered at a low reference point $c$
 
-- step 2: standardized mobility thresholds
+
+. . .
+
+
+- step 2: standardized mobility thresholds (comparison is still against **raw** $x$)
 
 $$
 \begin{aligned}
-z^{\uparrow} &= \frac{x + \delta - (\alpha + \beta x)}{\sigma(x)} = \frac{(1-\beta)x + \delta - \alpha}{\sigma(x)} \\
-z^{\downarrow} &= \frac{x - \delta - (\alpha + \beta x)}{\sigma(x)} = \frac{(1-\beta)x - \delta - \alpha}{\sigma(x)}
+z^{\uparrow} &= \frac{(x + \delta) - \mu(x)}{\sigma(x)} \\
+z^{\downarrow} &= \frac{(x - \delta) - \mu(x)}{\sigma(x)}
 \end{aligned}
 $$
 
@@ -254,6 +259,8 @@ $$
 
 . . .
 
+![](figures/theory_sketch.png){.absolute .sketch-corner bottom="566" right="14" width="160"}
+
 analytical result:
 
 $$
@@ -280,22 +287,23 @@ key insights:
 
 . . .
 
+![](figures/theory_sketch.png){.absolute .sketch-corner bottom="566" right="14" width="160"}
+
+
 analytical result:
 
 $$
-\frac{\partial \Pr(M^{\uparrow})}{\partial \beta} = \frac{x \cdot \phi(z^{\uparrow})}{\sigma}, \qquad
-\frac{\partial \Pr(M^{\downarrow})}{\partial \beta} = -\frac{x \cdot \phi(z^{\downarrow})}{\sigma}
+\frac{\partial \Pr(M^{\uparrow})}{\partial \beta} = \frac{\widetilde{x} \cdot \phi(z^{\uparrow})}{\sigma}, \qquad
+\frac{\partial \Pr(M^{\downarrow})}{\partial \beta} = -\frac{\widetilde{x} \cdot \phi(z^{\downarrow})}{\sigma}
 $$
 
 . . .
 
 key insights:
 
--   effect of $\beta$ is **proportional to parental income** $x$: higher-origin families experience larger shifts
--   increasing $\beta$ (more persistence) has **two sign-definite effects:**
-    -   **increases** upward mobility probability
-    -   **decreases** downward mobility probability
--   larger conditional income uncertainty $\sigma$ dilutes the impact of $\beta$
+-   $\beta$ **tilts** the distribution around the reference origin, rather than shifting it uniformly like $\alpha$
+-   since $c$ is a low floor ($\widetilde{x}=x-c>0$ throughout), increasing $\beta$ (more persistence) **increases** upward mobility and **decreases** downward mobility, with effect **proportional to parental income**
+
 
 ------------------------------------------------------------------------
 
@@ -304,6 +312,9 @@ key insights:
 **question:** how does the "predictability" of children's income affect absolute mobility?
 
 . . .
+
+![](figures/theory_sketch.png){.absolute .sketch-corner bottom="566" right="14" width="160"}
+
 
 analytical result:
 
@@ -329,7 +340,10 @@ key insights:
 
 . . .
 
-analytical result:
+![](figures/theory_sketch.png){.absolute .sketch-corner bottom="566" right="14" width="160"}
+
+
+analytical result (fixed dispersion):
 
 $$
 \frac{\partial \Pr(M^{\uparrow})}{\partial x} = \frac{\beta - 1}{\sigma} \phi(z^{\uparrow}), \qquad
@@ -348,11 +362,41 @@ key insights:
 
 ------------------------------------------------------------------------
 
+## driver 4 under heteroskedasticity
+
+**question:** once uncertainty $\sigma(x)$ also varies with origin, what else moves with parental income?
+
+. . .
+
+![](figures/theory_sketch.png){.absolute .sketch-corner bottom="523" right="-120" width="160"}
+
+
+total derivative (both channels at once):
+
+$$
+\frac{d \Pr(M^{\uparrow})}{dx} = \phi(z^{\uparrow})\left[\frac{-(1-\beta)}{\sigma(x)} + \lambda\, z^{\uparrow}\right], \qquad
+\frac{d \Pr(M^{\downarrow})}{dx} = \phi(z^{\downarrow})\left[\frac{1-\beta}{\sigma(x)} - \lambda\, z^{\downarrow}\right]
+$$
+
+. . .
+
+key insights:
+
+-   bracket #1 is **mean reversion** (driver 4, as before): pushes upward mobility down, downward mobility up at higher origins
+-   bracket #2 is a **new dispersion-gradient channel**, $\lambda z^{\uparrow}$ — absent when $\sigma$ is constant
+-   sign of $\lambda$ relative to $z$ decides whether the two channels **reinforce or offset**:
+    -   $\lambda<0$ (narrowing uncertainty at the top) **reinforces** mean reversion
+    -   $\lambda>0$ (widening uncertainty at the top) **offsets** it
+-   this generalizes the mean-reversion result (Bloome 2025) by adding a dispersion-driven channel
+
+------------------------------------------------------------------------
+
 # counterfactual decomposition {.center-slide}
 
 ------------------------------------------------------------------------
 
 ## the parameter-swap counterfactual
+
 
 **goal:** isolate the marginal contribution of each structural parameter to group differences
 
@@ -360,7 +404,7 @@ key insights:
 
 . . .
 
-**solution:** replace one parameter with its counterfactual value while holding others fixe. For groups $g$ and $\bar{g}$, I do three swaps:
+**solution:** replace one parameter with its counterfactual value while holding others fixed. For groups $g$ and $\bar{g}$, I do three swaps:
 
 1.  **$\alpha$-swap:** plug in $\alpha_{\bar{g}}$ in place of $\alpha_g$
 2.  **$\beta$-swap:** plug in $\beta_{\bar{g}}$ in place of $\beta_g$
@@ -375,6 +419,8 @@ key insights:
 ------------------------------------------------------------------------
 
 ## aggregation and composition
+
+<br>
 
 population-level consequences depend on the **distribution of parental origins**, which may differ across groups.
 
@@ -400,6 +446,173 @@ distinguishes structural transmission (via parameters) from distributional posit
 
 ------------------------------------------------------------------------
 
+
+# empirical application {.center-slide}
+
+------------------------------------------------------------------------
+
+## data: PSID 1968–2019
+
+<br>
+
+**sample:** 4,342 Black and White sons and daughters
+
+-   birth cohorts 1944–1989
+-   at least 2 positive earnings observations, ages 25–60
+-   valid parental earnings anchor + positive survey weight
+-   models estimated **separately by gender**
+
+. . .
+
+**earnings measures:**
+
+-   labor earnings: wages, salaries, self-employment, bonuses/tips, inflation-adjusted
+-   permanent child earnings: individual mean of log earnings
+-   permanent parental earnings: max(mother, father) age-42 anchor, from a centered 7-wave rolling average
+
+------------------------------------------------------------------------
+
+## mobility profiles: women
+
+
+::: center
+![](figures/mobility_curve_women.png){width="80%"}
+:::
+
+
+
+- floors, persistence, and dispersion are nearly identical across race — conditional distributions essentially overlap.
+
+- dispersion **narrows** slightly with parental earnings ($\lambda<0$): parental resources behave like insurance against shocks.
+
+------------------------------------------------------------------------
+
+## pointwise counterfactual effects: women
+
+<br>
+
+::: center
+![](figures/mobility_diff_plot_real_female.png){width="85%"}
+:::
+
+
+
+------------------------------------------------------------------------
+
+## aggregation and composition: women
+
+::: center
+![](figures/combined_agg_comp_effects_female.png){width="80%"}
+:::
+
+. . .
+
+- factual upward mobility: **33.2%** Black vs. **20.2%** White
+- $\alpha$-, $\beta$-, $\sigma$-swaps are all small (consistent with near-identical fitted parameters).
+- **composition** — swapping the parental income distribution alone moves upward mobility by **+13.2 to +13.7 points** — it accounts for essentially the whole gap.
+
+
+------------------------------------------------------------------------
+
+## mobility profiles: men
+
+::: center
+![](figures/mobility_curve_men.png){width="80%"}
+:::
+
+
+- persistence is similar ($\beta\approx0.28$ vs. $0.26$), but White men's **earnings floor is ~0.29 log points higher** ($\approx34\%$ more earnings at every origin).
+
+- again, dispersion **narrows** slightly with parental earnings ($\lambda<0$)
+
+
+------------------------------------------------------------------------
+
+## pointwise counterfactual effects: men
+
+<br>
+
+::: center
+![](figures/mobility_diff_plot_real_male.png){width="85%"}
+:::
+
+
+------------------------------------------------------------------------
+
+## aggregation and composition: men
+
+::: center
+![](figures/combined_agg_comp_effects_male.png){width="80%"}
+:::
+
+. . .
+
+- factual upward mobility: **44.7%** Black vs. **39.1%** White.
+- **floor swap** is the dominant effect ($\beta$, $\sigma$ swaps stay near zero).
+- **composition swap** is comparably large but points the **other way**.
+- floor disadvantage and compositional advantage are of **similar size and opposite sign** — they largely cancel, so the small raw gap conceals a real conditional disadvantage.
+
+
+------------------------------------------------------------------------
+
+## key findings
+
+<br>
+
+**same aggregate summary — "composition dominates" — describes two different situations:**
+
+. . .
+
+> -   **women:** virtually no conditional gap → composition explains almost all of the observed (pro-Black) upward-mobility gap
+> -   **men:** a real earnings-floor disadvantage for Black men is **masked** by an offsetting compositional advantage from poorer origins
+
+. . .
+
+disentangling conditional (floor/persistence/dispersion) from compositional (origins) margins — separately by gender — is what makes this visible.
+
+------------------------------------------------------------------------
+
+## contributions and implications
+
+<br>
+
+
+::: {.incremental}
+
+- provides a unified, IGE-based conditional-distribution framework linking absolute and relative mobility, extended to allow **origin-dependent uncertainty**.
+
+- shows uncertainty can **reinforce or offset** mean reversion — a second channel beyond persistence through which origin shapes absolute mobility.
+
+- offers non-additive, one-factor-swap counterfactuals to disentangle floor, persistence, dispersion, and **compositional** (origin-distribution) contributions to group gaps.
+
+- applied to Black–White earnings mobility:
+  -  the **same aggregate gap** (or the lack thereof) can hide complex, offsetting effects.
+  - "good news" (upward mobility) due to "bad reasons" (poor origins)
+
+:::
+
+------------------------------------------------------------------------
+
+# thank you {.center-slide}
+
+mauricio bucca — puc chile · mebucca\@uc.cl
+
+**all replication materials available**
+
+------------------------------------------------------------------------
+
+# appendix {.center-slide}
+
+------------------------------------------------------------------------
+
+## monte carlo validation
+
+<br>
+it works! trust me.
+
+
+------------------------------------------------------------------------
+
 # model and estimation {.center-slide}
 
 ------------------------------------------------------------------------
@@ -412,9 +625,9 @@ distinguishes structural transmission (via parameters) from distributional posit
 
 $$
 \begin{aligned}
-y \mid g, x &\sim \text{Normal}\big(\mu_g(x), \sigma_g(x)\big) \\
-\mu_i &= \alpha_g + \beta_g x_i \\
-\log(\sigma_i) &= \gamma_g + \lambda_g x_i
+y_i \mid g, x_i &\sim \text{Normal}\Big(\mu_g(x_i),\ \sqrt{\eta_{ig}^2/T_{ig} + \sigma_g^2(x_i)}\Big) \\
+\mu_g(x_i) &= \alpha_g + \beta_g \widetilde{x}_i, \qquad \widetilde{x}_i = x_i - c\\
+\log\sigma_g(x_i) &= \gamma_g + \lambda_g \widetilde{x}_i
 \end{aligned}
 $$
 
@@ -424,173 +637,56 @@ $$
 
 **bayesian estimation approach:**
 
--   hierarchical structure with group-specific parameters
--   weakly informative priors reflecting empirical ranges from literature
--   informative prior for $\beta$: centered on empirically plausible range (0.3–0.6)
--   full posterior uncertainty quantification
-
-<!-- ------------------------------------------------------------------------ -->
-
-# monte carlo validation {.center-slide}
-
-<!-- ------------------------------------------------------------------------ -->
-
-# monte carlo results
-
-<br>
-it works! trust me.
-
-------------------------------------------------------------------------
-
-# empirical application {.center-slide}
-
-------------------------------------------------------------------------
-
-## data: PSID 1968–2019
-
-<br>
-
-**sample:** 12,445 Black and White sons and daughters
-
--   born 1952–1989
--   household heads or spouses in adulthood
--   at least 5 income observations at age 25+
-
-. . .
-
-**income measures:**
-
--   labor income (wages, salaries, self-employment)
--   adjusted for inflation, business cycles, age profiles
--   permanent parental income: 7-year rolling average at age 42
+-   $\eta_{ig}^2/T_{ig}$: sampling noise from averaging $T_{ig}$ annual earnings into "permanent" earnings — enters estimation, not the mobility thresholds
+-   hierarchical structure with group-specific parameters, non-centered parameterization
+-   weakly informative priors; informative prior for $\beta$: centered on empirically plausible range (0.3–0.6)
+-   likelihood weighted by longitudinal survey weights; full posterior uncertainty quantification
 
 
 ------------------------------------------------------------------------
 
-## estimated parameters: men
+## estimated parameters, by gender
 
 <br>
 
 ::: center
-| parameter | black men              | white men              |
-|-----------|------------------------|------------------------|
-| $\alpha$  | 10.36 \[10.32, 10.41\] | 10.38 \[10.34, 10.41\] |
-| $\beta$   | 0.19 \[0.15, 0.22\]    | 0.35 \[0.33, 0.37\]    |
-|-----------|------------------------|------------------------|
-| $\gamma$  | -0.42 \[-0.49, -0.34\] | -0.50 \[-0.56, -0.45\] |
-| $\lambda$ | -0.04 \[-0.10, 0.02\]  | 0.02 \[-0.01, 0.06\]   |
+| parameter | black women             | white women             | black men               | white men                |
+|-----------|--------------------------|--------------------------|--------------------------|---------------------------|
+| $\alpha$  | 9.47 \[9.28, 9.68\]     | 9.45 \[9.33, 9.57\]     | 9.93 \[9.66, 10.18\]    | 10.22 \[10.12, 10.32\]   |
+| $\beta$   | 0.34 \[0.23, 0.43\]     | 0.34 \[0.29, 0.39\]     | 0.28 \[0.16, 0.41\]     | 0.26 \[0.22, 0.29\]      |
+| $\gamma$  | -0.26 \[-0.51, -0.07\]  | -0.16 \[-0.27, -0.04\]  | -0.36 \[-0.56, -0.07\]  | -0.40 \[-0.52, -0.28\]   |
+| $\lambda$ | -0.04 \[-0.13, 0.08\]   | -0.05 \[-0.10, -0.00\]  | -0.12 \[-0.27, -0.01\]  | -0.06 \[-0.10, -0.01\]   |
 :::
-
 
 <br>
 
 **key patterns:**
 
-- Intercepts are essentially aligned (after de-flooring $x$ for comparability).
-- Black men show **much lower intergenerational persistence** ($\beta \approx 0.19$ vs. $0.35$).
-- Black men experience **greater income volatility** across the distribution.
+- **women:** floors, persistence, and dispersion are nearly identical across race — conditional distributions essentially overlap.
+- **men:** persistence is similar ($\beta\approx0.28$ vs. $0.26$), but White men's **earnings floor is ~0.29 log points higher** ($\approx34\%$ more earnings at every origin).
+- for both genders, dispersion **narrows** with parental earnings ($\lambda<0$): parental resources behave like insurance against large shocks.
+
 
 ------------------------------------------------------------------------
 
-## mobility profiles by race
+## robustness: selection into positive earnings
 
 <br>
 
-::: center
-![](figures/mobility_curve_men.png){width="120%"}
-:::
-
+- estimates condition on **positive earnings** — selection into that state is not origin-neutral.
+- men: retention roughly flat by origin for both races.
+- women: diverges by origin, in **opposite directions** — Black women's earnings-retention rises with origin ($\approx0.85\to0.94$); White women's falls ($\approx0.95\to0.89$, plausibly household specialization).
+- imposing a hypothetical zero-earnings share ($q$ up to 15%) mainly shifts levels at **lower** origins; counterfactual signs/ordering unchanged, just scaled by $(1-q)$.
 
 ------------------------------------------------------------------------
 
-## substantive interpretation
+## robustness: equivalized family income
 
 <br>
 
-**black men face "perverse openness" (Blau & Duncan 1967):**
-
--   upward mobility from low origins is possible  but gains are modest, uncertain, less transmissible.
--   rapid regression toward relatively low mean
-
-<br>
-
-. . .
-
-**white men experience tighter coupling:**
-
--   stronger and more certain parent-child link: advantages stick, disadvantages persist
--   relative disadvantage and advantage start from a higher floor.
-
-. . .
-
-> black-white difference in mobility reflects differences in levels, transmissibility and security.
-
+- replacing own earnings with **equivalized family income** (less sensitive to labor-force attachment) preserves the compositional story overall...
+- ...but changes the picture for **women**: a **0.42 log-point** White–Black floor gap emerges that is absent in the earnings analysis.
+- under family income, women now show the **same opposing-forces pattern as men**: floor disadvantage vs. compositional advantage.
+- conclusion: the compositional finding is robust across outcomes; which **conditional** parameter matters depends on whether mobility is measured in own earnings or pooled family resources.
 
 ------------------------------------------------------------------------
-
-## pointwise counterfactual effects
-
-<br>
-
-::: center
-![](figures/mobility_diff_plot_real_male){width="160%"}
-:::
-
-------------------------------------------------------------------------
-
-## aggregation and composition
-
-::: center
-![](figures/combined_agg_comp_effects_male.png){width="120%"}
-:::
-
-
-. . .
-
-- Composition effects push mobility in one direction, while slope differences pull in the opposite direction — **offsetting asymmetries generate near aggregate parity**.
-
-- The **poorer parental origins of Black individuals** mechanically raise their upward mobility rates, whereas the **richer parental origins of White individuals** mechanically raise their downward mobility rates.
-
-
-------------------------------------------------------------------------
-
-## key findings
-
-<br>
-
-**result:** similar aggregate absolute mobility from fundamentally different regimes
-
-. . .
-
-> -   black men:  weaker persistence (more relative mobility) + poorer origins
-> -   white men: stronger persistence (less relative mobility) + richer origins
-
-
-
-------------------------------------------------------------------------
-
-## contributions and implications
-
-<br>
-
-
-::: {.incremental}
-
-- provides a unified framework that brings absolute and relative mobility into a single analytical structure.
-
-- shows that both forms of mobility arise from the same underlying income-generation process.
-
-- derives closed-form relationships linking the two and offers methods to disentangle their separate contributions.
-
-- demonstrates that assessing the consequences of mobility— whether it is socially desirable or not— requires considering **absolute and relative mobility together**.
-
-:::
-
-------------------------------------------------------------------------
-
-# thank you {.center-slide}
-
-mauricio bucca — puc chile · mebucca\@uc.cl
-
-**all replication materials available**
-
