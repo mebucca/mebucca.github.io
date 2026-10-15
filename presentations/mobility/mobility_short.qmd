@@ -259,7 +259,7 @@ $$
 
 . . .
 
-![](figures/theory_sketch.png){.absolute .sketch-corner bottom="566" right="14" width="160"}
+![](figures/theory_sketch.png){.absolute .sketch-corner bottom="566" right="-120" width="160"}
 
 analytical result:
 
@@ -287,7 +287,7 @@ key insights:
 
 . . .
 
-![](figures/theory_sketch.png){.absolute .sketch-corner bottom="566" right="14" width="160"}
+![](figures/theory_sketch.png){.absolute .sketch-corner bottom="566" right="-120" width="160"}
 
 
 analytical result:
@@ -313,7 +313,7 @@ key insights:
 
 . . .
 
-![](figures/theory_sketch.png){.absolute .sketch-corner bottom="566" right="14" width="160"}
+![](figures/theory_sketch.png){.absolute .sketch-corner bottom="566" right="-120" width="160"}
 
 
 analytical result:
@@ -340,7 +340,7 @@ key insights:
 
 . . .
 
-![](figures/theory_sketch.png){.absolute .sketch-corner bottom="566" right="14" width="160"}
+![](figures/theory_sketch.png){.absolute .sketch-corner bottom="566" right="-120" width="160"}
 
 
 analytical result (fixed dispersion):
