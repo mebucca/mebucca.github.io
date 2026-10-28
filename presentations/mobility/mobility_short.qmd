@@ -1,6 +1,6 @@
 ---
 title: "why do some groups experience greater mobility than others?"
-subtitle: "<br>an IGE-based conditional-distribution framework <br> linking absolute and relative intergenerational mobility, <br> with origin-specific uncertainty<br>"
+subtitle: "<br>an IGE-based conditional-distributionz framework <br> linking absolute and relative intergenerational mobility, <br> with origin-specific uncertainty<br>"
 author:
   - name: "mauricio bucca"
     affiliation: "puc chile"
@@ -37,10 +37,8 @@ execute:
 
 ::: {.incremental}
 
-- social mobility is a central theme in public discussions about fairness, opportunity, and the “rules of the game.”
-
-- framed—alongside wealth, poverty, and inequality—as a defining marker of a society’s character (e.g., “the land of opportunity”).
-
+- social mobility is a central theme in public discussions about fairnessa nd opportunity.
+  
 - commonly invoked as a public good: metaphors like “the social elevator” or a “level playing field” signal that rising should be attainable for all.
 :::
 
@@ -69,7 +67,6 @@ execute:
 
 
 ------------------------------------------------------------------------
-
 
 ::::: columns
 ::: {.column width="45%"}
@@ -123,7 +120,7 @@ execute:
 
 ::: {.incremental}
 
-**Relative mobility** captures how tightly children’s economic standing tracks their parents’.
+**Relative mobility (intergenerational persistance)** captures how tightly children’s economic standing tracks their parents’.
 
 - Represented by the conditional distribution  
   $f(y \mid x)$, where $x$ is parental income and $y$ is child income.
@@ -133,7 +130,7 @@ execute:
 - the standard model is the **IGE workhorse**:  $E[y \mid x] = \alpha + \beta x$
 
   where $x$ is parents’ permanent log income and $y$ is children’s log income.  
-  the slope $\beta$ is the **intergenerational elasticity (IGE)**, typically in the [0.2–0.6] range.
+  the slope $\beta$ is the **intergenerational elasticity (IGE)**, empirically in the [0.2–0.6] range.
 
 <br>
 
@@ -151,7 +148,7 @@ execute:
 
 **absolute mobility** compares children’s income to their parents on a **level scale**, not a rank or positional scale.
 
-- with a meaningful threshold $\delta$, classify mobility using the gap $y - x$:
+- with a "meaningful mobility" threshold $\delta$, classify mobility using the gap $y - x$:
 
   - **upward mobility:** $y > x + \delta$  
   - **downward mobility:** $y < x - \delta$  
@@ -179,14 +176,14 @@ four key components:
 
 | parameter | interpretation |
 |-----------|----------------|
-| $\alpha$ | income floor — expected income at a low **reference origin** $c$ (not literally the bottom) |
+| $\alpha$ | income floor — expected income at a low **reference origin** $c$ (floor) |
 | $\beta$ | persistence (IGE) — degree of relative immobility |
 | $\sigma$ | uncertainty — unpredictability in intergenerational transmission |
 | $x$ | parental income — the baseline for absolute comparison |
 
 . . .
 
-*extension: the present framework allow both expected income $\mu_i(x)$ and income uncertainty $\sigma(x)$ vary with parental income*
+*extension: the present framework allow both conditional expected income $\mu_i(x)$ and conditional income uncertainty $\sigma(x)$ vary with parental income*
 
 ------------------------------------------------------------------------
 
@@ -216,7 +213,6 @@ $$
 
 we can express absolute mobility probabilities as a function of the IGE components:
 
-<br>
 
 . . .
 
@@ -276,7 +272,6 @@ key insights:
 
 -   raising $\alpha$ shifts the entire income distribution upward
 -   **increases** upward mobility, **decreases** downward mobility
--   effect is **uniform** across the parental income distribution
 
 
 ------------------------------------------------------------------------
@@ -304,6 +299,9 @@ key insights:
 -   $\beta$ **tilts** the distribution around the reference origin, rather than shifting it uniformly like $\alpha$
 -   since $c$ is a low floor ($\widetilde{x}=x-c>0$ throughout), increasing $\beta$ (more persistence) **increases** upward mobility and **decreases** downward mobility, with effect **proportional to parental income**
 
+. . .
+
+- *assuming $\alpha \perp \beta$ 
 
 ------------------------------------------------------------------------
 
@@ -357,8 +355,8 @@ key insights:
 -   since empirically $0 < \beta < 1$ :
     -   upward mobility **decreases** with parental income $x$
     -   downward mobility **increases** with parental income $x$
--   even under **fixed persistence**, mobility varies substantially by origin
--   origin effects are structural, not just compositional
+-   even under **fixed persistence**, absolute mobility probabilities vary by origin
+
 
 ------------------------------------------------------------------------
 
@@ -388,6 +386,20 @@ key insights:
     -   $\lambda<0$ (narrowing uncertainty at the top) **reinforces** mean reversion
     -   $\lambda>0$ (widening uncertainty at the top) **offsets** it
 -   this generalizes the mean-reversion result (Bloome 2025) by adding a dispersion-driven channel
+
+------------------------------------------------------------------------
+
+## note: $\lambda$ also moves the correlation, not just $\beta$
+
+::: {.incremental}
+
+- the scale-free **intergenerational correlation (IGC)** $\rho = \beta\,\sigma_X/\sigma_Y$ is a signal-to-noise ratio: $\rho=\sqrt{\text{SNR}/(1+\text{SNR})}$, $\text{SNR}=\beta^2\sigma_X^2/E[\sigma^2(x)]$
+
+- since $\sigma(x)$ varies with origin here, $\rho$ isn't one number — it's a **correlation curve** $\rho(x) = \beta\,\sigma_X \big/ \sqrt{\beta^2 \sigma_X^2 + \sigma^2(x)}$ (Bjerve & Doksum 1993)
+
+- same $\lambda$ as before: $\lambda<0$ → $\rho(x)$ **rises** with origin (ties feel tighter); $\lambda>0$ → $\rho(x)$ **falls** (ties feel looser)
+
+:::
 
 ------------------------------------------------------------------------
 
@@ -492,7 +504,7 @@ distinguishes structural transmission (via parameters) from distributional posit
 <br>
 
 ::: center
-![](figures/mobility_diff_plot_real_female.png){width="85%"}
+![](figures/mobility_diff_plot_real_female.png){width="75%"}
 :::
 
 
@@ -502,7 +514,7 @@ distinguishes structural transmission (via parameters) from distributional posit
 ## aggregation and composition: women
 
 ::: center
-![](figures/combined_agg_comp_effects_female.png){width="80%"}
+![](figures/combined_agg_comp_effects_female.png){width="70%"}
 :::
 
 . . .
@@ -517,7 +529,7 @@ distinguishes structural transmission (via parameters) from distributional posit
 ## mobility profiles: men
 
 ::: center
-![](figures/mobility_curve_men.png){width="80%"}
+![](figures/mobility_curve_men.png){width="70%"}
 :::
 
 
@@ -533,7 +545,7 @@ distinguishes structural transmission (via parameters) from distributional posit
 <br>
 
 ::: center
-![](figures/mobility_diff_plot_real_male.png){width="85%"}
+![](figures/mobility_diff_plot_real_male.png){width="75%"}
 :::
 
 
@@ -542,7 +554,7 @@ distinguishes structural transmission (via parameters) from distributional posit
 ## aggregation and composition: men
 
 ::: center
-![](figures/combined_agg_comp_effects_male.png){width="80%"}
+![](figures/combined_agg_comp_effects_male.png){width="70%"}
 :::
 
 . . .
@@ -550,7 +562,7 @@ distinguishes structural transmission (via parameters) from distributional posit
 - factual upward mobility: **44.7%** Black vs. **39.1%** White.
 - **floor swap** is the dominant effect ($\beta$, $\sigma$ swaps stay near zero).
 - **composition swap** is comparably large but points the **other way**.
-- floor disadvantage and compositional advantage are of **similar size and opposite sign** — they largely cancel, so the small raw gap conceals a real conditional disadvantage.
+- floor disadvantage and compositional largely cancel each other. The small raw gap conceals a real conditional disadvantage.
 
 
 ------------------------------------------------------------------------

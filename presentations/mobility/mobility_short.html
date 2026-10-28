@@ -132,7 +132,7 @@
 
 <section id="title-slide" class="quarto-title-block center">
   <h1 class="title">why do some groups experience greater mobility than others?</h1>
-  <p class="subtitle"><br>an IGE-based conditional-distribution framework <br> linking absolute and relative intergenerational mobility, <br> with origin-specific uncertainty<br></p>
+  <p class="subtitle"><br>an IGE-based conditional-distributionz framework <br> linking absolute and relative intergenerational mobility, <br> with origin-specific uncertainty<br></p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -154,8 +154,7 @@ mauricio bucca
 <section id="context" class="slide level2">
 <h2>context</h2>
 <ul>
-<li class="fragment"><p>social mobility is a central theme in public discussions about fairness, opportunity, and the “rules of the game.”</p></li>
-<li class="fragment"><p>framed—alongside wealth, poverty, and inequality—as a defining marker of a society’s character (e.g., “the land of opportunity”).</p></li>
+<li class="fragment"><p>social mobility is a central theme in public discussions about fairnessa nd opportunity.</p></li>
 <li class="fragment"><p>commonly invoked as a public good: metaphors like “the social elevator” or a “level playing field” signal that rising should be attainable for all.</p></li>
 </ul>
 </section>
@@ -220,7 +219,7 @@ mauricio bucca
 </section>
 <section id="definitions" class="slide level2">
 <h2>definitions</h2>
-<p><strong>Relative mobility</strong> captures how tightly children’s economic standing tracks their parents’.</p>
+<p><strong>Relative mobility (intergenerational persistance)</strong> captures how tightly children’s economic standing tracks their parents’.</p>
 <ul>
 <li class="fragment">Represented by the conditional distribution<br>
 <span class="math inline">\(f(y \mid x)\)</span>, where <span class="math inline">\(x\)</span> is parental income and <span class="math inline">\(y\)</span> is child income.</li>
@@ -229,7 +228,7 @@ mauricio bucca
 <ul>
 <li class="fragment"><p>the standard model is the <strong>IGE workhorse</strong>: <span class="math inline">\(E[y \mid x] = \alpha + \beta x\)</span></p>
 <p>where <span class="math inline">\(x\)</span> is parents’ permanent log income and <span class="math inline">\(y\)</span> is children’s log income.<br>
-the slope <span class="math inline">\(\beta\)</span> is the <strong>intergenerational elasticity (IGE)</strong>, typically in the [0.2–0.6] range.</p></li>
+the slope <span class="math inline">\(\beta\)</span> is the <strong>intergenerational elasticity (IGE)</strong>, empirically in the [0.2–0.6] range.</p></li>
 </ul>
 <p><br></p>
 <ul>
@@ -241,7 +240,7 @@ the slope <span class="math inline">\(\beta\)</span> is the <strong>intergenerat
 <p><br></p>
 <p><strong>absolute mobility</strong> compares children’s income to their parents on a <strong>level scale</strong>, not a rank or positional scale.</p>
 <ul>
-<li class="fragment"><p>with a meaningful threshold <span class="math inline">\(\delta\)</span>, classify mobility using the gap <span class="math inline">\(y - x\)</span>:</p>
+<li class="fragment"><p>with a “meaningful mobility” threshold <span class="math inline">\(\delta\)</span>, classify mobility using the gap <span class="math inline">\(y - x\)</span>:</p>
 <ul>
 <li class="fragment"><strong>upward mobility:</strong> <span class="math inline">\(y &gt; x + \delta\)</span><br>
 </li>
@@ -275,7 +274,7 @@ the slope <span class="math inline">\(\beta\)</span> is the <strong>intergenerat
 <tbody>
 <tr class="odd">
 <td><span class="math inline">\(\alpha\)</span></td>
-<td>income floor — expected income at a low <strong>reference origin</strong> <span class="math inline">\(c\)</span> (not literally the bottom)</td>
+<td>income floor — expected income at a low <strong>reference origin</strong> <span class="math inline">\(c\)</span> (floor)</td>
 </tr>
 <tr class="even">
 <td><span class="math inline">\(\beta\)</span></td>
@@ -293,7 +292,7 @@ the slope <span class="math inline">\(\beta\)</span> is the <strong>intergenerat
 </table>
 </div>
 <div class="fragment">
-<p><em>extension: the present framework allow both expected income <span class="math inline">\(\mu_i(x)\)</span> and income uncertainty <span class="math inline">\(\sigma(x)\)</span> vary with parental income</em></p>
+<p><em>extension: the present framework allow both conditional expected income <span class="math inline">\(\mu_i(x)\)</span> and conditional income uncertainty <span class="math inline">\(\sigma(x)\)</span> vary with parental income</em></p>
 </div>
 </section>
 <section id="linking-relative-and-absolute-mobility-1" class="slide level2">
@@ -313,7 +312,6 @@ the slope <span class="math inline">\(\beta\)</span> is the <strong>intergenerat
 <section id="linking-relative-and-absolute-mobility-2" class="slide level2">
 <h2>linking relative and absolute mobility</h2>
 <p>we can express absolute mobility probabilities as a function of the IGE components:</p>
-<p><br></p>
 <div class="fragment">
 <ul>
 <li>step 1: start with the income generation model: <span class="math inline">\(y \mid x \sim \text{Normal}\big(\mu(x) = \alpha + \beta \widetilde{x},\; \sigma(x)\big)\)</span>, with <span class="math inline">\(\widetilde{x}=x-c\)</span> centered at a low reference point <span class="math inline">\(c\)</span></li>
@@ -368,7 +366,6 @@ z^{\downarrow} &amp;= \frac{(x - \delta) - \mu(x)}{\sigma(x)}
 <ul>
 <li>raising <span class="math inline">\(\alpha\)</span> shifts the entire income distribution upward</li>
 <li><strong>increases</strong> upward mobility, <strong>decreases</strong> downward mobility</li>
-<li>effect is <strong>uniform</strong> across the parental income distribution</li>
 </ul>
 </div>
 </section>
@@ -388,6 +385,11 @@ z^{\downarrow} &amp;= \frac{(x - \delta) - \mu(x)}{\sigma(x)}
 <ul>
 <li><span class="math inline">\(\beta\)</span> <strong>tilts</strong> the distribution around the reference origin, rather than shifting it uniformly like <span class="math inline">\(\alpha\)</span></li>
 <li>since <span class="math inline">\(c\)</span> is a low floor (<span class="math inline">\(\widetilde{x}=x-c&gt;0\)</span> throughout), increasing <span class="math inline">\(\beta\)</span> (more persistence) <strong>increases</strong> upward mobility and <strong>decreases</strong> downward mobility, with effect <strong>proportional to parental income</strong></li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>*assuming <span class="math inline">\(\alpha \perp \beta\)</span></li>
 </ul>
 </div>
 </section>
@@ -430,8 +432,7 @@ z^{\downarrow} &amp;= \frac{(x - \delta) - \mu(x)}{\sigma(x)}
 <li>upward mobility <strong>decreases</strong> with parental income <span class="math inline">\(x\)</span></li>
 <li>downward mobility <strong>increases</strong> with parental income <span class="math inline">\(x\)</span></li>
 </ul></li>
-<li>even under <strong>fixed persistence</strong>, mobility varies substantially by origin</li>
-<li>origin effects are structural, not just compositional</li>
+<li>even under <strong>fixed persistence</strong>, absolute mobility probabilities vary by origin</li>
 </ul>
 </div>
 </section>
@@ -459,6 +460,14 @@ z^{\downarrow} &amp;= \frac{(x - \delta) - \mu(x)}{\sigma(x)}
 <li>this generalizes the mean-reversion result (Bloome 2025) by adding a dispersion-driven channel</li>
 </ul>
 </div>
+</section>
+<section id="note-lambda-also-moves-the-correlation-not-just-beta" class="slide level2">
+<h2>note: <span class="math inline">\(\lambda\)</span> also moves the correlation, not just <span class="math inline">\(\beta\)</span></h2>
+<ul>
+<li class="fragment"><p>the scale-free <strong>intergenerational correlation (IGC)</strong> <span class="math inline">\(\rho = \beta\,\sigma_X/\sigma_Y\)</span> is a signal-to-noise ratio: <span class="math inline">\(\rho=\sqrt{\text{SNR}/(1+\text{SNR})}\)</span>, <span class="math inline">\(\text{SNR}=\beta^2\sigma_X^2/E[\sigma^2(x)]\)</span></p></li>
+<li class="fragment"><p>since <span class="math inline">\(\sigma(x)\)</span> varies with origin here, <span class="math inline">\(\rho\)</span> isn’t one number — it’s a <strong>correlation curve</strong> <span class="math inline">\(\rho(x) = \beta\,\sigma_X \big/ \sqrt{\beta^2 \sigma_X^2 + \sigma^2(x)}\)</span> (Bjerve &amp; Doksum 1993)</p></li>
+<li class="fragment"><p>same <span class="math inline">\(\lambda\)</span> as before: <span class="math inline">\(\lambda&lt;0\)</span> → <span class="math inline">\(\rho(x)\)</span> <strong>rises</strong> with origin (ties feel tighter); <span class="math inline">\(\lambda&gt;0\)</span> → <span class="math inline">\(\rho(x)\)</span> <strong>falls</strong> (ties feel looser)</p></li>
+</ul>
 </section>
 <section class="slide level2">
 
@@ -548,13 +557,13 @@ z^{\downarrow} &amp;= \frac{(x - \delta) - \mu(x)}{\sigma(x)}
 <h2>pointwise counterfactual effects: women</h2>
 <p><br></p>
 <div class="center">
-<p><img data-src="figures/mobility_diff_plot_real_female.png" style="width:85.0%"></p>
+<p><img data-src="figures/mobility_diff_plot_real_female.png" style="width:75.0%"></p>
 </div>
 </section>
 <section id="aggregation-and-composition-women" class="slide level2">
 <h2>aggregation and composition: women</h2>
 <div class="center">
-<p><img data-src="figures/combined_agg_comp_effects_female.png" style="width:80.0%"></p>
+<p><img data-src="figures/combined_agg_comp_effects_female.png" style="width:70.0%"></p>
 </div>
 <div class="fragment">
 <ul>
@@ -567,7 +576,7 @@ z^{\downarrow} &amp;= \frac{(x - \delta) - \mu(x)}{\sigma(x)}
 <section id="mobility-profiles-men" class="slide level2">
 <h2>mobility profiles: men</h2>
 <div class="center">
-<p><img data-src="figures/mobility_curve_men.png" style="width:80.0%"></p>
+<p><img data-src="figures/mobility_curve_men.png" style="width:70.0%"></p>
 </div>
 <ul>
 <li><p>persistence is similar (<span class="math inline">\(\beta\approx0.28\)</span> vs.&nbsp;<span class="math inline">\(0.26\)</span>), but White men’s <strong>earnings floor is ~0.29 log points higher</strong> (<span class="math inline">\(\approx34\%\)</span> more earnings at every origin).</p></li>
@@ -578,20 +587,20 @@ z^{\downarrow} &amp;= \frac{(x - \delta) - \mu(x)}{\sigma(x)}
 <h2>pointwise counterfactual effects: men</h2>
 <p><br></p>
 <div class="center">
-<p><img data-src="figures/mobility_diff_plot_real_male.png" style="width:85.0%"></p>
+<p><img data-src="figures/mobility_diff_plot_real_male.png" style="width:75.0%"></p>
 </div>
 </section>
 <section id="aggregation-and-composition-men" class="slide level2">
 <h2>aggregation and composition: men</h2>
 <div class="center">
-<p><img data-src="figures/combined_agg_comp_effects_male.png" style="width:80.0%"></p>
+<p><img data-src="figures/combined_agg_comp_effects_male.png" style="width:70.0%"></p>
 </div>
 <div class="fragment">
 <ul>
 <li>factual upward mobility: <strong>44.7%</strong> Black vs.&nbsp;<strong>39.1%</strong> White.</li>
 <li><strong>floor swap</strong> is the dominant effect (<span class="math inline">\(\beta\)</span>, <span class="math inline">\(\sigma\)</span> swaps stay near zero).</li>
 <li><strong>composition swap</strong> is comparably large but points the <strong>other way</strong>.</li>
-<li>floor disadvantage and compositional advantage are of <strong>similar size and opposite sign</strong> — they largely cancel, so the small raw gap conceals a real conditional disadvantage.</li>
+<li>floor disadvantage and compositional largely cancel each other. The small raw gap conceals a real conditional disadvantage.</li>
 </ul>
 </div>
 </section>
