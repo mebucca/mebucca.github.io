@@ -163,7 +163,7 @@ execute:
 
 ------------------------------------------------------------------------
 
-## linking relative and absolute mobility
+## Standard IGE model
 
 standard IGE specification:
 
@@ -184,6 +184,28 @@ four key components:
 . . .
 
 *extension: the present framework allow both conditional expected income $\mu_i(x)$ and conditional income uncertainty $\sigma(x)$ vary with parental income*
+
+------------------------------------------------------------------------
+
+## Heteroskedastic IGE model
+
+<br>
+
+$$
+\begin{aligned}
+y_i \mid g, x_i &\sim \text{Normal}\Big(\mu_g(x_i),\  \sigma_g(x_i)\Big) \\
+\mu_g(x_i) &= \alpha_g + \beta_g \widetilde{x}_i, \qquad \widetilde{x}_i = x_i - c\\
+\log\sigma_g(x_i) &= \gamma_g + \lambda_g \widetilde{x}_i
+\end{aligned}
+$$
+
+
+<br>
+
+**bayesian estimation:**
+-   weakly informative priors; informative prior for $\beta$: centered on empirically plausible range (0.3–0.6)
+-   likelihood weighted by longitudinal survey weights
+
 
 ------------------------------------------------------------------------
 
@@ -242,6 +264,7 @@ $$
 \Pr(M^{0}) &= \Phi(z^{\uparrow}) - \Phi(z^{\downarrow})
 \end{aligned}
 $$
+
 
 ------------------------------------------------------------------------
 
