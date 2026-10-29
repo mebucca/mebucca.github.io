@@ -254,8 +254,8 @@ the slope <span class="math inline">\(\beta\)</span> is the <strong>intergenerat
 <li class="fragment">individual-level outcome: <strong>directional</strong> — everyone can, in principle, move up, move down, or stay roughly the same.</li>
 </ul>
 </section>
-<section id="linking-relative-and-absolute-mobility" class="slide level2">
-<h2>linking relative and absolute mobility</h2>
+<section id="standard-ige-model" class="slide level2">
+<h2>Standard IGE model</h2>
 <p>standard IGE specification:</p>
 <p><span class="math display">\[y_i \mid x_i \sim \text{Normal}\!\big(\mu_i = \alpha + \beta x_i,\; \sigma \big)\]</span></p>
 <div class="fragment">
@@ -295,7 +295,20 @@ the slope <span class="math inline">\(\beta\)</span> is the <strong>intergenerat
 <p><em>extension: the present framework allow both conditional expected income <span class="math inline">\(\mu_i(x)\)</span> and conditional income uncertainty <span class="math inline">\(\sigma(x)\)</span> vary with parental income</em></p>
 </div>
 </section>
-<section id="linking-relative-and-absolute-mobility-1" class="slide level2">
+<section id="heteroskedastic-ige-model" class="slide level2">
+<h2>Heteroskedastic IGE model</h2>
+<p><br></p>
+<p><span class="math display">\[
+\begin{aligned}
+y_i \mid g, x_i &amp;\sim \text{Normal}\Big(\mu_g(x_i),\  \sigma_g(x_i)\Big) \\
+\mu_g(x_i) &amp;= \alpha_g + \beta_g \widetilde{x}_i, \qquad \widetilde{x}_i = x_i - c\\
+\log\sigma_g(x_i) &amp;= \gamma_g + \lambda_g \widetilde{x}_i
+\end{aligned}
+\]</span></p>
+<p><br></p>
+<p><strong>bayesian estimation:</strong> - weakly informative priors; informative prior for <span class="math inline">\(\beta\)</span>: centered on empirically plausible range (0.3–0.6) - likelihood weighted by longitudinal survey weights</p>
+</section>
+<section id="linking-relative-and-absolute-mobility" class="slide level2">
 <h2>linking relative and absolute mobility</h2>
 <div class="center">
 <p><img src="figures/theory.png" style="max-width:none; width:85%;"></p>
@@ -309,7 +322,7 @@ the slope <span class="math inline">\(\beta\)</span> is the <strong>intergenerat
 \]</span></p>
 </div>
 </section>
-<section id="linking-relative-and-absolute-mobility-2" class="slide level2">
+<section id="linking-relative-and-absolute-mobility-1" class="slide level2">
 <h2>linking relative and absolute mobility</h2>
 <p>we can express absolute mobility probabilities as a function of the IGE components:</p>
 <div class="fragment">
